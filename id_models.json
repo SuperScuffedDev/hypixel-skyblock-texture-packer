@@ -1,20 +1,4730 @@
 {
-    "allium": {
+    "shears": {
         "model": "minecraft:item/handheld",
         "skyblock_ids": [
-            "ALCHEMISTS_STAFF",
-            "BAT_WAND",
-            "STARRED_BAT_WAND",
-            "STAFF_OF_THE_RISING_MOON"
+            "NULL_BLADE",
+            "ROCK_PAPER_SHEARS",
+            "DEFUSE_KIT",
+            "MOBYS_SHEARS"
+        ]
+    },
+    "soul_sand": {
+        "model": "minecraft:item/generated",
+        "skyblock_ids": [
+            "RIFT_TROPHY_CHICKEN_N_EGG"
+        ]
+    },
+    "leather_helmet": {
+        "model": "minecraft:item/generated",
+        "skyblock_ids": [
+            "ZOMBIE_LORD_HELMET",
+            "ZOMBIE_KNIGHT_HELMET",
+            "TANK_MINER_HELMET",
+            "STARLIGHT_HELMET",
+            "STAR_HELMET",
+            "SQUIRE_HELMET",
+            "SORROW_HELMET",
+            "SKELETON_LORD_HELMET",
+            "SKELETON_HELMET",
+            "SILVER_HUNTER_HELMET",
+            "ROSETTA_HELMET",
+            "POTATO_CROWN",
+            "PERFECT_HELMET_9",
+            "PERFECT_HELMET_8",
+            "PERFECT_HELMET_7",
+            "PERFECT_HELMET_6",
+            "PERFECT_HELMET_5",
+            "PERFECT_HELMET_4",
+            "PERFECT_HELMET_3",
+            "PERFECT_HELMET_2",
+            "PERFECT_HELMET_13",
+            "PERFECT_HELMET_12",
+            "PERFECT_HELMET_11",
+            "PERFECT_HELMET_10",
+            "PERFECT_HELMET_1",
+            "MERCENARY_HELMET",
+            "HARDENED_DIAMOND_HELMET",
+            "GOLEM_ARMOR_HELMET",
+            "GOLD_HUNTER_HELMET",
+            "FLAMEBREAKER_HELMET",
+            "FLAME_BREAKER_HELMET",
+            "DIAMOND_HUNTER_HELMET",
+            "CROWN_OF_GREED",
+            "ANGLER_HELMET",
+            "ZOMBIE_SOLDIER_HELMET",
+            "ZOMBIE_COMMANDER_HELMET",
+            "VELVET_TOP_HAT",
+            "TARANTULA_HELMET",
+            "SUPER_HEAVY_HELMET",
+            "SPEEDSTER_HELMET",
+            "SKELETON_SOLDIER_HELMET",
+            "SKELETON_MASTER_HELMET",
+            "SKELETON_GRUNT_HELMET",
+            "SALMON_HELMET_NEW",
+            "ROTTEN_HELMET",
+            "RABBIT_HELMET",
+            "PUMPKIN_HELMET",
+            "PARTY_HAT",
+            "MUSHROOM_HELMET",
+            "MINER_OUTFIT_HELMET",
+            "HELMET_OF_THE_PACK",
+            "HEAVY_HELMET",
+            "HEAT_HELMET",
+            "GROWTH_HELMET",
+            "GREAT_SPOOK_HELMET",
+            "FARM_SUIT_HELMET",
+            "FARM_ARMOR_HELMET",
+            "FAIRY_HELMET",
+            "EMERALD_ARMOR_HELMET",
+            "ELEANOR_CAP",
+            "CRYSTAL_HELMET",
+            "CRYPT_WITHERLORD_HELMET",
+            "CELESTE_HELMET",
+            "CACTUS_HELMET",
+            "BRONZE_HUNTER_HELMET",
+            "BOUNCY_HELMET",
+            "ARMOR_OF_YOG_HELMET",
+            "ARMOR_OF_MAGMA_HELMET"
+        ]
+    },
+    "yellow_carpet": {
+        "model": "minecraft:item/generated",
+        "skyblock_ids": [
+            "ANTI_BITE_SCARF_2"
+        ]
+    },
+    "book": {
+        "model": "minecraft:item/generated",
+        "skyblock_ids": [
+            "RIFT_COMPLETION_MEMENTO",
+            "WIKI_JOURNAL",
+            "GLOOMLOCK_GRIMOIRE",
+            "PET_ITEM_TEXTBOOK",
+            "THE_ART_OF_WAR",
+            "THE_ART_OF_PEACE",
+            "POLARVOID_BOOK",
+            "JALAPENO_BOOK",
+            "FUMING_POTATO_BOOK",
+            "HOT_POTATO_BOOK",
+            "FARMING_FOR_DUMMIES",
+            "BOOKWORM_BOOK",
+            "BOOK_OF_STATS",
+            "MOBY_DUCK_COLLECTOR_EDITION",
+            "MOBY_DUCK",
+            "GREAT_SPOOK_REFORGING_MANUAL",
+            "SIRIUS_BOOK",
+            "DUNGEON_LORE_PAPER",
+            "DUNGEON_LORE_DIARY",
+            "BOOK_OF_PROGRESSION"
+        ]
+    },
+    "iron_helmet": {
+        "model": "minecraft:item/generated",
+        "skyblock_ids": [
+            "SKELETON_HELMET",
+            "SILVER_HUNTER_HELMET",
+            "MERCENARY_HELMET",
+            "GOLEM_ARMOR_HELMET"
+        ]
+    },
+    "lilac": {
+        "model": "minecraft:item/generated",
+        "skyblock_ids": [
+            "SKYBLOCK_MENU"
+        ]
+    },
+    "blue_stained_glass": {
+        "model": "minecraft:item/generated",
+        "skyblock_ids": [
+            "LIVING_METAL"
+        ]
+    },
+    "iron_boots": {
+        "model": "minecraft:item/generated",
+        "skyblock_ids": [
+            "SPIDER_BOOTS",
+            "SILVER_HUNTER_BOOTS",
+            "GOLEM_ARMOR_BOOTS",
+            "BOOTS_OF_THE_PACK",
+            "BIGGER_SPRING_BOOTS",
+            "BIG_SPRING_BOOTS"
+        ]
+    },
+    "cooked_beef": {
+        "model": "minecraft:item/generated",
+        "skyblock_ids": []
+    },
+    "salmon": {
+        "model": "minecraft:item/generated",
+        "skyblock_ids": [
+            "ZOOP_THE_FISH",
+            "SPOOK_THE_FISH",
+            "NOPE_THE_FISH",
+            "HERRING_THE_FISH",
+            "GABAGOOL_THE_FISH",
+            "SINGING_FISH",
+            "GRIZZLY_BAIT"
+        ]
+    },
+    "golden_carrot": {
+        "model": "minecraft:item/generated",
+        "skyblock_ids": [
+            "ULTIMATE_CARROT_CANDY",
+            "SUPERB_CARROT_CANDY"
+        ]
+    },
+    "nether_wart": {
+        "model": "minecraft:item/generated",
+        "skyblock_ids": [
+            "COVEN_SEAL",
+            "RIFTWART_ROOTS"
+        ]
+    },
+    "endermite_spawn_egg": {
+        "model": "minecraft:item/generated",
+        "skyblock_ids": [
+            "LM_EGG_CHEST",
+            "OMEGA_EGG"
+        ]
+    },
+    "stone_axe": {
+        "model": "minecraft:item/generated",
+        "skyblock_ids": [
+            "ROOKIE_AXE",
+            "SCULPTORS_AXE"
+        ]
+    },
+    "egg": {
+        "model": "minecraft:item/generated",
+        "skyblock_ids": [
+            "METAPHORIC_EGG",
+            "STONE_BRIDGE",
+            "BRIDGE_EGG"
+        ]
+    },
+    "lapis_lazuli": {
+        "model": "minecraft:item/generated",
+        "skyblock_ids": [
+            "CAKE_SOUL"
+        ]
+    },
+    "lead": {
+        "model": "minecraft:item/generated",
+        "skyblock_ids": [
+            "MIRRORED_LEASH",
+            "GIANT_FRAGMENT_BIGFOOT",
+            "KADA_LEAD"
+        ]
+    },
+    "pink_tulip": {
+        "model": "minecraft:item/generated",
+        "skyblock_ids": [
+            "DEAD_CAT_DETECTOR"
+        ]
+    },
+    "clock": {
+        "model": "minecraft:item/generated",
+        "skyblock_ids": []
+    },
+    "writable_book": {
+        "model": "minecraft:item/generated",
+        "skyblock_ids": [
+            "ULTIMATE_WITHER_SCROLL",
+            "WITHER_SHIELD_SCROLL",
+            "SHADOW_WARP_SCROLL",
+            "IMPLOSION_SCROLL",
+            "TOPAZ_POWER_SCROLL",
+            "SAPPHIRE_POWER_SCROLL",
+            "RUBY_POWER_SCROLL",
+            "OPAL_POWER_SCROLL",
+            "JASPER_POWER_SCROLL",
+            "JADE_POWER_SCROLL",
+            "AMETHYST_POWER_SCROLL",
+            "AMBER_POWER_SCROLL"
+        ]
+    },
+    "chest": {
+        "model": "minecraft:item/generated",
+        "skyblock_ids": []
+    },
+    "dropper": {
+        "model": "minecraft:item/generated",
+        "skyblock_ids": [
+            "DWARVEN_COMPACTOR",
+            "SUPER_COMPACTOR_3000",
+            "COMPACTOR",
+            "PERSONAL_COMPACTOR_7000",
+            "PERSONAL_COMPACTOR_6000",
+            "PERSONAL_COMPACTOR_5000",
+            "PERSONAL_COMPACTOR_4000"
+        ]
+    },
+    "diamond_chestplate": {
+        "model": "minecraft:item/generated",
+        "skyblock_ids": [
+            "ZOMBIE_CHESTPLATE",
+            "TITAN_CHESTPLATE",
+            "TANK_MINER_CHESTPLATE",
+            "ROSETTA_CHESTPLATE",
+            "REVENANT_CHESTPLATE",
+            "PERFECT_CHESTPLATE_9",
+            "PERFECT_CHESTPLATE_8",
+            "PERFECT_CHESTPLATE_7",
+            "PERFECT_CHESTPLATE_6",
+            "PERFECT_CHESTPLATE_5",
+            "PERFECT_CHESTPLATE_4",
+            "PERFECT_CHESTPLATE_3",
+            "PERFECT_CHESTPLATE_2",
+            "PERFECT_CHESTPLATE_13",
+            "PERFECT_CHESTPLATE_12",
+            "PERFECT_CHESTPLATE_11",
+            "PERFECT_CHESTPLATE_10",
+            "PERFECT_CHESTPLATE_1",
+            "HARDENED_DIAMOND_CHESTPLATE",
+            "DIAMOND_HUNTER_CHESTPLATE"
+        ]
+    },
+    "jungle_sapling": {
+        "model": "minecraft:item/generated",
+        "skyblock_ids": []
+    },
+    "red_stained_glass_pane": {
+        "model": "minecraft:item/generated",
+        "skyblock_ids": []
+    },
+    "hopper": {
+        "model": "minecraft:item/generated",
+        "skyblock_ids": [
+            "PET_ITEM_TIER_BOOST",
+            "PERFECT_HOPPER",
+            "BUDGET_HOPPER",
+            "WEIRDER_TUBA",
+            "WEIRD_TUBA"
+        ]
+    },
+    "iron_hoe": {
+        "model": "minecraft:item/handheld",
+        "skyblock_ids": [
+            "PET_ITEM_FARMING_SKILL_BOOST_LEGENDARY",
+            "PET_ITEM_FARMING_SKILL_BOOST_EPIC",
+            "PET_ITEM_FARMING_SKILL_BOOST_RARE",
+            "PET_ITEM_FARMING_SKILL_BOOST_UNCOMMON",
+            "PET_ITEM_FARMING_SKILL_BOOST_COMMON",
+            "DWARVEN_METAL_DETECTOR",
+            "THORNLEAF_SCYTHE",
+            "THEORETICAL_HOE_WHEAT_2",
+            "THEORETICAL_HOE_WARTS_2",
+            "THEORETICAL_HOE_POTATO_2",
+            "THEORETICAL_HOE_CARROT_2",
+            "THEORETICAL_HOE_CANE_2",
+            "PROMISING_HOE",
+            "GARDEN_SCYTHE",
+            "BASIC_GARDENING_HOE",
+            "GHOUL_BUSTER",
+            "FROZEN_SCYTHE"
+        ]
+    },
+    "light_gray_stained_glass_pane": {
+        "model": "minecraft:item/generated",
+        "skyblock_ids": []
+    },
+    "emerald_block": {
+        "model": "minecraft:item/generated",
+        "skyblock_ids": []
+    },
+    "cyan_dye": {
+        "model": "minecraft:item/generated",
+        "skyblock_ids": [
+            "CAKE_SOUL",
+            "GEMSTONE_POWDER_TIER_2",
+            "MITHRIL_POWDER_TIER_2",
+            "MITHRIL_GOURMAND"
+        ]
+    },
+    "experience_bottle": {
+        "model": "minecraft:item/generated",
+        "skyblock_ids": [
+            "BOTTLED_ODONATA",
+            "TITANIC_EXP_BOTTLE",
+            "GRAND_EXP_BOTTLE",
+            "COLOSSAL_EXP_BOTTLE"
+        ]
+    },
+    "filled_map": {
+        "model": "minecraft:item/generated",
+        "skyblock_ids": [
+            "WARDEN_ART",
+            "SPLENDID_FISH_DRAWING",
+            "MEDIOCRE_FISH_DRAWING",
+            "CAMPAIGN_POSTER",
+            "VERY_SCIENTIFIC_PAPER",
+            "GLYPH_VIS",
+            "GLYPH_VALIDUS",
+            "GLYPH_ROBUR",
+            "GLYPH_POTENTIA",
+            "GLYPH_PERNIMIUS",
+            "GLYPH_FORTIS",
+            "GLYPH_FIRMITAS",
+            "GLYPH_CONCLAMATUS",
+            "WET_NAPKIN"
+        ]
+    },
+    "quartz": {
+        "model": "minecraft:item/generated",
+        "skyblock_ids": [
+            "OVERFLUX_CAPACITOR",
+            "CRYSTAL_FRAGMENT",
+            "SILEX"
+        ]
+    },
+    "black_wool": {
+        "model": "minecraft:item/generated",
+        "skyblock_ids": [
+            "BLACK_WOOLEN_YARN"
+        ]
+    },
+    "diamond_sword": {
+        "model": "minecraft:item/handheld",
+        "skyblock_ids": [
+            "VORPAL_KATANA",
+            "VOIDEDGE_KATANA",
+            "ATOMSPLIT_KATANA",
+            "VOID_SWORD",
+            "STARRED_SHADOW_FURY",
+            "SHADOW_FURY",
+            "REVENANT_SWORD",
+            "REAPER_SWORD",
+            "MAWDUST_DAGGER",
+            "HEARTMAW_DAGGER",
+            "END_SWORD",
+            "CRYPT_WITHERLORD_SWORD",
+            "BURSTMAW_DAGGER",
+            "ASPECT_OF_THE_END",
+            "ASPECT_OF_THE_DRAGON",
+            "ASPECT_OF_THE_DRACONIC"
+        ]
+    },
+    "lime_dye": {
+        "model": "minecraft:item/generated",
+        "skyblock_ids": [
+            "CAKE_SOUL",
+            "TOXIC_ARROW_POISON",
+            "PET_ITEM_LUCKY_CLOVER_DROP",
+            "GEMSTONE_POWDER_TIER_1",
+            "MITHRIL_POWDER_TIER_1"
+        ]
+    },
+    "yellow_terracotta": {
+        "model": "minecraft:item/generated",
+        "skyblock_ids": []
+    },
+    "cooked_cod": {
+        "model": "minecraft:item/generated",
+        "skyblock_ids": [
+            "SKELETON_THE_FISH",
+            "CHILL_THE_FISH_2",
+            "CHILL_THE_FISH",
+            "BAT_THE_FISH",
+            "DEAD_CAT_FOOD",
+            "FILET_O_FORTUNE"
+        ]
+    },
+    "note_block": {
+        "model": "minecraft:item/generated",
+        "skyblock_ids": []
+    },
+    "glistering_melon_slice": {
+        "model": "minecraft:item/generated",
+        "skyblock_ids": [
+            "HEALING_MELON"
+        ]
+    },
+    "paper": {
+        "model": "minecraft:item/generated",
+        "skyblock_ids": [
+            "SECRET_BINGO_CARD",
+            "EXTREME_BINGO_CARD",
+            "BINGO_CARD",
+            "WILSON_ENGINEERING_PLANS",
+            "STOCK_OF_STONKS",
+            "POEM_OF_INFINITE_LOVE",
+            "CENTURY_PARTY_INVITATION",
+            "AATROX_PHONE_NUMBER",
+            "THE_SOUP_PAINTING",
+            "ALCHEMIST_RECIPE",
+            "SECRET_RAILROAD_PASS",
+            "SAULS_RECOMMENDATION",
+            "DUNGEON_LORE_PAPER",
+            "ARCHITECT_FIRST_DRAFT",
+            "DEAN_LETTER_OF_RECOMMENDATION"
+        ]
+    },
+    "orange_dye": {
+        "model": "minecraft:item/generated",
+        "skyblock_ids": [
+            "CAKE_SOUL",
+            "MIXED_MITE_GEL",
+            "GEMSTONE_POWDER_TIER_3",
+            "MITHRIL_POWDER_TIER_3"
+        ]
+    },
+    "fishing_rod": {
+        "model": "minecraft:item/handheld",
+        "skyblock_ids": [
+            "MIRRORED_FISHING_ROD",
+            "ZOMBIE_COMMANDER_WHIP",
+            "SOUL_WHIP",
+            "FLAMING_FLAY",
+            "YETI_ROD",
+            "WINTER_ROD",
+            "THE_SHREDDER",
+            "STARTER_LAVA_ROD",
+            "SPONGE_ROD",
+            "SPEEDSTER_ROD",
+            "ROD_OF_THE_SEA",
+            "PRISMARINE_ROD",
+            "POLISHED_TOPAZ_ROD",
+            "PHANTOM_ROD",
+            "MAGMA_ROD",
+            "LEGEND_ROD",
+            "INFERNO_ROD",
+            "ICE_ROD",
+            "HELLFIRE_ROD",
+            "GRAPPLING_HOOK",
+            "GIANT_FISHING_ROD",
+            "FARMER_ROD",
+            "DIRT_ROD",
+            "CHUM_ROD",
+            "CHAMP_ROD",
+            "CHALLENGE_ROD",
+            "CARNIVAL_FISHING_ROD",
+            "BINGO_LAVA_ROD",
+            "AUGER_ROD"
+        ]
+    },
+    "stone_sword": {
+        "model": "minecraft:item/handheld",
+        "skyblock_ids": [
+            "DARK_CLAYMORE",
+            "WITHER_CLOAK",
+            "TACTICIAN_MURDER_WEAPON",
+            "STARRED_STONE_BLADE",
+            "STONE_BLADE",
+            "HEARTFIRE_DAGGER",
+            "FIREDUST_DAGGER",
+            "FEL_SWORD",
+            "EARTH_SHARD",
+            "CONJURING_SWORD",
+            "BURSTFIRE_DAGGER"
+        ]
+    },
+    "prismarine_crystals": {
+        "model": "minecraft:item/generated",
+        "skyblock_ids": [
+            "REINFORCED_SCALES",
+            "PET_ITEM_HARDENED_SCALES_LEGENDARY",
+            "PET_ITEM_HARDENED_SCALES_EPIC",
+            "PET_ITEM_HARDENED_SCALES_RARE",
+            "PET_ITEM_HARDENED_SCALES_UNCOMMON",
+            "PET_ITEM_HARDENED_SCALES_COMMON",
+            "ECTOPLASM",
+            "ENCHANTED_MITHRIL",
+            "MITHRIL_ORE"
+        ]
+    },
+    "brown_wool": {
+        "model": "minecraft:item/generated",
+        "skyblock_ids": [
+            "DUNG"
+        ]
+    },
+    "golden_sword": {
+        "model": "minecraft:item/handheld",
+        "skyblock_ids": [
+            "VORPAL_KATANA",
+            "VOIDEDGE_KATANA",
+            "ATOMSPLIT_KATANA",
+            "SUPER_CLEAVER",
+            "STAR_SWORD_9000",
+            "STAR_SWORD_3000",
+            "STAR_SWORD",
+            "SILK_EDGE_SWORD",
+            "ROGUE_SWORD",
+            "POOCH_SWORD",
+            "PIGMAN_SWORD",
+            "ORNATE_ZOMBIE_SWORD",
+            "NOVA_SWORD",
+            "STARRED_MIDAS_SWORD",
+            "MIDAS_SWORD",
+            "LEAPING_SWORD",
+            "HYPER_CLEAVER",
+            "HEARTFIRE_DAGGER",
+            "GIANT_CLEAVER",
+            "FLORID_ZOMBIE_SWORD",
+            "FIREDUST_DAGGER",
+            "FANCY_SWORD",
+            "END_STONE_SWORD",
+            "CLEAVER",
+            "BURSTFIRE_DAGGER",
+            "BLADE_OF_DRAGONFIRE",
+            "BINGOLIBUR"
+        ]
+    },
+    "ender_chest": {
+        "model": "minecraft:item/generated",
+        "skyblock_ids": []
+    },
+    "bone_meal": {
+        "model": "minecraft:item/generated",
+        "skyblock_ids": [
+            "CAKE_SOUL",
+            "GREAT_WHITE_TOOTH_MEAL"
+        ]
+    },
+    "music_disc_far": {
+        "model": "minecraft:item/generated",
+        "skyblock_ids": [
+            "VINYL_SLOW_AND_GROOVY"
+        ]
+    },
+    "mushroom_stew": {
+        "model": "minecraft:item/generated",
+        "skyblock_ids": [
+            "MARSH_SPORE_SOUP"
+        ]
+    },
+    "light_blue_stained_glass_pane": {
+        "model": "minecraft:item/generated",
+        "skyblock_ids": []
+    },
+    "coal_block": {
+        "model": "minecraft:item/generated",
+        "skyblock_ids": [
+            "BINGO_DISPLAY"
+        ]
+    },
+    "cauldron": {
+        "model": "minecraft:item/generated",
+        "skyblock_ids": []
+    },
+    "snowball": {
+        "model": "minecraft:item/generated",
+        "skyblock_ids": [
+            "FROSTY_SNOW_BALL"
+        ]
+    },
+    "mycelium": {
+        "model": "minecraft:item/generated",
+        "skyblock_ids": []
+    },
+    "packed_ice": {
+        "model": "minecraft:item/generated",
+        "skyblock_ids": [
+            "GLACITE_HELMET",
+            "ICE_CUBE",
+            "ENCHANTED_GLACITE",
+            "GLACITE"
+        ]
+    },
+    "wooden_axe": {
+        "model": "minecraft:item/handheld",
+        "skyblock_ids": [
+            "DWARVEN_EMERALD_HAMMER",
+            "JUNGLE_AXE",
+            "SHEEP_AXE",
+            "RABBIT_AXE",
+            "PIG_AXE",
+            "MUSHROOM_COW_AXE",
+            "COW_AXE",
+            "CHICKEN_AXE"
+        ]
+    },
+    "yellow_stained_glass_pane": {
+        "model": "minecraft:item/generated",
+        "skyblock_ids": []
+    },
+    "black_stained_glass": {
+        "model": "minecraft:item/generated",
+        "skyblock_ids": [
+            "SCARE_FRAGMENT"
+        ]
+    },
+    "compass": {
+        "model": "minecraft:item/generated",
+        "skyblock_ids": []
+    },
+    "dandelion": {
+        "model": "minecraft:item/generated",
+        "skyblock_ids": [
+            "PET_ITEM_EXP_SHARE",
+            "FIRE_FREEZE_STAFF"
+        ]
+    },
+    "beacon": {
+        "model": "minecraft:item/generated",
+        "skyblock_ids": []
+    },
+    "daylight_detector": {
+        "model": "minecraft:item/generated",
+        "skyblock_ids": [
+            "SOLAR_PANEL",
+            "NIGHT_SAVER",
+            "DAY_SAVER"
+        ]
+    },
+    "oak_boat": {
+        "model": "minecraft:item/generated",
+        "skyblock_ids": [
+            "KLOONBOAT",
+            "REED_BOAT"
+        ]
+    },
+    "arrow": {
+        "model": "minecraft:item/generated",
+        "skyblock_ids": [
+            "DEADGEHOG_SPINE",
+            "REDSTONE_TIPPED_ARROW",
+            "NANSORB_ARROW",
+            "MAGMA_ARROW",
+            "ICY_ARROW",
+            "GOLD_TIPPED_ARROW",
+            "GLUE_ARROW",
+            "ARROW",
+            "EXPLOSIVE_ARROW",
+            "EMERALD_TIPPED_ARROW",
+            "BOUNCY_ARROW",
+            "ARMORSHRED_ARROW"
+        ]
+    },
+    "diamond_leggings": {
+        "model": "minecraft:item/generated",
+        "skyblock_ids": [
+            "ZOMBIE_LEGGINGS",
+            "TITAN_LEGGINGS",
+            "TANK_MINER_LEGGINGS",
+            "ROSETTA_LEGGINGS",
+            "REVENANT_LEGGINGS",
+            "PERFECT_LEGGINGS_9",
+            "PERFECT_LEGGINGS_8",
+            "PERFECT_LEGGINGS_7",
+            "PERFECT_LEGGINGS_6",
+            "PERFECT_LEGGINGS_5",
+            "PERFECT_LEGGINGS_4",
+            "PERFECT_LEGGINGS_3",
+            "PERFECT_LEGGINGS_2",
+            "PERFECT_LEGGINGS_13",
+            "PERFECT_LEGGINGS_12",
+            "PERFECT_LEGGINGS_11",
+            "PERFECT_LEGGINGS_10",
+            "PERFECT_LEGGINGS_1",
+            "MASTIFF_LEGGINGS",
+            "HARDENED_DIAMOND_LEGGINGS",
+            "DIAMOND_HUNTER_LEGGINGS"
+        ]
+    },
+    "pink_carpet": {
+        "model": "minecraft:item/generated",
+        "skyblock_ids": [
+            "ANTI_BITE_SCARF_2"
+        ]
+    },
+    "leather_leggings": {
+        "model": "minecraft:item/generated",
+        "skyblock_ids": [
+            "ADAPTIVE_LEGGINGS",
+            "ANGLER_LEGGINGS",
+            "ARACHNE_LEGGINGS",
+            "ARMOR_OF_MAGMA_LEGGINGS",
+            "ARMOR_OF_THE_RESISTANCE_LEGGINGS",
+            "ARMOR_OF_YOG_LEGGINGS",
+            "AURORA_LEGGINGS",
+            "BACKWATER_LEGGINGS",
+            "BAT_PERSON_LEGGINGS",
+            "BERSERKER_LEGGINGS",
+            "BIOHAZARD_LEGGINGS",
+            "BLAZE_LEGGINGS",
+            "BOUNCY_LEGGINGS",
+            "BRONZE_HUNTER_LEGGINGS",
+            "BURNED_PANTS",
+            "BURNING_AURORA_LEGGINGS",
+            "BURNING_CRIMSON_LEGGINGS",
+            "BURNING_FERVOR_LEGGINGS",
+            "BURNING_HOLLOW_LEGGINGS",
+            "BURNING_TERROR_LEGGINGS",
+            "CACTUS_LEGGINGS",
+            "CELESTE_LEGGINGS",
+            "CHEAP_TUXEDO_LEGGINGS",
+            "CHICKEN_LEGGS",
+            "CREEPER_LEGGINGS",
+            "CRIMSON_LEGGINGS",
+            "CROPIE_LEGGINGS",
+            "CRYPT_WITHERLORD_LEGGINGS",
+            "CRYSTAL_LEGGINGS",
+            "ELEANOR_TROUSERS",
+            "ELEGANT_TUXEDO_LEGGINGS",
+            "EMERALD_ARMOR_LEGGINGS",
+            "EMPEROR_LEGGINGS",
+            "FAIRY_LEGGINGS",
+            "FANCY_TUXEDO_LEGGINGS",
+            "FARM_ARMOR_LEGGINGS",
+            "FARM_SUIT_LEGGINGS",
+            "FEMURGROWTH_LEGGINGS",
+            "FERMENTO_LEGGINGS",
+            "FERVOR_LEGGINGS",
+            "FIERY_AURORA_LEGGINGS",
+            "FIERY_CRIMSON_LEGGINGS",
+            "FIERY_FERVOR_LEGGINGS",
+            "FIERY_HOLLOW_LEGGINGS",
+            "FIERY_TERROR_LEGGINGS",
+            "FINAL_DESTINATION_LEGGINGS",
+            "FROZEN_BLAZE_LEGGINGS",
+            "GLACITE_LEGGINGS",
+            "GLOSSY_MINERAL_LEGGINGS",
+            "GOBLIN_LEGGINGS",
+            "GREAT_SPOOK_LEGGINGS",
+            "GROWTH_LEGGINGS",
+            "HEAT_LEGGINGS",
+            "HEAVY_LEGGINGS",
+            "HOLLOW_LEGGINGS",
+            "HOLY_DRAGON_LEGGINGS",
+            "HOT_AURORA_LEGGINGS",
+            "HOT_CRIMSON_LEGGINGS",
+            "HOT_FERVOR_LEGGINGS",
+            "HOT_HOLLOW_LEGGINGS",
+            "HOT_TERROR_LEGGINGS",
+            "HYDRA1_LEGGINGS",
+            "INFERNAL_AURORA_LEGGINGS",
+            "INFERNAL_CRIMSON_LEGGINGS",
+            "INFERNAL_FERVOR_LEGGINGS",
+            "INFERNAL_HOLLOW_LEGGINGS",
+            "INFERNAL_TERROR_LEGGINGS",
+            "KUUDRA_FOLLOWER_LEGGINGS",
+            "LAPIS_ARMOR_LEGGINGS",
+            "LEAFLET_LEGGINGS",
+            "LEGGINGS_OF_THE_COVEN",
+            "MAGMA_LORD_LEGGINGS",
+            "MELON_LEGGINGS",
+            "MINER_OUTFIT_LEGGINGS",
+            "MINERAL_LEGGINGS",
+            "MOOGMA_LEGGINGS",
+            "MUSHROOM_LEGGINGS",
+            "MUSIC_PANTS",
+            "NECROMANCER_LORD_LEGGINGS",
+            "NUTCRACKER_LEGGINGS",
+            "OLD_DRAGON_LEGGINGS",
+            "POWER_WITHER_LEGGINGS",
+            "PRIMAL_DRAGON_LEGGINGS",
+            "PROTECTOR_DRAGON_LEGGINGS",
+            "PUMPKIN_LEGGINGS",
+            "RABBIT_LEGGINGS",
+            "RAMPART_LEGGINGS",
+            "REAPER_LEGGINGS",
+            "ROTTEN_LEGGINGS",
+            "SALMON_LEGGINGS_NEW",
+            "SATIN_TROUSERS",
+            "SEA_WALKER_LEGGINGS",
+            "SHADOW_ASSASSIN_LEGGINGS",
+            "SHARK_SCALE_LEGGINGS",
+            "SHIMMERING_LIGHT_TROUSERS",
+            "SKELETON_GRUNT_LEGGINGS",
+            "SKELETON_LORD_LEGGINGS",
+            "SKELETON_MASTER_LEGGINGS",
+            "SKELETON_SOLDIER_LEGGINGS",
+            "SNOW_SUIT_LEGGINGS",
+            "SPEED_WITHER_LEGGINGS",
+            "SPEEDSTER_LEGGINGS",
+            "SPONGE_LEGGINGS",
+            "SPOOKY_LEGGINGS",
+            "SQUASH_LEGGINGS",
+            "STARRED_ADAPTIVE_LEGGINGS",
+            "STARRED_SHADOW_ASSASSIN_LEGGINGS",
+            "STRONG_DRAGON_LEGGINGS",
+            "SUPER_HEAVY_LEGGINGS",
+            "SUPERIOR_DRAGON_LEGGINGS",
+            "TANK_WITHER_LEGGINGS",
+            "TARANTULA_LEGGINGS",
+            "TERROR_LEGGINGS",
+            "THUNDER_LEGGINGS",
+            "UNSTABLE_DRAGON_LEGGINGS",
+            "VANGUARD_LEGGINGS",
+            "WATCHER_LEGS",
+            "WEREWOLF_LEGGINGS",
+            "WISE_DRAGON_LEGGINGS",
+            "WISE_WITHER_LEGGINGS",
+            "WITHER_LEGGINGS",
+            "WIZARDMAN_LEGGINGS",
+            "WYLD_LEGGINGS",
+            "YOUNG_DRAGON_LEGGINGS",
+            "ZOMBIE_COMMANDER_LEGGINGS",
+            "ZOMBIE_LORD_LEGGINGS",
+            "ZOMBIE_SOLDIER_LEGGINGS",
+            "DIAMOND_HUNTER_LEGGINGS",
+            "DIVAN_LEGGINGS",
+            "DIVER_LEGGINGS",
+            "EMBER_LEGGINGS",
+            "END_LEGGINGS",
+            "FLAME_BREAKER_LEGGINGS",
+            "FLAMEBREAKER_LEGGINGS",
+            "GOLD_HUNTER_LEGGINGS",
+            "GOLEM_ARMOR_LEGGINGS",
+            "HARDENED_DIAMOND_LEGGINGS",
+            "LEGGINGS_OF_THE_PACK",
+            "MASTIFF_LEGGINGS",
+            "MERCENARY_LEGGINGS",
+            "PERFECT_LEGGINGS_1",
+            "PERFECT_LEGGINGS_10",
+            "PERFECT_LEGGINGS_11",
+            "PERFECT_LEGGINGS_12",
+            "PERFECT_LEGGINGS_13",
+            "PERFECT_LEGGINGS_2",
+            "PERFECT_LEGGINGS_3",
+            "PERFECT_LEGGINGS_4",
+            "PERFECT_LEGGINGS_5",
+            "PERFECT_LEGGINGS_6",
+            "PERFECT_LEGGINGS_7",
+            "PERFECT_LEGGINGS_8",
+            "PERFECT_LEGGINGS_9",
+            "REKINDLED_EMBER_LEGGINGS",
+            "REVENANT_LEGGINGS",
+            "ROSETTA_LEGGINGS",
+            "SILVER_HUNTER_LEGGINGS",
+            "SKELETOR_LEGGINGS",
+            "SORROW_LEGGINGS",
+            "SQUIRE_LEGGINGS",
+            "STAR_LEGGINGS",
+            "STARLIGHT_LEGGINGS",
+            "TANK_MINER_LEGGINGS",
+            "TITAN_LEGGINGS",
+            "ZOMBIE_KNIGHT_LEGGINGS",
+            "ZOMBIE_LEGGINGS"
+        ]
+    },
+    "feather": {
+        "model": "minecraft:item/generated",
+        "skyblock_ids": [
+            "EDITOR_PENCIL",
+            "PET_ITEM_FLYING_PIG",
+            "FRIED_FEATHER",
+            "GRIFFIN_FEATHER",
+            "KISMET_FEATHER",
+            "HOLLOW_WAND"
+        ]
+    },
+    "wither_skeleton_skull": {
+        "model": "minecraft:item/generated",
+        "skyblock_ids": [
+            "NOVICE_SKULL",
+            "WITHER_CATALYST"
+        ]
+    },
+    "iron_bars": {
+        "model": "minecraft:item/generated",
+        "skyblock_ids": []
+    },
+    "clay_ball": {
+        "model": "minecraft:item/generated",
+        "skyblock_ids": [
+            "DARK_QUEENS_SOUL_DROP"
+        ]
+    },
+    "stone": {
+        "model": "minecraft:item/generated",
+        "skyblock_ids": [
+            "ENCHANTED_HARD_STONE",
+            "HARD_STONE"
+        ]
+    },
+    "ender_pearl": {
+        "model": "minecraft:item/generated",
+        "skyblock_ids": [
+            "NOISY_PEARL",
+            "SILENT_PEARL",
+            "SPIRIT_LEAP",
+            "FEL_PEARL"
+        ]
+    },
+    "powered_rail": {
+        "model": "minecraft:item/generated",
+        "skyblock_ids": []
+    },
+    "cookie": {
+        "model": "minecraft:item/generated",
+        "skyblock_ids": [
+            "CHOCOLATE_CHIP",
+            "FREE_COOKIE",
+            "REFUND_COOKIE",
+            "BOOSTER_COOKIE"
+        ]
+    },
+    "potato": {
+        "model": "minecraft:item/generated",
+        "skyblock_ids": [
+            "POTATO"
+        ]
+    },
+    "light_gray_dye": {
+        "model": "minecraft:item/generated",
+        "skyblock_ids": [
+            "CAKE_SOUL"
+        ]
+    },
+    "string": {
+        "model": "minecraft:item/generated",
+        "skyblock_ids": [
+            "BRAIDED_GRIFFIN_FEATHER",
+            "TARANTULA_WEB",
+            "SOUL_STRING",
+            "MIRRORED_STRING",
+            "LARVA_SILK",
+            "LUMINO_FIBER",
+            "MELODY_HAIR"
+        ]
+    },
+    "lily_pad": {
+        "model": "minecraft:item/generated",
+        "skyblock_ids": [
+            "LIL_PAD",
+            "PET_ITEM_LUCKY_CLOVER"
+        ]
+    },
+    "squid_spawn_egg": {
+        "model": "minecraft:item/generated",
+        "skyblock_ids": [
+            "LM_EGG_CAP",
+            "GOBLIN_EGG_BLUE"
+        ]
+    },
+    "golden_horse_armor": {
+        "model": "minecraft:item/generated",
+        "skyblock_ids": [
+            "ETERNAL_HOOF",
+            "JERRY_STAFF",
+            "BINGO_BLASTER"
+        ]
+    },
+    "magenta_dye": {
+        "model": "minecraft:item/generated",
+        "skyblock_ids": [
+            "CAKE_SOUL"
+        ]
+    },
+    "ladder": {
+        "model": "minecraft:item/generated",
+        "skyblock_ids": [
+            "NECRONS_LADDER"
+        ]
+    },
+    "music_disc_blocks": {
+        "model": "minecraft:item/generated",
+        "skyblock_ids": [
+            "VINYL_CICADA_SYMPHONY"
+        ]
+    },
+    "blue_stained_glass_pane": {
+        "model": "minecraft:item/generated",
+        "skyblock_ids": []
+    },
+    "green_terracotta": {
+        "model": "minecraft:item/generated",
+        "skyblock_ids": []
+    },
+    "emerald": {
+        "model": "minecraft:item/generated",
+        "skyblock_ids": [
+            "EMERALD_BLADE"
+        ]
+    },
+    "diamond_axe": {
+        "model": "minecraft:item/generated",
+        "skyblock_ids": [
+            "DWARVEN_DIAMOND_AXE",
+            "MELON_DICER_3",
+            "MELON_DICER_2",
+            "MELON_DICER",
+            "ADVANCED_GARDENING_AXE",
+            "AXE_OF_THE_SHREDDED"
+        ]
+    },
+    "sponge": {
+        "model": "minecraft:item/generated",
+        "skyblock_ids": [
+            "SPONGE_HELMET",
+            "PLUMBER_SPONGE"
+        ]
+    },
+    "villager_spawn_egg": {
+        "model": "minecraft:item/generated",
+        "skyblock_ids": [
+            "INFLATABLE_JERRY"
+        ]
+    },
+    "iron_axe": {
+        "model": "minecraft:item/handheld",
+        "skyblock_ids": [
+            "TINY_HAMMER",
+            "PET_ITEM_FORAGING_SKILL_BOOST_LEGENDARY",
+            "PET_ITEM_FORAGING_SKILL_BOOST_EPIC",
+            "PET_ITEM_FORAGING_SKILL_BOOST_RARE",
+            "PET_ITEM_FORAGING_SKILL_BOOST_UNCOMMON",
+            "PET_ITEM_FORAGING_SKILL_BOOST_COMMON",
+            "DWARVEN_IRON_HAMMER",
+            "SWEET_AXE",
+            "PROMISING_AXE",
+            "EFFICIENT_AXE",
+            "SPORE_HARVESTER",
+            "BASIC_GARDENING_AXE",
+            "RAIDER_AXE",
+            "MERCENARY_AXE",
+            "ENRAGER",
+            "DUNGEON_HAMMER"
+        ]
+    },
+    "charcoal": {
+        "model": "minecraft:item/generated",
+        "skyblock_ids": [
+            "FOUL_FLESH"
+        ]
+    },
+    "rabbit_foot": {
+        "model": "minecraft:item/generated",
+        "skyblock_ids": [
+            "BINGO_BOOSTER"
+        ]
+    },
+    "nether_brick": {
+        "model": "minecraft:item/generated",
+        "skyblock_ids": [
+            "LIVID_FRAGMENT"
+        ]
+    },
+    "purple_carpet": {
+        "model": "minecraft:item/generated",
+        "skyblock_ids": [
+            "ANTI_BITE_SCARF_2"
+        ]
+    },
+    "red_bed": {
+        "model": "minecraft:item/generated",
+        "skyblock_ids": []
+    },
+    "lever": {
+        "model": "minecraft:item/generated",
+        "skyblock_ids": [
+            "BARRY_PEN",
+            "TUNGSTEN_KEY"
+        ]
+    },
+    "leather": {
+        "model": "minecraft:item/generated",
+        "skyblock_ids": [
+            "WEREWOLF_SKIN",
+            "MOOGMA_PELT",
+            "LEATHER_CLOTH"
+        ]
+    },
+    "player_head": {
+        "model": "minecraft:item/generated",
+        "skyblock_ids": [
+            "ABICASE",
+            "AGARIMOO_ARTIFACT",
+            "AGARIMOO_RING",
+            "AGARIMOO_TALISMAN",
+            "ANITA_ARTIFACT",
+            "ANITA_RING",
+            "ANITA_TALISMAN",
+            "ATMOSPHERIC_FILTER",
+            "BAIT_RING",
+            "SPIKED_ATROCITY",
+            "BAT_RING",
+            "BAT_TALISMAN",
+            "BAT_PERSON_RING",
+            "BAT_PERSON_TALISMAN",
+            "BEASTMASTER_CREST_COMMON",
+            "BEASTMASTER_CREST_UNCOMMON",
+            "BEASTMASTER_CREST_RARE",
+            "BEASTMASTER_CREST_EPIC",
+            "BEASTMASTER_CREST_LEGENDARY",
+            "BINGO_TALISMAN",
+            "BINGO_RING",
+            "BINGO_ARTIFACT",
+            "BINGO_RELIC",
+            "BINGO_HEIRLOOM",
+            "BINGO_COMBAT_TALISMAN",
+            "BLOOD_DONOR_ARTIFACT",
+            "BLOOD_DONOR_RING",
+            "BLOOD_DONOR_TALISMAN",
+            "BUCKET_OF_DYE",
+            "BURSTSTOPPER_ARTIFACT",
+            "BURSTSTOPPER_TALISMAN",
+            "CAMPFIRE_TALISMAN_1",
+            "CAMPFIRE_TALISMAN_2",
+            "CAMPFIRE_TALISMAN_3",
+            "CAMPFIRE_TALISMAN_4",
+            "CAMPFIRE_TALISMAN_5",
+            "CAMPFIRE_TALISMAN_6",
+            "CAMPFIRE_TALISMAN_7",
+            "CAMPFIRE_TALISMAN_8",
+            "CAMPFIRE_TALISMAN_9",
+            "CAMPFIRE_TALISMAN_10",
+            "CAMPFIRE_TALISMAN_11",
+            "CAMPFIRE_TALISMAN_12",
+            "CAMPFIRE_TALISMAN_13",
+            "CAMPFIRE_TALISMAN_14",
+            "CAMPFIRE_TALISMAN_15",
+            "CAMPFIRE_TALISMAN_16",
+            "CAMPFIRE_TALISMAN_17",
+            "CAMPFIRE_TALISMAN_18",
+            "CAMPFIRE_TALISMAN_19",
+            "CAMPFIRE_TALISMAN_20",
+            "CAMPFIRE_TALISMAN_21",
+            "CAMPFIRE_TALISMAN_22",
+            "CAMPFIRE_TALISMAN_23",
+            "CAMPFIRE_TALISMAN_24",
+            "CAMPFIRE_TALISMAN_25",
+            "CAMPFIRE_TALISMAN_26",
+            "CAMPFIRE_TALISMAN_27",
+            "CAMPFIRE_TALISMAN_28",
+            "CAMPFIRE_TALISMAN_29",
+            "CAMPFIRE_TALISMAN_30",
+            "CANDY_ARTIFACT",
+            "CANDY_RELIC",
+            "CANDY_RING",
+            "CANDY_TALISMAN",
+            "CARNIVAL_MASK_BAG",
+            "GANACHE_CHOCOLATE_SLAB",
+            "NIBBLE_CHOCOLATE_STICK",
+            "PRESTIGE_CHOCOLATE_REALM",
+            "RICH_CHOCOLATE_CHUNK",
+            "SMOOTH_CHOCOLATE_BAR",
+            "ARTIFACT_OF_COINS",
+            "COIN_TALISMAN",
+            "RELIC_OF_COINS",
+            "RING_OF_COINS",
+            "CROPIE_TALISMAN",
+            "SQUASH_RING",
+            "FERMENTO_ARTIFACT",
+            "CRUX_TALISMAN_1",
+            "CRUX_TALISMAN_2",
+            "CRUX_TALISMAN_3",
+            "CRUX_TALISMAN_4",
+            "CRUX_TALISMAN_5",
+            "CRUX_TALISMAN_6",
+            "CRUX_TALISMAN_7",
+            "DANTE_TALISMAN",
+            "DANTE_RING",
+            "CROOKED_ARTIFACT",
+            "HEGEMONY_ARTIFACT",
+            "HOCUS_POCUS_CIPHER",
+            "MAGIC_8_BALL",
+            "SEAL_OF_THE_FAMILY",
+            "SHADY_RING",
+            "DAY_CRYSTAL",
+            "ETERNAL_CRYSTAL",
+            "NIGHT_CRYSTAL",
+            "DRACONIC_ARTIFACT",
+            "DRACONIC_RING",
+            "DRACONIC_TALISMAN",
+            "EMERALD_ARTIFACT",
+            "EMERALD_RING",
+            "FEATHER_RING",
+            "FEATHER_TALISMAN",
+            "BLUE_GIFT_TALISMAN",
+            "GOLD_GIFT_TALISMAN",
+            "GREEN_GIFT_TALISMAN",
+            "PURPLE_GIFT_TALISMAN",
+            "WHITE_GIFT_TALISMAN",
+            "GLACIAL_RING",
+            "GLACIAL_TALISMAN",
+            "GREAT_SPOOK_ARTIFACT",
+            "GREAT_SPOOK_RING",
+            "GREAT_SPOOK_TALISMAN",
+            "HEALING_RING",
+            "HEALING_TALISMAN",
+            "HUNTER_RING",
+            "HUNTER_TALISMAN",
+            "INTIMIDATION_ARTIFACT",
+            "INTIMIDATION_RELIC",
+            "INTIMIDATION_RING",
+            "INTIMIDATION_TALISMAN",
+            "IQ_POINT",
+            "TWO_IQ_POINT",
+            "JERRY_TALISMAN_BLUE",
+            "JERRY_TALISMAN_GOLDEN",
+            "JERRY_TALISMAN_GREEN",
+            "JERRY_TALISMAN_PURPLE",
+            "JUNK_TALISMAN",
+            "JUNK_RING",
+            "JUNK_ARTIFACT",
+            "BURNING_KUUDRA_CORE",
+            "FIERY_KUUDRA_CORE",
+            "INFERNAL_KUUDRA_CORE",
+            "KUUDRA_FOLLOWER_ARTIFACT",
+            "KUUDRA_FOLLOWER_RELIC",
+            "LUSH_ARTIFACT",
+            "LUSH_RING",
+            "LUSH_TALISMAN",
+            "MASTER_SKULL_TIER_1",
+            "MASTER_SKULL_TIER_2",
+            "MASTER_SKULL_TIER_3",
+            "MASTER_SKULL_TIER_4",
+            "MASTER_SKULL_TIER_5",
+            "MASTER_SKULL_TIER_6",
+            "MASTER_SKULL_TIER_7",
+            "MASTER_SKULL_TIER_8",
+            "MASTER_SKULL_TIER_9",
+            "MASTER_SKULL_TIER_10",
+            "GLOSSY_MINERAL_TALISMAN",
+            "MINERAL_TALISMAN",
+            "NEW_YEAR_CAKE_BAG",
+            "ODGERS_BRONZE_TOOTH",
+            "ODGERS_DIAMOND_TOOTH",
+            "ODGERS_GOLD_TOOTH",
+            "ODGERS_SILVER_TOOTH",
+            "PESTHUNTER_ARTIFACT",
+            "PESTHUNTER_RING",
+            "PESTHUNTER_BADGE",
+            "BROKEN_PIGGY_BANK",
+            "CRACKED_PIGGY_BANK",
+            "PIGGY_BANK",
+            "POTION_AFFINITY_TALISMAN",
+            "RING_POTION_AFFINITY",
+            "ARTIFACT_POTION_AFFINITY",
+            "POWER_ARTIFACT",
+            "POWER_RELIC",
+            "POWER_RING",
+            "POWER_TALISMAN",
+            "PULSE_RING",
+            "FROZEN_CHICKEN",
+            "FRIED_FROZEN_CHICKEN",
+            "GRIZZLY_PAW",
+            "PIGS_FOOT",
+            "WOLF_PAW",
+            "CAT_TALISMAN",
+            "LYNX_TALISMAN",
+            "CHEETAH_TALISMAN",
+            "RED_CLAW_TALISMAN",
+            "RED_CLAW_RING",
+            "BIG_BRAIN_TALISMAN",
+            "BLUETOOTH_RING",
+            "BLUERTOOTH_RING",
+            "DEFECTIVE_MONITOR",
+            "FUTURE_CALORIES",
+            "GARLIC_FLAVORED_GUMMY_BEAR",
+            "HARMONIOUS_SURGERY_TOOLKIT",
+            "MINIATURIZED_TUBULATOR",
+            "PUNCHCARD_ARTIFACT",
+            "RIFT_PRISM",
+            "RING_OF_BROKEN_LOVE",
+            "TEST_BUCKET_PLEASE_IGNORE",
+            "TINY_DANCER",
+            "VAMPIRE_DENTIST_RELIC",
+            "WARDING_TRINKET",
+            "SATELITE",
+            "RING_OF_ETERNAL_LOVE",
+            "COMBO_MANIA_TALISMAN",
+            "SCAVENGER_ARTIFACT",
+            "SCAVENGER_RING",
+            "SCAVENGER_TALISMAN",
+            "SEA_CREATURE_RING",
+            "SEA_CREATURE_TALISMAN",
+            "DULL_SHARK_TOOTH_NECKLACE",
+            "HONED_SHARK_TOOTH_NECKLACE",
+            "RAGGEDY_SHARK_TOOTH_NECKLACE",
+            "RAZOR_SHARP_SHARK_TOOTH_NECKLACE",
+            "SHARP_SHARK_TOOTH_NECKLACE",
+            "ARTIFACT_OF_CONTROL",
+            "SHENS_REGALIA",
+            "PANDORAS_BOX",
+            "SOULFLOW_BATTERY",
+            "SOULFLOW_PILE",
+            "SOULFLOW_SUPERCELL",
+            "ARTIFACT_OF_SPACE",
+            "RING_OF_SPACE",
+            "TALISMAN_OF_SPACE",
+            "SPEED_ARTIFACT",
+            "SPEED_RING",
+            "SPEED_TALISMAN",
+            "SPIDER_ARTIFACT",
+            "SPIDER_RING",
+            "SPIDER_TALISMAN",
+            "BLOOD_GOD_CREST",
+            "POTATO_TALISMAN",
+            "TITANIUM_ARTIFACT",
+            "TITANIUM_RELIC",
+            "TITANIUM_RING",
+            "TITANIUM_TALISMAN",
+            "TRAPPER_CREST",
+            "TREASURE_ARTIFACT",
+            "TREASURE_RING",
+            "TREASURE_TALISMAN",
+            "VACCINE_ARTIFACT",
+            "VACCINE_RING",
+            "VACCINE_TALISMAN",
+            "WEDDING_RING_2",
+            "WEDDING_RING_3",
+            "WEDDING_RING_4",
+            "WEDDING_RING_5",
+            "WEDDING_RING_6",
+            "WEDDING_RING_7",
+            "WEDDING_RING_8",
+            "WEDDING_RING_9",
+            "WOLF_RING",
+            "WOLF_TALISMAN",
+            "ZOMBIE_RING",
+            "ZOMBIE_TALISMAN",
+            "HASTE_ARTIFACT",
+            "HASTE_RING",
+            "SCARF_STUDIES",
+            "SCARF_THESIS",
+            "SCARF_GRIMOIRE",
+            "AUTO_RECOMBOBULATOR",
+            "BITS_TALISMAN",
+            "BLAZE_TALISMAN",
+            "CATACOMBS_EXPERT_RING",
+            "CENTURY_TALISMAN",
+            "CENTURY_RING",
+            "CHUMMING_TALISMAN",
+            "DEVOUR_RING",
+            "DWARVEN_METAL",
+            "FARMING_TALISMAN",
+            "FIRE_TALISMAN",
+            "FISH_AFFINITY_TALISMAN",
+            "GENERAL_MEDALLION",
+            "GRAVITY_TALISMAN",
+            "HANDY_BLOOD_CHALICE",
+            "JACOBUS_REGISTER",
+            "JAKE_PLUSHIE",
+            "JUNGLE_AMULET",
+            "KING_TALISMAN",
+            "LAVA_TALISMAN",
+            "LUCK_TALISMAN",
+            "MAGNETIC_TALISMAN",
+            "MINE_TALISMAN",
+            "NETHERRACK_LOOKING_SUNSHADE",
+            "NIGHT_VISION_CHARM",
+            "POCKET_ESPRESSO_MACHINE",
+            "REAPER_ORB",
+            "SKELETON_TALISMAN",
+            "TARANTULA_TALISMAN",
+            "VILLAGE_TALISMAN",
+            "WOOD_TALISMAN",
+            "SEAL_TALISMAN",
+            "SEAL_RING",
+            "RUNEBOOK",
+            "ANGLER_BELT",
+            "ANGLER_BRACELET",
+            "ANGLER_CLOAK",
+            "ANGLER_NECKLACE",
+            "ARACHNE_BELT",
+            "ARACHNE_CLOAK",
+            "ARACHNE_GLOVES",
+            "ARACHNE_NECKLACE",
+            "ANNIHILATION_CLOAK",
+            "BACKWATER_NECKLACE",
+            "BACKWATER_CLOAK",
+            "BACKWATER_BELT",
+            "BACKWATER_GLOVES",
+            "DEMONLORD_GAUNTLET",
+            "DESTRUCTION_CLOAK",
+            "BLAZE_BELT",
+            "GHAST_CLOAK",
+            "GLOWSTONE_GAUNTLET",
+            "MAGMA_NECKLACE",
+            "VANQUISHED_BLAZE_BELT",
+            "VANQUISHED_GHAST_CLOAK",
+            "VANQUISHED_GLOWSTONE_GAUNTLET",
+            "VANQUISHED_MAGMA_NECKLACE",
+            "DOJO_WHITE_BELT",
+            "DOJO_YELLOW_BELT",
+            "DOJO_GREEN_BELT",
+            "DOJO_BLUE_BELT",
+            "DOJO_BROWN_BELT",
+            "DOJO_BLACK_BELT",
+            "DRAGONFADE_CLOAK",
+            "DRAGONFUSE_GLOVE",
+            "ADAPTIVE_BELT",
+            "STARRED_ADAPTIVE_BELT",
+            "BALLOON_SNAKE",
+            "BONE_NECKLACE",
+            "STARRED_BONE_NECKLACE",
+            "SHADOW_ASSASSIN_CLOAK",
+            "STARRED_SHADOW_ASSASSIN_CLOAK",
+            "SOULWEAVER_GLOVES",
+            "DELIRIUM_NECKLACE",
+            "SCOURGE_CLOAK",
+            "SCOVILLE_BELT",
+            "ENDER_BELT",
+            "ENDER_CLOAK",
+            "ENDER_GAUNTLET",
+            "ENDER_NECKLACE",
+            "FINWAVE_BELT",
+            "FINWAVE_CLOAK",
+            "FINWAVE_GLOVES",
+            "CLAY_BRACELET",
+            "CLOWNFISH_CLOAK",
+            "PRISMARINE_NECKLACE",
+            "SPONGE_BELT",
+            "AMBER_NECKLACE",
+            "AMETHYST_GAUNTLET",
+            "JADE_BELT",
+            "SAPPHIRE_CLOAK",
+            "GILLSPLASH_BELT",
+            "GILLSPLASH_CLOAK",
+            "GILLSPLASH_GLOVES",
+            "GREAT_SPOOK_BELT",
+            "GREAT_SPOOK_CLOAK",
+            "GREAT_SPOOK_GLOVES",
+            "GREAT_SPOOK_NECKLACE",
+            "ICHTHYIC_BELT",
+            "ICHTHYIC_CLOAK",
+            "ICHTHYIC_GLOVES",
+            "LOTUS_BELT",
+            "LOTUS_BRACELET",
+            "LOTUS_CLOAK",
+            "LOTUS_NECKLACE",
+            "MITHRIL_BELT",
+            "MITHRIL_CLOAK",
+            "MITHRIL_GAUNTLET",
+            "MITHRIL_NECKLACE",
+            "MOLTEN_BELT",
+            "MOLTEN_BRACELET",
+            "MOLTEN_CLOAK",
+            "MOLTEN_NECKLACE",
+            "PARTY_BELT",
+            "PARTY_CLOAK",
+            "PARTY_GLOVES",
+            "PARTY_NECKLACE",
+            "DISINFESTOR_GLOVES",
+            "ENIGMA_CLOAK",
+            "LEECH_BELT",
+            "RIFT_NECKLACE_INSIDE",
+            "RIFT_NECKLACE_OUTSIDE",
+            "SILKRIDER_SAFETY_BELT",
+            "VERMIN_BELT",
+            "SHENS_RINGALIA",
+            "GOLDEN_BELT",
+            "SNOW_BELT",
+            "SNOW_CLOAK",
+            "SNOW_GLOVES",
+            "SNOW_NECKLACE",
+            "SYNTHESIZER_V1",
+            "SYNTHESIZER_V2",
+            "SYNTHESIZER_V3",
+            "TITANIUM_BELT",
+            "TITANIUM_CLOAK",
+            "TITANIUM_GAUNTLET",
+            "TITANIUM_NECKLACE",
+            "ANCIENT_CLOAK",
+            "DIVAN_PENDANT",
+            "DWARVEN_HANDWARMERS",
+            "FLAMING_FIST",
+            "GAUNTLET_OF_CONTAGION",
+            "IMPLOSION_BELT",
+            "LAVA_SHELL_NECKLACE",
+            "LUMINOUS_BRACELET",
+            "MAGMA_LORD_GAUNTLET",
+            "PELT_BELT",
+            "PEST_VEST",
+            "THUNDERBOLT_NECKLACE",
+            "ZORROS_CAPE",
+            "KNUCKLE_SANDWICH",
+            "PESTHUNTERS_GLOVES",
+            "PESTHUNTERS_CLOAK",
+            "PESTHUNTERS_NECKLACE",
+            "PESTHUNTERS_BELT",
+            "TERA_SHELL_NECKLACE",
+            "FROZEN_AMULET",
+            "AATROX_BADPHONE",
+            "AATROX_BATPHONE",
+            "ABINGOPHONE",
+            "ABIPHONE_FLIP_DRAGON",
+            "ABIPHONE_FLIP_NUCLEUS",
+            "ABIPHONE_FLIP_VOLCANO",
+            "ABIPHONE_X_PLUS_SPECIAL_EDITION",
+            "ABIPHONE_X_PLUS",
+            "ABIPHONE_XI_ULTRA_STYLE",
+            "ABIPHONE_XI_ULTRA",
+            "ABIPHONE_XII_MEGA_COLOR",
+            "ABIPHONE_XII_MEGA",
+            "ABIPHONE_XIII_PRO_GIGA",
+            "ABIPHONE_XIII_PRO",
+            "ABIPHONE_XIV_ENORMOUS_BLACK",
+            "ABIPHONE_XIV_ENORMOUS_PURPLE",
+            "ABIPHONE_XIV_ENORMOUS",
+            "ARROW_SWAPPER",
+            "ARROW_BUNDLE_MAGMA",
+            "ATOMINIZER",
+            "BLAZETEKK_HAM_RADIO",
+            "CHARMINIZER",
+            "JINGLE_BELLS",
+            "SNOW_CANNON",
+            "SNOW_BLASTER",
+            "SNOW_HOWITZER",
+            "AMBER_POLISHED_DRILL_ENGINE",
+            "DRILL_ENGINE",
+            "FUEL_TANK",
+            "GEMSTONE_FUEL_TANK",
+            "GOBLIN_OMELETTE",
+            "GOBLIN_OMELETTE_BLUE_CHEESE",
+            "GOBLIN_OMELETTE_PESTO",
+            "GOBLIN_OMELETTE_SPICY",
+            "GOBLIN_OMELETTE_SUNNY_SIDE",
+            "MITHRIL_DRILL_ENGINE",
+            "MITHRIL_FUEL_TANK",
+            "PERFECTLY_CUT_FUEL_TANK",
+            "RUBY_POLISHED_DRILL_ENGINE",
+            "SAPPHIRE_POLISHED_DRILL_ENGINE",
+            "STARFALL_SEASONING",
+            "TITANIUM_DRILL_ENGINE",
+            "TITANIUM_FUEL_TANK",
+            "TUNGSTEN_KEYCHAIN",
+            "SPRAYONATOR",
+            "SQUEAKY_MOUSEMAT",
+            "EMPTY_CHUM_BUCKET",
+            "EMPTY_CHUMCAP_BUCKET",
+            "FULL_CHUM_BUCKET",
+            "HOTSPOT_RADAR",
+            "THUNDER_IN_A_BOTTLE",
+            "THUNDER_IN_A_BOTTLE_EMPTY",
+            "STORM_IN_A_BOTTLE",
+            "STORM_IN_A_BOTTLE_EMPTY",
+            "HURRICANE_IN_A_BOTTLE",
+            "HURRICANE_IN_A_BOTTLE_EMPTY",
+            "UMBERELLA",
+            "COMMON_HOOK",
+            "HOTSPOT_HOOK",
+            "OASIS_HOOK",
+            "PHANTOM_HOOK",
+            "TREASURE_HOOK",
+            "SHREDDED_LINE",
+            "SPEEDY_LINE",
+            "TITAN_LINE",
+            "CHUM_SINKER",
+            "FESTIVE_SINKER",
+            "HOTSPOT_SINKER",
+            "ICY_SINKER",
+            "JUNK_SINKER",
+            "PRISMARINE_SINKER",
+            "SPONGE_SINKER",
+            "STINGY_SINKER",
+            "BOB_OMB",
+            "ROYAL_COMPASS",
+            "GEMSTONE_GAUNTLET",
+            "PET",
+            "JUMBO_BACKPACK_UPGRADE",
+            "TRICK_OR_TREAT_BAG",
+            "AWAKENED_EYE_BACKPACK",
+            "BABYSEAL_BACKPACK",
+            "BACKPACK_CAT_O_LANTERN",
+            "BAG_OF_COAL_BACKPACK",
+            "BLUE_EGG",
+            "CHRISTMAS_STOCKING_BACKPACK",
+            "DRAGON_EGG_BACKPACK",
+            "ENDERPACK",
+            "FAIRY_BACKPACK",
+            "GIFT_BLACK_BACKPACK",
+            "GIFT_BLUE_BACKPACK",
+            "GIFT_GOLD_BACKPACK",
+            "GIFT_GREEN_BACKPACK",
+            "GIFT_PURPLE_BACKPACK",
+            "GIFT_WHITE_BACKPACK",
+            "GREEN_EGG",
+            "HAMBAGGER_BACKPACK",
+            "HOT_COCOA_BACKPACK",
+            "NORTH_STAR_BACKPACK",
+            "PENGUIN_BACKPACK",
+            "PURPLE_EGG",
+            "REINDEER_BACKPACK",
+            "SMALL_BACKPACK",
+            "MEDIUM_BACKPACK",
+            "LARGE_BACKPACK",
+            "GREATER_BACKPACK",
+            "JUMBO_BACKPACK",
+            "ENCHANTED_MYCELIUM_CUBE",
+            "ENCHANTED_RED_SAND_CUBE",
+            "ENCHANTED_SULPHUR_CUBE",
+            "HEAVY_PEARL",
+            "KUUDRA_TIER_KEY",
+            "KUUDRA_HOT_TIER_KEY",
+            "KUUDRA_BURNING_TIER_KEY",
+            "KUUDRA_FIERY_TIER_KEY",
+            "KUUDRA_INFERNAL_TIER_KEY",
+            "SCORCHED_POWER_CRYSTAL",
+            "SUSPICIOUS_STEW",
+            "WHIPPED_MAGMA_CREAM",
+            "BEZOS",
+            "BLAZE_ASHES",
+            "BURNING_EYE",
+            "COMPACT_OOZE",
+            "CORRUPTED_FRAGMENT",
+            "DIGESTED_MUSHROOMS",
+            "EMBER_FRAGMENT",
+            "GAZING_PEARL",
+            "HALLOWED_SKULL",
+            "KUUDRA_TEETH",
+            "MAGMA_CHUNK",
+            "MAGMAG",
+            "MILLENIA_OLD_BLAZE_ASHES",
+            "MUTATED_BLAZE_ASHES",
+            "REKINDLED_EMBER_FRAGMENT",
+            "SPECTRE_DUST",
+            "TENTACLE_MEAT",
+            "WITHER_SOUL",
+            "X",
+            "Y",
+            "Z",
+            "ASPIRING_LEAP",
+            "CRYPT_SKULL_KEY",
+            "DUNGEON_BOSS_KEY",
+            "DUNGEON_GOLDEN_KEY",
+            "DUNGEON_NORMAL_KEY",
+            "FEL_SKULL",
+            "HAUNT_ABILITY",
+            "INFINITE_SPIRIT_LEAP",
+            "KEY_A",
+            "KEY_B",
+            "KEY_C",
+            "KEY_D",
+            "KEY_F",
+            "KEY_S",
+            "KEY_X",
+            "MIMIC_FRAGMENT",
+            "REVIVE_STONE",
+            "REVIVE_STONE_ORB",
+            "REVIVE_PERK_ITEM",
+            "FINAL_REVIVE_PERK_ITEM",
+            "AUTO_REVIVE_PERK_ITEM",
+            "HEALER_DUNGEON_ABILITY_3",
+            "SECRET_DUNGEON_REDSTONE_KEY",
+            "SPIRIT_BONE",
+            "SPIRIT_WING",
+            "SUMMONING_RING",
+            "TRAINING_WEIGHTS",
+            "WIZARD_CRYSTAL",
+            "CATACOMBS_PASS_3",
+            "CATACOMBS_PASS_4",
+            "CATACOMBS_PASS_5",
+            "CATACOMBS_PASS_6",
+            "CATACOMBS_PASS_7",
+            "CATACOMBS_PASS_8",
+            "CATACOMBS_PASS_9",
+            "CATACOMBS_PASS_10",
+            "MASTER_CATACOMBS_PASS_3",
+            "MASTER_CATACOMBS_PASS_4",
+            "MASTER_CATACOMBS_PASS_5",
+            "MASTER_CATACOMBS_PASS_6",
+            "MASTER_CATACOMBS_PASS_7",
+            "MASTER_CATACOMBS_PASS_8",
+            "MASTER_CATACOMBS_PASS_9",
+            "MASTER_CATACOMBS_PASS_10",
+            "DYE_AQUAMARINE",
+            "DYE_ARCHFIEND",
+            "DYE_AURORA",
+            "DYE_BINGO_BLUE",
+            "DYE_BLACK_ICE",
+            "DYE_BONE",
+            "DYE_BRICK_RED",
+            "DYE_BYZANTIUM",
+            "DYE_CARMINE",
+            "DYE_CELADON",
+            "DYE_CELESTE",
+            "DYE_CHOCOLATE",
+            "DYE_COPPER",
+            "DYE_CYCLAMEN",
+            "DYE_DARK_PURPLE",
+            "DYE_DUNG",
+            "DYE_EMERALD",
+            "DYE_FLAME",
+            "DYE_FOSSIL",
+            "DYE_FROSTBITTEN",
+            "DYE_HOLLY",
+            "DYE_ICEBERG",
+            "DYE_JADE",
+            "DYE_LAVA",
+            "DYE_LIVID",
+            "DYE_LUCKY",
+            "DYE_MANGO",
+            "DYE_MATCHA",
+            "DYE_MIDNIGHT",
+            "DYE_MOCHA",
+            "DYE_NADESHIKO",
+            "DYE_NECRON",
+            "DYE_NYANZA",
+            "DYE_OASIS",
+            "DYE_OCEAN",
+            "DYE_PASTEL_SKY",
+            "DYE_PEARLESCENT",
+            "DYE_PELT",
+            "DYE_PERIWINKLE",
+            "DYE_PORTAL",
+            "DYE_PURE_BLACK",
+            "DYE_PURE_BLUE",
+            "DYE_PURE_WHITE",
+            "DYE_PURE_YELLOW",
+            "DYE_ROSE",
+            "DYE_SANGRIA",
+            "DYE_SECRET",
+            "DYE_SNOWFLAKE",
+            "DYE_SUNSET",
+            "DYE_TREASURE",
+            "DYE_WARDEN",
+            "DYE_WILD_STRAWBERRY",
+            "TENTACLE_DYE",
+            "AWAKENED_SUMMONING_EYE",
+            "HOLY_FRAGMENT",
+            "HYPER_CATALYST_UPGRADE",
+            "OLD_FRAGMENT",
+            "PRIMAL_DRAGON_HEART",
+            "PRIMAL_FRAGMENT",
+            "PROTECTOR_FRAGMENT",
+            "REMNANT_OF_THE_EYE",
+            "RITUAL_RESIDUE",
+            "SLEEPING_EYE",
+            "STRONG_FRAGMENT",
+            "SUMMONING_EYE",
+            "SUPERIOR_FRAGMENT",
+            "UNSTABLE_FRAGMENT",
+            "WISE_FRAGMENT",
+            "YOUNG_FRAGMENT",
+            "DIFFICULT_ITEM",
+            "RAGNA_ROCK",
+            "RED_BELT",
+            "SUSPICIOUS_RED_GIFT",
+            "VITAMIN_LIFE",
+            "DARK_CANDY",
+            "DEAD_SEED",
+            "DECAYED_BAT",
+            "EERIE_TOY",
+            "EPHEMERAL_GRATITUDE",
+            "EXPIRED_PUMPKIN",
+            "FAIRY_WINGS",
+            "FREE_SPIDER",
+            "FRENCH_FRIES",
+            "FROZEN_SPIDER",
+            "NIGHTMARE_NULLIFIER",
+            "OBSCURE_ENDING",
+            "POISONED_CANDY",
+            "PRECIOUS",
+            "ROGUE_FLESH",
+            "SCARY_GRIMOIRE",
+            "SLEEPY_HOLLOW",
+            "SPOOKY_TREE",
+            "SWEET_FLESH",
+            "WET_PUMPKIN",
+            "DARK_CACAO_TRUFFLE",
+            "EGGLOCATOR",
+            "REFINED_DARK_CACAO_TRUFFLE",
+            "STEAMED_CHOCOLATE_FISH",
+            "SUPREME_CHOCOLATE_BAR",
+            "BLUE_ICE_HUNK",
+            "CRYOPOWDER_SHARD",
+            "EINARY_RED_HOODIE",
+            "GIFT_OF_LEARNING",
+            "GLACIAL_FRAGMENT",
+            "GOLD_GIFT",
+            "GREEN_GIFT",
+            "ICE_HUNK",
+            "JERRY_BOX_BLUE",
+            "JERRY_BOX_GOLDEN",
+            "JERRY_BOX_GREEN",
+            "JERRY_BOX_MEGA",
+            "JERRY_BOX_PURPLE",
+            "JERRY_CANDY",
+            "PARTY_GIFT",
+            "RED_GIFT",
+            "VOLCANIC_ROCK",
+            "WALNUT",
+            "WHITE_GIFT",
+            "WINTER_FRAGMENT",
+            "BLUE_CANDY",
+            "GOLD_CANDY",
+            "GREEN_CANDY",
+            "HORSEMAN_CANDLE",
+            "PURPLE_CANDY",
+            "SPOOKY_SHARD",
+            "SOUL_FRAGMENT",
+            "BOX_OF_SEEDS",
+            "CHIRPING_STEREO",
+            "COMPOST",
+            "ENCHANTED_COMPOST",
+            "CONDENSED_FERMENTO",
+            "CROPIE",
+            "FERMENTO",
+            "FINE_FLOUR",
+            "HONEY_JAR",
+            "MOUSE_PEST_TRAP",
+            "MUTANT_NETHER_STALK",
+            "PEST_REPELLENT",
+            "PEST_REPELLENT_MAX",
+            "PEST_TRAP",
+            "POLISHED_PUMPKIN",
+            "SQUASH",
+            "TIGHTLY_TIED_HAY_BALE",
+            "WRIGGLING_LARVA",
+            "AGARICUS_CHUM_CAP",
+            "BOBBIN_SCRIPTURES",
+            "CHUM",
+            "DIVER_FRAGMENT",
+            "GLOWING_MUSHROOM",
+            "BRONZE_BOWL",
+            "BRONZE_SHIP_ENGINE",
+            "BRONZE_SHIP_HELM",
+            "BRONZE_SHIP_HULL",
+            "BUSTED_BELT_BUCKLE",
+            "CAN_OF_WORMS",
+            "GOLD_BOTTLE_CAP",
+            "OLD_LEATHER_BOOT",
+            "RUSTY_COIN",
+            "RUSTY_SHIP_ENGINE",
+            "TITANOBOA_SHED",
+            "TORN_CLOTH",
+            "BLESSED_BAIT",
+            "CARROT_BAIT",
+            "CORRUPTED_BAIT",
+            "DARK_BAIT",
+            "FISH_BAIT",
+            "FROZEN_BAIT",
+            "GLOWY_CHUM_BAIT",
+            "GOLDEN_BAIT",
+            "HOT_BAIT",
+            "HOTSPOT_BAIT",
+            "ICE_BAIT",
+            "LIGHT_BAIT",
+            "MINNOW_BAIT",
+            "SHARK_BAIT",
+            "SPIKED_BAIT",
+            "SPOOKY_BAIT",
+            "TREASURE_BAIT",
+            "WHALE_BAIT",
+            "WORM_BAIT",
+            "CUP_OF_BLOOD",
+            "FLAMING_HEART",
+            "HORN_OF_TAURUS",
+            "LAVA_SHELL",
+            "MAGMA_FISH",
+            "MAGMA_FISH_SILVER",
+            "MAGMA_FISH_GOLD",
+            "MAGMA_FISH_DIAMOND",
+            "MAGMA_LORD_FRAGMENT",
+            "MYSTERIOUS_PACKAGE",
+            "ORB_OF_ENERGY",
+            "THUNDER_SHARDS",
+            "CHAIN_END_TIMES",
+            "SCORCHED_CRAB_STICK",
+            "SEVERED_PINCER",
+            "SINGED_POWDER",
+            "BLOBFISH_BRONZE",
+            "BLOBFISH_SILVER",
+            "BLOBFISH_GOLD",
+            "BLOBFISH_DIAMOND",
+            "FLYFISH_BRONZE",
+            "FLYFISH_SILVER",
+            "FLYFISH_GOLD",
+            "FLYFISH_DIAMOND",
+            "GOLDEN_FISH_BRONZE",
+            "GOLDEN_FISH_SILVER",
+            "GOLDEN_FISH_GOLD",
+            "GOLDEN_FISH_DIAMOND",
+            "GUSHER_BRONZE",
+            "GUSHER_SILVER",
+            "GUSHER_GOLD",
+            "GUSHER_DIAMOND",
+            "KARATE_FISH_BRONZE",
+            "KARATE_FISH_SILVER",
+            "KARATE_FISH_GOLD",
+            "KARATE_FISH_DIAMOND",
+            "LAVA_HORSE_BRONZE",
+            "LAVA_HORSE_SILVER",
+            "LAVA_HORSE_GOLD",
+            "LAVA_HORSE_DIAMOND",
+            "MANA_RAY_BRONZE",
+            "MANA_RAY_SILVER",
+            "MANA_RAY_GOLD",
+            "MANA_RAY_DIAMOND",
+            "MOLDFIN_BRONZE",
+            "MOLDFIN_SILVER",
+            "MOLDFIN_GOLD",
+            "MOLDFIN_DIAMOND",
+            "OBFUSCATED_FISH_1_BRONZE",
+            "OBFUSCATED_FISH_1_SILVER",
+            "OBFUSCATED_FISH_1_GOLD",
+            "OBFUSCATED_FISH_1_DIAMOND",
+            "OBFUSCATED_FISH_2_BRONZE",
+            "OBFUSCATED_FISH_2_SILVER",
+            "OBFUSCATED_FISH_2_GOLD",
+            "OBFUSCATED_FISH_2_DIAMOND",
+            "OBFUSCATED_FISH_3_BRONZE",
+            "OBFUSCATED_FISH_3_SILVER",
+            "OBFUSCATED_FISH_3_GOLD",
+            "OBFUSCATED_FISH_3_DIAMOND",
+            "SKELETON_FISH_BRONZE",
+            "SKELETON_FISH_SILVER",
+            "SKELETON_FISH_GOLD",
+            "SKELETON_FISH_DIAMOND",
+            "SLUGFISH_BRONZE",
+            "SLUGFISH_SILVER",
+            "SLUGFISH_GOLD",
+            "SLUGFISH_DIAMOND",
+            "SOUL_FISH_BRONZE",
+            "SOUL_FISH_SILVER",
+            "SOUL_FISH_GOLD",
+            "SOUL_FISH_DIAMOND",
+            "STEAMING_HOT_FLOUNDER_BRONZE",
+            "STEAMING_HOT_FLOUNDER_SILVER",
+            "STEAMING_HOT_FLOUNDER_GOLD",
+            "STEAMING_HOT_FLOUNDER_DIAMOND",
+            "SULPHUR_SKITTER_BRONZE",
+            "SULPHUR_SKITTER_SILVER",
+            "SULPHUR_SKITTER_GOLD",
+            "SULPHUR_SKITTER_DIAMOND",
+            "VANILLE_BRONZE",
+            "VANILLE_SILVER",
+            "VANILLE_GOLD",
+            "VANILLE_DIAMOND",
+            "VOLCANIC_STONEFISH_BRONZE",
+            "VOLCANIC_STONEFISH_SILVER",
+            "VOLCANIC_STONEFISH_GOLD",
+            "VOLCANIC_STONEFISH_DIAMOND",
+            "ETERNAL_FLAME_RING",
+            "BLUE_RING",
+            "BROKEN_RADAR",
+            "HALF_EATEN_MUSHROOM",
+            "OCTOPUS_TENDRIL",
+            "TROUBLED_BUBBLE",
+            "BOUNCY_BEACH_BALL",
+            "FISHY_TREAT",
+            "GIANT_BOUNCY_BEACH_BALL",
+            "LOUDMOUTH_BASS",
+            "SEAL_TREAT_BAG",
+            "BAYOU_WATER_ORB",
+            "HOTSPOT_WATER_ORB",
+            "LAVA_WATER_ORB",
+            "SHARK_WATER_ORB",
+            "SPOOKY_WATER_ORB",
+            "WATER_ORB",
+            "WINTER_WATER_ORB",
+            "DIVAN_POWDER_COATING",
+            "DWARVEN_OS_BLOCK_BRAN",
+            "DWARVEN_OS_GEMSTONE_GRAHAMS",
+            "DWARVEN_OS_METALLIC_MINIS",
+            "DWARVEN_OS_ORE_OATS",
+            "DWARVEN_TANKARD",
+            "GLACITE_JEWEL",
+            "GOLDEN_PLATE",
+            "MITHRIL_PLATE",
+            "PLASMA",
+            "REFINED_DIAMOND",
+            "REFINED_MITHRIL",
+            "REFINED_TITANIUM",
+            "ROYAL_PIGEON",
+            "SPECKLED_TEACUP",
+            "TITANIUM_ALLOY",
+            "TITANIUM_ORE",
+            "ENCHANTED_TITANIUM",
+            "TREASURITE",
+            "VOLTA",
+            "ASCENSION_ROPE",
+            "CONCENTRATED_STONE",
+            "CONTROL_SWITCH",
+            "CORLEONITE",
+            "DIVAN_ALLOY",
+            "DIVAN_FRAGMENT",
+            "ELECTRON_TRANSMITTER",
+            "FTX_3070",
+            "GEMSTONE_CHAMBER",
+            "HELIX",
+            "JUNGLE_HEART",
+            "LANTERN",
+            "OIL_BARREL",
+            "PERFECTLY_CUT_DIAMOND",
+            "PRECURSOR_APPARATUS",
+            "PREHISTORIC_EGG",
+            "RECALL_POTION",
+            "ROBOTRON_REFLECTOR",
+            "SLUDGE_JUICE",
+            "SUPERLITE_MOTOR",
+            "SYNTHETIC_HEART",
+            "WISHING_COMPASS",
+            "YOGGIE",
+            "CLAW_FOSSIL",
+            "CLUBBED_FOSSIL",
+            "FOOTPRINT_FOSSIL",
+            "GLACITE_AMALGAMATION",
+            "PERFECT_PLATE",
+            "REFINED_TUNGSTEN",
+            "REFINED_UMBER",
+            "SHATTERED_PENDANT",
+            "SPINE_FOSSIL",
+            "SUSPICIOUS_SCRAP",
+            "TUNGSTEN_PLATE",
+            "TUNGSTEN",
+            "ENCHANTED_TUNGSTEN",
+            "TUSK_FOSSIL",
+            "UGLY_FOSSIL",
+            "UMBER_PLATE",
+            "UMBER",
+            "ENCHANTED_UMBER",
+            "WEBBED_FOSSIL",
+            "ROUGH_AMBER_GEM",
+            "ROUGH_AMETHYST_GEM",
+            "ROUGH_AQUAMARINE_GEM",
+            "ROUGH_CITRINE_GEM",
+            "ROUGH_JADE_GEM",
+            "ROUGH_JASPER_GEM",
+            "ROUGH_ONYX_GEM",
+            "ROUGH_OPAL_GEM",
+            "ROUGH_PERIDOT_GEM",
+            "ROUGH_RUBY_GEM",
+            "ROUGH_SAPPHIRE_GEM",
+            "ROUGH_TOPAZ_GEM",
+            "FLAWED_AMBER_GEM",
+            "FLAWED_AMETHYST_GEM",
+            "FLAWED_AQUAMARINE_GEM",
+            "FLAWED_CITRINE_GEM",
+            "FLAWED_JADE_GEM",
+            "FLAWED_JASPER_GEM",
+            "FLAWED_ONYX_GEM",
+            "FLAWED_OPAL_GEM",
+            "FLAWED_PERIDOT_GEM",
+            "FLAWED_RUBY_GEM",
+            "FLAWED_SAPPHIRE_GEM",
+            "FLAWED_TOPAZ_GEM",
+            "FINE_AMBER_GEM",
+            "FINE_AMETHYST_GEM",
+            "FINE_AQUAMARINE_GEM",
+            "FINE_CITRINE_GEM",
+            "FINE_JADE_GEM",
+            "FINE_JASPER_GEM",
+            "FINE_ONYX_GEM",
+            "FINE_OPAL_GEM",
+            "FINE_PERIDOT_GEM",
+            "FINE_RUBY_GEM",
+            "FINE_SAPPHIRE_GEM",
+            "FINE_TOPAZ_GEM",
+            "FLAWLESS_AMBER_GEM",
+            "FLAWLESS_AMETHYST_GEM",
+            "FLAWLESS_AQUAMARINE_GEM",
+            "FLAWLESS_CITRINE_GEM",
+            "FLAWLESS_JADE_GEM",
+            "FLAWLESS_JASPER_GEM",
+            "FLAWLESS_ONYX_GEM",
+            "FLAWLESS_OPAL_GEM",
+            "FLAWLESS_PERIDOT_GEM",
+            "FLAWLESS_RUBY_GEM",
+            "FLAWLESS_SAPPHIRE_GEM",
+            "FLAWLESS_TOPAZ_GEM",
+            "PERFECT_AMBER_GEM",
+            "PERFECT_AMETHYST_GEM",
+            "PERFECT_AQUAMARINE_GEM",
+            "PERFECT_CITRINE_GEM",
+            "PERFECT_JADE_GEM",
+            "PERFECT_JASPER_GEM",
+            "PERFECT_ONYX_GEM",
+            "PERFECT_OPAL_GEM",
+            "PERFECT_PERIDOT_GEM",
+            "PERFECT_RUBY_GEM",
+            "PERFECT_SAPPHIRE_GEM",
+            "PERFECT_TOPAZ_GEM",
+            "AMBER_CRYSTAL",
+            "AMETHYST_CRYSTAL",
+            "AQUAMARINE_CRYSTAL",
+            "CITRINE_CRYSTAL",
+            "JADE_CRYSTAL",
+            "JASPER_CRYSTAL",
+            "ONYX_CRYSTAL",
+            "OPAL_CRYSTAL",
+            "PERIDOT_CRYSTAL",
+            "RUBY_CRYSTAL",
+            "SAPPHIRE_CRYSTAL",
+            "TOPAZ_CRYSTAL",
+            "GEMSTONE_MIXTURE",
+            "GEMSTONE_COLLECTION",
+            "BAG_OF_CASH",
+            "BAG_OF_GOLD",
+            "BOOSTER_COOKIE_BOX",
+            "COLOSSAL_EXP_BOTTLE_UPGRADE",
+            "COPPER",
+            "CONNECT_FOUR",
+            "FRUIT_BOWL",
+            "GIANT_FLESH",
+            "HEAT_CORE",
+            "MAGMA_BUCKET_UPGRADE",
+            "HOLOGRAM",
+            "KUUDRA_RELIC",
+            "MAGIC_MUSHROOM_SOUP",
+            "METAPHYSICAL_SERUM",
+            "MINION_STORAGE_EXPANDER",
+            "GREATER_ENCHANTED_CHEST_UPGRADE",
+            "PERSONAL_BANK_ITEM",
+            "POISON_SAMPLE",
+            "PORTALIZER",
+            "ROTTEN_APPLE",
+            "SHINY_ORB",
+            "SHINY_SHARD",
+            "SOLVED_PRISM",
+            "SPRAY_CAN",
+            "SUPER_MAGIC_MUSHROOM_SOUP",
+            "SWAPPABLE_PREVIEW",
+            "SMALL_TALISMAN_BAG",
+            "MEDIUM_TALISMAN_BAG",
+            "LARGE_TALISMAN_BAG",
+            "TIC_TAC_TOE",
+            "TOY",
+            "UNKNOWN_ITEM",
+            "WHEEL_OF_FATE",
+            "TOKEN_OF_THE_CENTURY",
+            "GIFTBAG_OF_THE_CENTURY",
+            "PAINT_CARTRIDGE",
+            "SMALL_POTION_BAG",
+            "MEDIUM_POTION_BAG",
+            "LARGE_POTION_BAG",
+            "TALISMAN_ENRICHMENT_ATTACK_SPEED",
+            "TALISMAN_ENRICHMENT_CRITICAL_CHANCE",
+            "TALISMAN_ENRICHMENT_CRITICAL_DAMAGE",
+            "TALISMAN_ENRICHMENT_DEFENSE",
+            "TALISMAN_ENRICHMENT_FEROCITY",
+            "TALISMAN_ENRICHMENT_HEALTH",
+            "TALISMAN_ENRICHMENT_INTELLIGENCE",
+            "TALISMAN_ENRICHMENT_MAGIC_FIND",
+            "TALISMAN_ENRICHMENT_SEA_CREATURE_CHANCE",
+            "TALISMAN_ENRICHMENT_STRENGTH",
+            "TALISMAN_ENRICHMENT_SWAPPER",
+            "TALISMAN_ENRICHMENT_WALK_SPEED",
+            "DESERT_ISLAND_CRYSTAL",
+            "FARM_CRYSTAL",
+            "FISHING_CRYSTAL",
+            "FOREST_ISLAND_CRYSTAL",
+            "MITHRIL_CRYSTAL",
+            "NETHER_WART_ISLAND_CRYSTAL",
+            "RESOURCE_REGENERATOR_CRYSTAL",
+            "WHEAT_ISLAND_CRYSTAL",
+            "WINTER_ISLAND_CRYSTAL",
+            "WOODCUTTING_CRYSTAL",
+            "LAMP_BLACK",
+            "LAMP_BLUE",
+            "LAMP_BROWN",
+            "LAMP_CYAN",
+            "LAMP_GRAY",
+            "LAMP_GREEN",
+            "LAMP_LIGHT_BLUE",
+            "LAMP_LIGHT_GRAY",
+            "LAMP_LILAC",
+            "LAMP_LIME",
+            "LAMP_MAGENTA",
+            "LAMP_ORANGE",
+            "LAMP_PINK",
+            "LAMP_PURPLE",
+            "LAMP_RAINBOW",
+            "LAMP_RED",
+            "LAMP_WHITE",
+            "LAMP_YELLOW",
+            "CHEESE_FUEL",
+            "EVERBURNING_FLAME",
+            "MITHRIL_INFUSION",
+            "POTATO_SPREADING",
+            "CORRUPT_SOIL",
+            "GENERATOR_UPGRADE_STONE_CLAY_12",
+            "GENERATOR_UPGRADE_STONE_FISHING_12",
+            "REPELLING_CANDLE",
+            "FLOWER_MAELSTROM",
+            "POORLY_WRAPPED_ROCK",
+            "WRAPPED_GIFT_FOR_JULIETTE",
+            "AVARICIOUS_CHALICE",
+            "BLOOD_SOAKED_COINS",
+            "BLOOD_STAINED_COINS",
+            "FRESHLY_MINTED_COINS",
+            "GOLDEN_BOUNTY",
+            "GOLDEN_FRAGMENT",
+            "FIRST_MASTER_STAR",
+            "SECOND_MASTER_STAR",
+            "THIRD_MASTER_STAR",
+            "FOURTH_MASTER_STAR",
+            "FIFTH_MASTER_STAR",
+            "KUUDRA_WASHING_MACHINE",
+            "RECOMBOBULATOR_3000",
+            "TRANSMISSION_TUNER",
+            "WOOD_SINGULARITY",
+            "PESTHUNTING_GUIDE",
+            "BASE_GRIFFIN_UPGRADE_STONE",
+            "BEJEWELED_COLLAR",
+            "BROWN_BANDANA",
+            "BURNT_TEXTS",
+            "CROCHET_TIGER_PLUSHIE",
+            "DWARF_TURTLE_SHELMET",
+            "EDIBLE_SEAWEED",
+            "EERIE_TREAT",
+            "FAKE_NEUROSCIENCE_DEGREE",
+            "FOUR_EYED_FISH",
+            "GREEN_BANDANA",
+            "GRIFFIN_UPGRADE_STONE_UNCOMMON",
+            "GRIFFIN_UPGRADE_STONE_RARE",
+            "GRIFFIN_UPGRADE_STONE_EPIC",
+            "GRIFFIN_UPGRADE_STONE_LEGENDARY",
+            "GUARDIAN_LUCKY_BLOCK",
+            "UNCOMMON_KUUDRA_CHUNK",
+            "RARE_KUUDRA_CHUNK",
+            "EPIC_KUUDRA_CHUNK",
+            "LEGENDARY_KUUDRA_CHUNK",
+            "MAGIC_TOP_HAT",
+            "MINOS_RELIC",
+            "PET_ITEM_BUBBLEGUM",
+            "PET_ITEM_CHOCOLATE_SYRINGE",
+            "PET_ITEM_PURE_MITHRIL_GEM",
+            "PET_ITEM_QUICK_CLAW",
+            "PET_ITEM_SPOOKY_CUPCAKE",
+            "PET_ITEM_TITANIUM_MINECART",
+            "PET_ITEM_TOY_JERRY",
+            "RADIOACTIVE_VIAL",
+            "RAT_JETPACK",
+            "REAPER_GEM",
+            "SCUTTLER_SHELL",
+            "ULTIMATE_CARROT_CANDY_UPGRADE",
+            "UNCOMMON_PARTY_HAT",
+            "UPGRADE_STONE_FROST",
+            "UPGRADE_STONE_GLACIAL",
+            "UPGRADE_STONE_SUBZERO",
+            "WASHED_UP_SOUVENIR",
+            "YELLOW_BANDANA",
+            "GREAT_SPOOK_POTION",
+            "GOD_POTION_2",
+            "TANK_DUNGEON_ABILITY_1",
+            "TANK_DUNGEON_ABILITY_2",
+            "BITTER_ICE_TEA",
+            "BLACK_COFFEE",
+            "CHEAP_COFFEE",
+            "DECENT_COFFEE",
+            "DR_PAPER",
+            "HOT_CHOCOLATE",
+            "KNOCKOFF_COLA",
+            "PULPOUS_ORANGE_JUICE",
+            "RED_THORNLEAF_TEA",
+            "SCARLETON_PREMIUM",
+            "SCORNCLAW_BREW",
+            "SLAYER_ENERGY_DRINK",
+            "TEPID_GREEN_TEA",
+            "TUTTI_FRUTTI_POISON",
+            "VIKING_TEAR",
+            "DEEPTERROR_MIXIN",
+            "END_PORTAL_FUMES_MIXIN",
+            "GABAGOEY_MIXIN",
+            "HOT_CHOCOLATE_MIXIN",
+            "MUSHED_MUSHROOM_MIXIN",
+            "SPIDER_EGG_MIXIN",
+            "WOLF_FUR_MIXIN",
+            "ZOMBIE_BRAIN_MIXIN",
+            "AMBER_MATERIAL",
+            "AOTE_STONE",
+            "BEADY_EYES",
+            "BLAZE_WAX",
+            "BLAZEN_SPHERE",
+            "BLESSED_FRUIT",
+            "BOO_STONE",
+            "BULKY_STONE",
+            "BURROWING_SPORES",
+            "CALCIFIED_HEART",
+            "CANDY_CORN",
+            "CLIPPED_WINGS",
+            "DEEP_SEA_ORB",
+            "DIAMOND_ATOM",
+            "DIAMONITE",
+            "DIRT_BOTTLE",
+            "DRAGON_CLAW",
+            "DRAGON_HORN",
+            "DRAGON_SCALE",
+            "DWARVEN_TREASURE",
+            "ENDSTONE_GEODE",
+            "ENTROPY_SUPPRESSOR",
+            "FLOWERING_BOUQUET",
+            "FRIGID_HUSK",
+            "FROZEN_BAUBLE",
+            "FULL_JAW_FANGING_KIT",
+            "GIANT_TOOTH",
+            "GLEAMING_CRYSTAL",
+            "GOLDEN_BALL",
+            "HARDENED_WOOD",
+            "HOT_STUFF",
+            "JADERALD",
+            "JERRY_STONE",
+            "KUUDRA_MANDIBLE",
+            "LAPIS_CRYSTAL",
+            "LARGE_WALNUT",
+            "LUCKY_DICE",
+            "METEOR_SHARD",
+            "MIDAS_JEWEL",
+            "MOIL_LOG",
+            "MOLTEN_CUBE",
+            "NECROMANCER_BROOCH",
+            "ONYX",
+            "OPTICAL_LENS",
+            "OVERFLOWING_TRASH_CAN",
+            "OVERGROWN_GRASS",
+            "PETRIFIED_STARFALL",
+            "PITCHIN_KOI",
+            "POCKET_ICEBERG",
+            "PRECURSOR_GEAR",
+            "PREMIUM_FLESH",
+            "PRESUMED_GALLON_OF_RED_PAINT",
+            "PURE_MITHRIL",
+            "RARE_DIAMOND",
+            "RED_NOSE",
+            "RED_SCARF",
+            "REFINED_AMBER",
+            "REFORGE_ANVIL",
+            "ROCK_GEMSTONE",
+            "RUSTY_ANCHOR",
+            "SADAN_BROOCH",
+            "SALMON_OPAL",
+            "SALT_CUBE",
+            "SEARING_STONE",
+            "SHINY_PRISM",
+            "SKYMART_BROCHURE",
+            "SPIRIT_DECOY",
+            "SQUEAKY_TOY",
+            "SUSPICIOUS_VIAL",
+            "TERRY_SNOWGLOBE",
+            "TITANIUM_TESSERACT",
+            "TOIL_LOG",
+            "WITHER_BLOOD",
+            "ACACIA_BIRDHOUSE",
+            "BEATING_HEART",
+            "BUBBA_BLISTER",
+            "DARK_ORB",
+            "DISPLACED_LEECH",
+            "ECCENTRIC_PAINTING_BUNDLE",
+            "ECCENTRIC_PAINTING",
+            "END_STONE_SHULKER",
+            "ENDER_MONOCLE",
+            "FURBALL",
+            "GLACITE_SHARD",
+            "HAZMAT_ENDERMAN",
+            "HORNS_OF_TORMENT",
+            "LUXURIOUS_SPOOL",
+            "MAGMA_URCHIN",
+            "MANDRAA",
+            "OBSIDIAN_TABLET",
+            "PRECIOUS_PEARL",
+            "ROCK_CANDY",
+            "SCORCHED_BOOKS",
+            "VITAMIN_DEATH",
+            "AGARICUS_CAP",
+            "AGARICUS_CAP_BUNCH",
+            "ANTI_MORPH_POTION",
+            "BACTE_FRAGMENT",
+            "CADUCOUS_EXTRACT",
+            "CADUCOUS_STEM_BUNCH",
+            "CRUXMOTION",
+            "DETECTIVE_SCANNER",
+            "DETECTIVE_WALLET",
+            "DISCRITE",
+            "EXPORTABLE_CARROTS",
+            "FROSTY_CRUX",
+            "HEMOBOMB",
+            "HEMOGLASS",
+            "HIGHLITE",
+            "HOT_DOG",
+            "LEECH_SUPREME_FRAGMENT",
+            "METAL_HEART",
+            "MUTED_BARK",
+            "OBSOLITE",
+            "PLACEABLE_FAIRY_SOUL_RIFT",
+            "PROTOCHICKEN",
+            "PUFF_CRUX",
+            "RIFT_JUMP_ELIXIR",
+            "RIFT_SPEED_ELIXIR",
+            "RIFT_STABILITY_ELIXIR",
+            "RIFT_STRENGTH_ELIXIR",
+            "S_LOGO_FRAGMENT",
+            "SCRIBE_CRUX",
+            "SHADOW_CRUX",
+            "SHAME_CRUX",
+            "SPLATTER_CRUX",
+            "SPOTLITE",
+            "TIGHT_PANTS_FRAGMENT",
+            "TIMITE",
+            "UBIKS_CUBE",
+            "UGLY_BOOTS_FRAGMENT",
+            "VOLT_CRUX",
+            "YOUNGITE",
+            "RUNE",
+            "UNIQUE_RUNE",
+            "SMALL_AGRONOMY_SACK",
+            "MEDIUM_AGRONOMY_SACK",
+            "LARGE_AGRONOMY_SACK",
+            "LARGE_ENCHANTED_AGRONOMY_SACK",
+            "LARGE_CANDY_SACK",
+            "SMALL_COMBAT_SACK",
+            "MEDIUM_COMBAT_SACK",
+            "LARGE_COMBAT_SACK",
+            "LARGE_ENCHANTED_COMBAT_SACK",
+            "CRYSTAL_HOLLOWS_SACK",
+            "SMALL_DRAGON_SACK",
+            "MEDIUM_DRAGON_SACK",
+            "LARGE_DRAGON_SACK",
+            "LARGE_DUNGEON_SACK",
+            "DWARVEN_MINES_SACK",
+            "LARGE_EVENTS_SACK",
+            "SMALL_FISHING_SACK",
+            "MEDIUM_FISHING_SACK",
+            "LARGE_FISHING_SACK",
+            "LARGE_ENCHANTED_FISHING_SACK",
+            "FLOWER_SACK",
+            "SMALL_FORAGING_SACK",
+            "MEDIUM_FORAGING_SACK",
+            "LARGE_FORAGING_SACK",
+            "LARGE_ENCHANTED_FORAGING_SACK",
+            "GARDEN_SACK",
+            "SMALL_GEMSTONE_SACK",
+            "MEDIUM_GEMSTONE_SACK",
+            "LARGE_GEMSTONE_SACK",
+            "EXTRA_LARGE_GEMSTONE_SACK",
+            "SMALL_HUSBANDRY_SACK",
+            "MEDIUM_HUSBANDRY_SACK",
+            "LARGE_HUSBANDRY_SACK",
+            "LARGE_ENCHANTED_HUSBANDRY_SACK",
+            "SMALL_LAVA_FISHING_SACK",
+            "MEDIUM_LAVA_FISHING_SACK",
+            "LARGE_LAVA_FISHING_SACK",
+            "SMALL_MINING_SACK",
+            "MEDIUM_MINING_SACK",
+            "LARGE_MINING_SACK",
+            "LARGE_ENCHANTED_MINING_SACK",
+            "SMALL_NETHER_SACK",
+            "MEDIUM_NETHER_SACK",
+            "LARGE_NETHER_SACK",
+            "RUNE_SACK",
+            "SMALL_RUNES_SACK",
+            "MEDIUM_RUNES_SACK",
+            "LARGE_RUNES_SACK",
+            "SMALL_SLAYER_SACK",
+            "MEDIUM_SLAYER_SACK",
+            "LARGE_SLAYER_SACK",
+            "BRONZE_TROPHY_FISHING_SACK",
+            "SILVER_TROPHY_FISHING_SACK",
+            "LARGE_WINTER_SACK",
+            "POCKET_SACK_IN_A_SACK",
+            "REVENANT_CATALYST",
+            "SHARD_OF_THE_SHREDDED",
+            "UNDEAD_CATALYST",
+            "WARDEN_HEART",
+            "ARACHNE_CRYSTAL",
+            "ARACHNE_FANG",
+            "SPIDER_CATALYST",
+            "ABSOLUTE_ENDER_PEARL",
+            "ETHERWARP_CONDUIT",
+            "ETHERWARP_MERGER",
+            "JUDGEMENT_CORE",
+            "RAW_SOULFLOW",
+            "SINFUL_DICE",
+            "SOULFLOW",
+            "TESSELLATED_ENDER_PEARL",
+            "MCGRUBBER_BURGER",
+            "UNFANGED_VAMPIRE_PART",
+            "ARCHFIEND_DICE",
+            "BLAZE_ROD_DISTILLATE",
+            "CAPSAICIN_EYEDROPS_NO_CHARGES",
+            "CHILI_PEPPER",
+            "CRUDE_GABAGOOL",
+            "CRUDE_GABAGOOL_DISTILLATE",
+            "FUEL_GABAGOOL",
+            "GLOWSTONE_DUST_DISTILLATE",
+            "HEAVY_GABAGOOL",
+            "HIGH_CLASS_ARCHFIEND_DICE",
+            "HYPERGOLIC_GABAGOOL",
+            "HYPERGOLIC_IONIZED_CERAMICS",
+            "INFERNO_APEX",
+            "INFERNO_VERTEX",
+            "KELVIN_INVERTER",
+            "MAGMA_CREAM_DISTILLATE",
+            "NETHER_STALK_DISTILLATE",
+            "REAPER_PEPPER",
+            "REHEATED_GUMMY_POLAR_BEAR",
+            "STUFFED_CHILI_PEPPER",
+            "SUBZERO_INVERTER",
+            "SULPHURIC_COAL",
+            "TELEPORTER_PILL",
+            "VERY_CRUDE_GABAGOOL",
+            "INFERNO_FUEL_BLOCK",
+            "INFERNO_FUEL_BLAZE_ROD",
+            "INFERNO_FUEL_CRUDE_GABAGOOL",
+            "INFERNO_FUEL_GLOWSTONE_DUST",
+            "INFERNO_FUEL_MAGMA_CREAM",
+            "INFERNO_FUEL_NETHER_STALK",
+            "INFERNO_HEAVY_BLAZE_ROD",
+            "INFERNO_HEAVY_CRUDE_GABAGOOL",
+            "INFERNO_HEAVY_GLOWSTONE_DUST",
+            "INFERNO_HEAVY_MAGMA_CREAM",
+            "INFERNO_HEAVY_NETHER_STALK",
+            "INFERNO_HYPERGOLIC_BLAZE_ROD",
+            "INFERNO_HYPERGOLIC_CRUDE_GABAGOOL",
+            "INFERNO_HYPERGOLIC_GLOWSTONE_DUST",
+            "INFERNO_HYPERGOLIC_MAGMA_CREAM",
+            "INFERNO_HYPERGOLIC_NETHER_STALK",
+            "ARCHERY_CUBE",
+            "GAME_ANNIHILATOR",
+            "JAR_OF_SAND",
+            "MINI_FISH_BOWL",
+            "SHINY_RELIC",
+            "SLICE_OF_BLUEBERRY_CAKE",
+            "SLICE_OF_CHEESECAKE",
+            "SLICE_OF_GREEN_VELVET_CAKE",
+            "SLICE_OF_RED_VELVET_CAKE",
+            "SLICE_OF_STRAWBERRY_SHORTCAKE",
+            "EPOCH_CAKE_AQUA",
+            "EPOCH_CAKE_BLACK",
+            "EPOCH_CAKE_BLUE",
+            "EPOCH_CAKE_BROWN",
+            "EPOCH_CAKE_CYAN",
+            "EPOCH_CAKE_DARK_GREEN",
+            "EPOCH_CAKE_GRAY",
+            "EPOCH_CAKE_GREEN",
+            "EPOCH_CAKE_MAGENTA",
+            "EPOCH_CAKE_ORANGE",
+            "EPOCH_CAKE_PINK",
+            "EPOCH_CAKE_PURPLE",
+            "EPOCH_CAKE_RED",
+            "EPOCH_CAKE_SILVER",
+            "EPOCH_CAKE_WHITE",
+            "EPOCH_CAKE_YELLOW",
+            "FULL_CENTURY_CAKE_PACK",
+            "RANDOM_CENTURY_CAKE_PACK",
+            "KUUDRA_CAVITY",
+            "BURNING_COINS",
+            "CENTURY_MEMENTO_BLUE",
+            "CENTURY_MEMENTO_GREEN",
+            "CENTURY_MEMENTO_PINK",
+            "CENTURY_MEMENTO_RED",
+            "CENTURY_MEMENTO_YELLOW",
+            "EXPENSIVE_TOY",
+            "GOLDEN_COLLAR",
+            "MOLDY_MUFFIN",
+            "PAINTERS_PALETTE",
+            "SECRET_BINGO_MEMENTO",
+            "WIZARD_PORTAL_MEMENTO",
+            "CANDY_THE_FISH",
+            "GIANT_THE_FISH",
+            "GOLDOR_THE_FISH",
+            "MAXOR_THE_FISH",
+            "PRICELESS_THE_FISH",
+            "RABBIT_THE_FISH",
+            "STORM_THE_FISH",
+            "WORM_THE_FISH",
+            "ARMADILLO_MASK",
+            "BEE_MASK",
+            "BONZO_MASK",
+            "STARRED_BONZO_MASK",
+            "DETRANSFIGURED_MASK",
+            "ENDERMAN_MASK",
+            "FROG_MASK",
+            "HAPPY_MASK",
+            "KALHUIKI_MASK",
+            "NOT_DEADGEHOG_MASK",
+            "PARROT_MASK",
+            "PIG_MASK",
+            "SALMON_MASK",
+            "SNOWMAN_MASK",
+            "SPIRIT_MASK",
+            "STARRED_SPIRIT_MASK",
+            "VAMPIRE_MASK",
+            "VAMPIRE_WITCH_MASK",
+            "WITCH_MASK",
+            "ZOMBIE_MASK",
+            "WIZARD_FACE",
+            "WARM_WIZARD_FACE",
+            "WARM_WIZARD_FACE_2"
+        ]
+    },
+    "blue_orchid": {
+        "model": "minecraft:item/generated",
+        "skyblock_ids": [
+            "FEL_ROSE"
+        ]
+    },
+    "repeater": {
+        "model": "minecraft:item/generated",
+        "skyblock_ids": [
+            "TALBOTS_THEODOLITE"
+        ]
+    },
+    "enderman_spawn_egg": {
+        "model": "minecraft:item/generated",
+        "skyblock_ids": [
+            "NULL_OVOID",
+            "LM_EGG_BOOTS"
+        ]
+    },
+    "gold_block": {
+        "model": "minecraft:item/generated",
+        "skyblock_ids": [
+            "SOCIAL_DISPLAY"
+        ]
+    },
+    "heavy_weighted_pressure_plate": {
+        "model": "minecraft:item/generated",
+        "skyblock_ids": [
+            "PARKOUR_POINT",
+            "DUNGEON_TRAP"
+        ]
+    },
+    "iron_pickaxe": {
+        "model": "minecraft:item/hadnheld",
+        "skyblock_ids": [
+            "PET_ITEM_MINING_SKILL_BOOST_LEGENDARY",
+            "PET_ITEM_MINING_SKILL_BOOST_EPIC",
+            "PET_ITEM_MINING_SKILL_BOOST_RARE",
+            "PET_ITEM_MINING_SKILL_BOOST_UNCOMMON",
+            "PET_ITEM_MINING_SKILL_BOOST_COMMON",
+            "ZOMBIE_PICKAXE",
+            "TITANIUM_PICKAXE",
+            "REFINED_TITANIUM_PICKAXE",
+            "PROMISING_PICKAXE",
+            "CHRONO_PICKAXE"
+        ]
+    },
+    "music_disc_mellohi": {
+        "model": "minecraft:item/generated",
+        "skyblock_ids": [
+            "DUNGEON_DISC_2",
+            "VINYL_BEETLE"
+        ]
+    },
+    "redstone": {
+        "model": "minecraft:item/generated",
+        "skyblock_ids": []
+    },
+    "cactus": {
+        "model": "minecraft:item/generated",
+        "skyblock_ids": []
+    },
+    "diamond_block": {
+        "model": "minecraft:item/generated",
+        "skyblock_ids": []
+    },
+    "white_banner": {
+        "model": "minecraft:item/generated",
+        "skyblock_ids": [
+            "TOTEM_OF_CORRUPTION"
+        ]
+    },
+    "golden_leggings": {
+        "model": "minecraft:item/generated",
+        "skyblock_ids": [
+            "ZOMBIE_KNIGHT_LEGGINGS",
+            "STARLIGHT_LEGGINGS",
+            "STAR_LEGGINGS",
+            "GOLD_HUNTER_LEGGINGS",
+            "DIVER_LEGGINGS",
+            "DIVAN_LEGGINGS"
+        ]
+    },
+    "magma_cream": {
+        "model": "minecraft:item/generated",
+        "skyblock_ids": [
+            "MAGMA_CORE"
+        ]
+    },
+    "zombie_spawn_egg": {
+        "model": "minecraft:item/generated",
+        "skyblock_ids": [
+            "LM_EGG_LEGS"
+        ]
+    },
+    "golden_chestplate": {
+        "model": "minecraft:item/generated",
+        "skyblock_ids": [
+            "ZOMBIE_KNIGHT_CHESTPLATE",
+            "STAR_CHESTPLATE",
+            "SHIMMERSPARKLE_CHESTPLATE",
+            "MASTIFF_CHESTPLATE",
+            "GOLD_HUNTER_CHESTPLATE",
+            "DIVER_CHESTPLATE",
+            "ARMOR_OF_THE_RESISTANCE_CHESTPLATE",
+            "DIVAN_CHESTPLATE"
+        ]
+    },
+    "chainmail_leggings": {
+        "model": "minecraft:item/generated",
+        "skyblock_ids": [
+            "SQUIRE_LEGGINGS",
+            "SORROW_LEGGINGS",
+            "SKELETOR_LEGGINGS",
+            "REKINDLED_EMBER_LEGGINGS",
+            "MERCENARY_LEGGINGS",
+            "FLAMEBREAKER_LEGGINGS",
+            "FLAME_BREAKER_LEGGINGS",
+            "END_LEGGINGS",
+            "EMBER_LEGGINGS"
+        ]
+    },
+    "poppy": {
+        "model": "minecraft:item/generated",
+        "skyblock_ids": [
+            "ENDSTONE_ROSE",
+            "SCARF_FRAGMENT",
+            "GOLEM_POPPY",
+            "FLOWER_OF_TRUTH"
+        ]
+    },
+    "red_dye": {
+        "model": "minecraft:item/generated",
+        "skyblock_ids": [
+            "CAKE_SOUL",
+            "BLOODBADGE",
+            "PET_ITEM_TIER_BOOST_DROP"
+        ]
+    },
+    "brick": {
+        "model": "minecraft:item/generated",
+        "skyblock_ids": []
+    },
+    "chest_minecart": {
+        "model": "minecraft:item/generated",
+        "skyblock_ids": [
+            "INFINI_VACUUM"
+        ]
+    },
+    "golden_pickaxe": {
+        "model": "minecraft:item/handheld",
+        "skyblock_ids": [
+            "STONK_PICKAXE",
+            "EON_PICKAXE",
+            "BINGONIMBUS_2000"
+        ]
+    },
+    "iron_chestplate": {
+        "model": "minecraft:item/generated",
+        "skyblock_ids": [
+            "SQUIRE_CHESTPLATE",
+            "SILVER_HUNTER_CHESTPLATE",
+            "MERCENARY_CHESTPLATE",
+            "GOLEM_ARMOR_CHESTPLATE",
+            "ETALPTSEHC_NORI"
+        ]
+    },
+    "carrot_on_a_stick": {
+        "model": "minecraft:item/generated",
+        "skyblock_ids": [
+            "NEARLY_COHERENT_ROD",
+            "SHINY_ROD"
+        ]
+    },
+    "tnt": {
+        "model": "minecraft:item/generated",
+        "skyblock_ids": [
+            "SUPERBOOM_TNT",
+            "INFINITE_SUPERBOOM_TNT"
+        ]
+    },
+    "gunpowder": {
+        "model": "minecraft:item/generated",
+        "skyblock_ids": [
+            "DERELICT_ASHE"
+        ]
+    },
+    "light_weighted_pressure_plate": {
+        "model": "minecraft:item/generated",
+        "skyblock_ids": [
+            "PARKOUR_CONTROLLER"
+        ]
+    },
+    "redstone_lamp": {
+        "model": "minecraft:item/generated",
+        "skyblock_ids": [
+            "LANTERN_OF_THE_DEAD"
+        ]
+    },
+    "spider_eye": {
+        "model": "minecraft:item/generated",
+        "skyblock_ids": [
+            "FROZEN_WATER_PUNGI"
+        ]
+    },
+    "slime_spawn_egg": {
+        "model": "minecraft:item/generated",
+        "skyblock_ids": [
+            "GOBLIN_EGG_GREEN"
+        ]
+    },
+    "chainmail_boots": {
+        "model": "minecraft:item/generated",
+        "skyblock_ids": [
+            "SPRING_BOOTS",
+            "SORROW_BOOTS",
+            "SKELETOR_BOOTS",
+            "REKINDLED_EMBER_BOOTS",
+            "FLAMEBREAKER_BOOTS",
+            "FLAME_BREAKER_BOOTS",
+            "END_BOOTS",
+            "EMBER_BOOTS"
+        ]
+    },
+    "lapis_block": {
+        "model": "minecraft:item/generated",
+        "skyblock_ids": [
+            "RIFT_TROPHY_MOUNTAIN"
+        ]
+    },
+    "blue_carpet": {
+        "model": "minecraft:item/generated",
+        "skyblock_ids": [
+            "ANTI_BITE_SCARF_2",
+            "NULLIFIED_METAL"
+        ]
+    },
+    "bone": {
+        "model": "minecraft:item/generated",
+        "skyblock_ids": [
+            "WEAK_WOLF_CATALYST",
+            "STARRED_BONE_BOOMERANG",
+            "BONE_BOOMERANG"
+        ]
+    },
+    "iron_sword": {
+        "model": "minecraft:item/handheld",
+        "skyblock_ids": [
+            "PET_ITEM_COMBAT_SKILL_BOOST_LEGENDARY",
+            "PET_ITEM_COMBAT_SKILL_BOOST_EPIC",
+            "PET_ITEM_COMBAT_SKILL_BOOST_RARE",
+            "PET_ITEM_COMBAT_SKILL_BOOST_UNCOMMON",
+            "PET_ITEM_COMBAT_SKILL_BOOST_COMMON",
+            "DWARVEN_LAPIS_SWORD",
+            "VOIDWALKER_KATANA",
+            "GIANTS_SWORD",
+            "GIANTS_EYE_SWORD",
+            "STARRED_FELTHORN_REAPER",
+            "FELTHORN_REAPER",
+            "BONE_REAVER",
+            "ZOMBIE_SWORD",
+            "ZOMBIE_SOLDIER_CUTLASS",
+            "ZOMBIE_KNIGHT_SWORD",
+            "STARRED_YETI_SWORD",
+            "YETI_SWORD",
+            "VALKYRIE",
+            "UNDEAD_SWORD",
+            "SWORD_OF_THE_MULTIVERSE",
+            "SQUIRE_SWORD",
+            "SPIRIT_SWORD",
+            "SPIDER_SWORD",
+            "SILVERTWIST_KARAMBIT",
+            "SILVER_LACED_KARAMBIT",
+            "SILENT_DEATH",
+            "SHAMAN_SWORD",
+            "SCYLLA",
+            "RECLUSE_FANG",
+            "NECRON_BLADE",
+            "NECROMANCER_SWORD",
+            "MAWDUST_DAGGER",
+            "LIVID_DAGGER",
+            "HYPERION",
+            "HUNTER_KNIFE",
+            "HEARTMAW_DAGGER",
+            "GOLEM_SWORD",
+            "FLAMING_SWORD",
+            "CRYPT_DREADLORD_SWORD",
+            "BURSTMAW_DAGGER",
+            "BLADE_OF_THE_VOLCANO",
+            "ASTRAEA",
+            "ARACK"
+        ]
+    },
+    "red_stained_glass": {
+        "model": "minecraft:item/generated",
+        "skyblock_ids": [
+            "DCTR_SPACE_HELM"
+        ]
+    },
+    "water_bucket": {
+        "model": "minecraft:item/generated",
+        "skyblock_ids": [
+            "RIFT_BUCKET",
+            "MAGICAL_WATER_BUCKET",
+            "PORTABLE_WASHER"
+        ]
+    },
+    "rotten_flesh": {
+        "model": "minecraft:item/generated",
+        "skyblock_ids": [
+            "DIGESTED_MOSQUITO",
+            "REVENANT_FLESH",
+            "MYSTERIOUS_MEAT",
+            "WORM_MEMBRANE",
+            "HEALING_TISSUE"
+        ]
+    },
+    "redstone_ore": {
+        "model": "minecraft:item/generated",
+        "skyblock_ids": [
+            "HEMOVIBE"
+        ]
+    },
+    "dispenser": {
+        "model": "minecraft:item/generated",
+        "skyblock_ids": [
+            "PERSONAL_DELETOR_7000",
+            "PERSONAL_DELETOR_6000",
+            "PERSONAL_DELETOR_5000",
+            "PERSONAL_DELETOR_4000"
+        ]
+    },
+    "cooked_mutton": {
+        "model": "minecraft:item/generated",
+        "skyblock_ids": [
+            "SHARP_STEAK_STAKE",
+            "STEAK_STAKE"
+        ]
+    },
+    "stone_hoe": {
+        "model": "minecraft:item/handheld",
+        "skyblock_ids": [
+            "THEORETICAL_HOE_WHEAT_1",
+            "THEORETICAL_HOE_WARTS_1",
+            "THEORETICAL_HOE_POTATO_1",
+            "THEORETICAL_HOE_CARROT_1",
+            "THEORETICAL_HOE_CANE_1",
+            "ROOKIE_HOE",
+            "HOE_OF_GREAT_TILLING"
+        ]
+    },
+    "jungle_leaves": {
+        "model": "minecraft:item/generated",
+        "skyblock_ids": [
+            "PLANT_MATTER"
+        ]
+    },
+    "mooshroom_spawn_egg": {
+        "model": "minecraft:item/generated",
+        "skyblock_ids": [
+            "RED_CLAW_EGG",
+            "GOBLIN_EGG_RED"
+        ]
+    },
+    "polar_bear_spawn_egg": {
+        "model": "minecraft:item/generated",
+        "skyblock_ids": [
+            "ISLAND_NPC",
+            "SUPER_EGG",
+            "DUNGEON_DECOY"
+        ]
+    },
+    "diamond": {
+        "model": "minecraft:item/generated",
+        "skyblock_ids": [
+            "SCYTHE_BLADE",
+            "WAND_OF_WARDING",
+            "PET_ITEM_ALL_SKILLS_BOOST_LEGENDARY",
+            "PET_ITEM_ALL_SKILLS_BOOST_EPIC",
+            "PET_ITEM_ALL_SKILLS_BOOST_RARE",
+            "PET_ITEM_ALL_SKILLS_BOOST_UNCOMMON",
+            "PET_ITEM_ALL_SKILLS_BOOST_COMMON",
+            "ALL_SKILLS_SUPER_BOOST",
+            "DIAMOND_SPREADING",
+            "FALLEN_STAR_TRACKER",
+            "HOLY_ICE"
+        ]
+    },
+    "music_disc_stal": {
+        "model": "minecraft:item/generated",
+        "skyblock_ids": [
+            "DUNGEON_DISC_1",
+            "VINYL_PRETTY_FLY"
+        ]
+    },
+    "comparator": {
+        "model": "minecraft:item/generated",
+        "skyblock_ids": [
+            "TALISMAN_ENRICHMENT_SWAPPER",
+            "TRIO_CONTACTS_ADDON"
+        ]
+    },
+    "tnt_minecart": {
+        "model": "minecraft:item/generated",
+        "skyblock_ids": [
+            "INFINI_VACUUM_HOOVERIUS"
+        ]
+    },
+    "music_disc_13": {
+        "model": "minecraft:item/generated",
+        "skyblock_ids": [
+            "DUNGEON_DISC_5",
+            "BATTLE_DISC",
+            "VINYL_RODENT_REVOLUTION"
+        ]
+    },
+    "sugar_cane": {
+        "model": "minecraft:item/generated",
+        "skyblock_ids": [
+            "CADUCOUS_LEGUME"
+        ]
+    },
+    "chainmail_helmet": {
+        "model": "minecraft:item/generated",
+        "skyblock_ids": [
+            "SQUIRE_HELMET",
+            "SORROW_HELMET",
+            "FLAMEBREAKER_HELMET",
+            "FLAME_BREAKER_HELMET"
+        ]
+    },
+    "anvil": {
+        "model": "minecraft:item/generated",
+        "skyblock_ids": [
+            "ZOG_ANVIL",
+            "LIVING_METAL_ANVIL",
+            "REFORGE_ANVIL"
+        ]
+    },
+    "ink_sac": {
+        "model": "minecraft:item/generated",
+        "skyblock_ids": [
+            "CAKE_SOUL"
+        ]
+    },
+    "slime_block": {
+        "model": "minecraft:item/generated",
+        "skyblock_ids": [
+            "SUPER_LEECH_MODIFIER",
+            "RIFT_TROPHY_SLIME"
+        ]
+    },
+    "wooden_shovel": {
+        "model": "minecraft:item/handheld",
+        "skyblock_ids": [
+            "ASPECT_OF_THE_LEECH_3",
+            "ASPECT_OF_THE_LEECH_2",
+            "ASPECT_OF_THE_LEECH_1",
+            "ANCESTRAL_SPADE"
+        ]
+    },
+    "golden_boots": {
+        "model": "minecraft:item/generated",
+        "skyblock_ids": [
+            "ZOMBIE_KNIGHT_BOOTS",
+            "STAR_BOOTS",
+            "PRIMAL_DRAGON_BOOTS",
+            "GOLD_HUNTER_BOOTS",
+            "DIVER_BOOTS",
+            "DIVAN_BOOTS"
+        ]
+    },
+    "pink_dye": {
+        "model": "minecraft:item/generated",
+        "skyblock_ids": [
+            "CAKE_SOUL",
+            "MYCELIUM_DUST"
+        ]
+    },
+    "stick": {
+        "model": "minecraft:item/handheld",
+        "skyblock_ids": [
+            "NULL_EDGE",
+            "SILKWIRE_STICK",
+            "MIRRORED_STICK",
+            "BERBERIS_BLOWGUN",
+            "GRANDMAS_KNITTING_NEEDLE",
+            "BRIMSTONE_HANDLE",
+            "DAEDALUS_STICK",
+            "BEJEWELED_HANDLE",
+            "NECRON_HANDLE",
+            "WEATHER_STICK",
+            "INFINIDIRT_WAND",
+            "WAND_OF_STRENGTH",
+            "WAND_OF_ATONEMENT",
+            "WAND_OF_RESTORATION",
+            "WAND_OF_MENDING",
+            "WAND_OF_HEALING",
+            "CARNIVAL_DART_TUBE",
+            "TAIGA_BIOME_STICK",
+            "SAVANA_BIOME_STICK",
+            "ROOFED_FOREST_BIOME_STICK",
+            "NETHER_BIOME_STICK",
+            "MUSHROOM_BIOME_STICK",
+            "MESA_BIOME_STICK",
+            "JUNGLE_BIOME_STICK",
+            "FOREST_BIOME_STICK",
+            "END_BIOME_STICK",
+            "DESERT_BIOME_STICK",
+            "DEEP_OCEAN_BIOME_STICK",
+            "BIRCH_FOREST_BIOME_STICK",
+            "TRIBAL_SPEAR",
+            "STARLIGHT_WAND",
+            "INK_WAND",
+            "STARRED_ICE_SPRAY_WAND",
+            "ICE_SPRAY_WAND",
+            "ELECTRIC_WAND_ITEM",
+            "CELESTE_WAND"
+        ]
+    },
+    "ice": {
+        "model": "minecraft:item/generated",
+        "skyblock_ids": [
+            "FROZEN_WATER",
+            "HILT_OF_TRUE_ICE"
+        ]
+    },
+    "wooden_sword": {
+        "model": "minecraft:item/handheld",
+        "skyblock_ids": [
+            "WYLD_SWORD",
+            "TACTICIAN_SWORD",
+            "SWORD_OF_REVELATIONS",
+            "SWORD_OF_BAD_HEALTH",
+            "SCORPION_FOIL",
+            "LEECH_SWORD",
+            "GREAT_SPOOK_SWORD",
+            "ASPECT_OF_THE_JERRY_SIGNATURE",
+            "ASPECT_OF_THE_JERRY"
+        ]
+    },
+    "end_portal_frame": {
+        "model": "minecraft:item/generated",
+        "skyblock_ids": []
+    },
+    "gold_nugget": {
+        "model": "minecraft:item/generated",
+        "skyblock_ids": [
+            "GOLDEN_TOOTH",
+            "KEY_TO_KAT_SOUL",
+            "FAMILY_DOUBLOON",
+            "WEDDING_RING_1",
+            "WEDDING_RING_0",
+            "YELLOW_ROCK",
+            "VERY_OFFICIAL_YELLOW_ROCK"
+        ]
+    },
+    "dark_prismarine": {
+        "model": "minecraft:item/generated",
+        "skyblock_ids": [
+            "PRISMAPUMP"
+        ]
+    },
+    "ender_eye": {
+        "model": "minecraft:item/generated",
+        "skyblock_ids": [
+            "GIANT_FRAGMENT_LASER"
+        ]
+    },
+    "golden_hoe": {
+        "model": "minecraft:item/handheld",
+        "skyblock_ids": [
+            "FARMING_WAND",
+            "HOE_OF_NO_TILLING",
+            "FUNGI_CUTTER",
+            "CACTUS_KNIFE",
+            "BINGHOE",
+            "SINSEEKER_SCYTHE"
+        ]
+    },
+    "spruce_leaves": {
+        "model": "minecraft:item/generated",
+        "skyblock_ids": [
+            "RIFT_TROPHY_WYLDLY_SUPREME"
+        ]
+    },
+    "redstone_block": {
+        "model": "minecraft:item/generated",
+        "skyblock_ids": [
+            "RIFT_TROPHY_VAMPIRIC"
+        ]
+    },
+    "golden_shovel": {
+        "model": "minecraft:item/handheld",
+        "skyblock_ids": [
+            "FLY_SWATTER",
+            "CARNIVAL_SHOVEL",
+            "STARRED_MIDAS_STAFF",
+            "MIDAS_STAFF"
+        ]
+    },
+    "trapped_chest": {
+        "model": "minecraft:item/generated",
+        "skyblock_ids": []
+    },
+    "cobweb": {
+        "model": "minecraft:item/generated",
+        "skyblock_ids": [
+            "TARANTULA_SILK",
+            "FLYCATCHER_UPGRADE"
+        ]
+    },
+    "flint": {
+        "model": "minecraft:item/generated",
+        "skyblock_ids": [
+            "POLISHED_PEBBLE",
+            "DARK_PEBBLE",
+            "SIL_EX",
+            "ENCHANTED_ANCIENT_CLAW",
+            "ANCIENT_CLAW",
+            "BLOCK_ZAPPER"
+        ]
+    },
+    "diamond_horse_armor": {
+        "model": "minecraft:item/generated",
+        "skyblock_ids": [
+            "TIME_GUN",
+            "GIANT_FRAGMENT_DIAMOND"
+        ]
+    },
+    "oak_planks": {
+        "model": "minecraft:item/generated",
+        "skyblock_ids": [
+            "MIRRORED_WOOD"
+        ]
+    },
+    "diamond_pickaxe": {
+        "model": "minecraft:item/handheld",
+        "skyblock_ids": [
+            "REFINED_MITHRIL_PICKAXE",
+            "PICKONIMBUS",
+            "MITHRIL_PICKAXE",
+            "LAPIS_PICKAXE",
+            "SELF_RECURSIVE_PICKAXE"
+        ]
+    },
+    "sunflower": {
+        "model": "minecraft:item/generated",
+        "skyblock_ids": [
+            "HOPE_OF_THE_RESISTANCE"
+        ]
+    },
+    "brown_mushroom": {
+        "model": "minecraft:item/generated",
+        "skyblock_ids": [
+            "MUSHROOM_SPORE"
+        ]
+    },
+    "pink_stained_glass_pane": {
+        "model": "minecraft:item/generated",
+        "skyblock_ids": []
+    },
+    "blaze_spawn_egg": {
+        "model": "minecraft:item/generated",
+        "skyblock_ids": [
+            "GOBLIN_EGG_YELLOW"
+        ]
+    },
+    "slime_ball": {
+        "model": "minecraft:item/generated",
+        "skyblock_ids": [
+            "MIRRORED_SLIME_BALL"
+        ]
+    },
+    "hopper_minecart": {
+        "model": "minecraft:item/generated",
+        "skyblock_ids": [
+            "TURBOMAX_VACUUM",
+            "SKYMART_TURBO_VACUUM"
+        ]
+    },
+    "sea_lantern": {
+        "model": "minecraft:item/generated",
+        "skyblock_ids": [
+            "SEA_LANTERN_HAT",
+            "LAPIS_ARMOR_HELMET"
+        ]
+    },
+    "glass_bottle": {
+        "model": "minecraft:item/generated",
+        "skyblock_ids": [
+            "EMPTY_ODONATA_BOTTLE"
+        ]
+    },
+    "green_dye": {
+        "model": "minecraft:item/generated",
+        "skyblock_ids": [
+            "CAKE_SOUL",
+            "SILKY_LICHEN",
+            "GUNTHESIZER_LICHEN",
+            "ALLIGATOR_SKIN",
+            "BIOFUEL"
+        ]
+    },
+    "oak_sign": {
+        "model": "minecraft:item/generated",
+        "skyblock_ids": []
+    },
+    "blaze_powder": {
+        "model": "minecraft:item/generated",
+        "skyblock_ids": [
+            "MOLTEN_POWDER",
+            "FREE_WILL_REFUND",
+            "FREE_WILL",
+            "FLAMES",
+            "FIRE_SOUL"
+        ]
+    },
+    "dead_bush": {
+        "model": "minecraft:item/generated",
+        "skyblock_ids": [
+            "DEAD_BUSH_OF_LOVE",
+            "WILTED_BERBERIS_BUNCH",
+            "WILTED_BERBERIS",
+            "MYSTERIOUS_CROP",
+            "UMBER_KEY",
+            "RED_THORNLEAF",
+            "GREAT_SPOOK_STAFF"
+        ]
+    },
+    "gold_ingot": {
+        "model": "minecraft:item/generated",
+        "skyblock_ids": [
+            "GOLD_CLAWS"
         ]
     },
     "armor_stand": {
+        "model": "minecraft:item/generated",
+        "skyblock_ids": [
+            "PERFECT_CHISEL",
+            "GLACITE_CHISEL",
+            "REINFORCED_CHISEL",
+            "CHISEL"
+        ]
+    },
+    "blue_terracotta": {
+        "model": "minecraft:item/generated",
+        "skyblock_ids": []
+    },
+    "oak_button": {
+        "model": "minecraft:item/generated",
+        "skyblock_ids": [
+            "NULL_ATOM"
+        ]
+    },
+    "magenta_carpet": {
+        "model": "minecraft:item/generated",
+        "skyblock_ids": [
+            "ANTI_BITE_SCARF_2"
+        ]
+    },
+    "painting": {
+        "model": "minecraft:item/generated",
+        "skyblock_ids": [
+            "CREATIVE_MIND",
+            "POSTCARD"
+        ]
+    },
+    "white_carpet": {
+        "model": "minecraft:item/generated",
+        "skyblock_ids": [
+            "ANTI_BITE_SCARF_2"
+        ]
+    },
+    "bedrock": {
+        "model": "minecraft:item/generated",
+        "skyblock_ids": []
+    },
+    "magenta_stained_glass_pane": {
+        "model": "minecraft:item/generated",
+        "skyblock_ids": []
+    },
+    "light_gray_carpet": {
+        "skyblock_ids": [
+            "ANTI_BITE_SCARF_2"
+        ]
+    },
+    "gray_dye": {
+        "model": "minecraft:item/generated",
+        "skyblock_ids": [
+            "CAKE_SOUL",
+            "TRUE_ESSENCE"
+        ]
+    },
+    "enchanted_book": {
+        "model": "minecraft:item/generated",
+        "skyblock_ids": [
+            "EXPERIENCE_ARTIFACT"
+        ]
+    },
+    "diamond_shovel": {
         "model": "minecraft:item/handheld",
         "skyblock_ids": [
-            "CHISEL",
-            "REINFORCED_CHISEL",
-            "GLACITE_CHISEL",
-            "PERFECT_CHISEL"
+            "SNOW_SHOVEL",
+            "CARNIVAL_SHOVEL",
+            "ASPECT_OF_THE_VOID"
+        ]
+    },
+    "pumpkin_pie": {
+        "model": "minecraft:item/generated",
+        "skyblock_ids": [
+            "SPOOKY_PIE",
+            "MINING_PUMPKIN"
+        ]
+    },
+    "orange_terracotta": {
+        "model": "minecraft:item/generated",
+        "skyblock_ids": []
+    },
+    "rabbit_stew": {
+        "model": "minecraft:item/generated",
+        "skyblock_ids": [
+            "AGARICUS_SOUP",
+            "WARTS_STEW",
+            "MATRIARCH_PARFUM"
+        ]
+    },
+    "redstone_torch": {
+        "model": "minecraft:item/handheld",
+        "skyblock_ids": [
+            "MATCH_STICKS",
+            "HELLSTORM_STAFF"
+        ]
+    },
+    "music_disc_chirp": {
+        "model": "minecraft:item/generated",
+        "skyblock_ids": [
+            "VINYL_CRICKET_CHOIR"
+        ]
+    },
+    "allium": {
+        "model": "minecraft:item/generated",
+        "skyblock_ids": [
+            "STAFF_OF_THE_RISING_MOON",
+            "STARRED_BAT_WAND",
+            "BAT_WAND",
+            "ALCHEMISTS_STAFF"
+        ]
+    },
+    "music_disc_strad": {
+        "model": "minecraft:item/generated",
+        "skyblock_ids": [
+            "WINTER_DISC",
+            "DUNGEON_DISC_3",
+            "VINYL_DYNAMITES"
+        ]
+    },
+    "green_stained_glass_pane": {
+        "model": "minecraft:item/generated",
+        "skyblock_ids": []
+    },
+    "cocoa_beans": {
+        "model": "minecraft:item/generated",
+        "skyblock_ids": [
+            "FUDGE_MINT_CORE",
+            "CAKE_SOUL"
+        ]
+    },
+    "azure_bluet": {
+        "model": "minecraft:item/generated",
+        "skyblock_ids": [
+            "ANTIQUE_REMEDIES"
+        ]
+    },
+    "golden_axe": {
+        "model": "minecraft:item/handheld",
+        "skyblock_ids": [
+            "DWARVEN_GOLD_HAMMER",
+            "TREECAPITATOR_AXE",
+            "PUMPKIN_DICER_3",
+            "PUMPKIN_DICER_2",
+            "PUMPKIN_DICER",
+            "COCO_CHOPPER",
+            "RAGNAROCK_AXE",
+            "STARRED_DAEDALUS_AXE",
+            "DAEDALUS_AXE"
+        ]
+    },
+    "item_frame": {
+        "model": "minecraft:item/generated",
+        "skyblock_ids": [
+            "FRAMED_VOLCANIC_STONEFISH"
+        ]
+    },
+    "glass": {
+        "model": "minecraft:item/generated",
+        "skyblock_ids": [
+            "RIFT_TROPHY_MIRRORED",
+            "SHOWCASE_BLOCK"
+        ]
+    },
+    "light_blue_dye": {
+        "model": "minecraft:item/generated",
+        "skyblock_ids": [
+            "CAKE_SOUL",
+            "REFINED_MINERAL"
+        ]
+    },
+    "red_mushroom_block": {
+        "model": "minecraft:item/generated",
+        "skyblock_ids": []
+    },
+    "light_blue_carpet": {
+        "model": "minecraft:item/generated",
+        "skyblock_ids": [
+            "ANTI_BITE_SCARF_2"
+        ]
+    },
+    "tropical_fish": {
+        "model": "minecraft:item/generated",
+        "skyblock_ids": [
+            "PARTY_THE_FISH",
+            "OOPS_THE_FISH",
+            "CLOWN_THE_FISH",
+            "CENTURY_THE_FISH"
+        ]
+    },
+    "leather_chestplate": {
+        "model": "minecraft:item/generated",
+        "skyblock_ids": [
+            "ADAPTIVE_CHESTPLATE",
+            "ANGLER_CHESTPLATE",
+            "ARACHNE_CHESTPLATE",
+            "ARMOR_OF_MAGMA_CHESTPLATE",
+            "ARMOR_OF_YOG_CHESTPLATE",
+            "AURORA_CHESTPLATE",
+            "BACKWATER_CHESTPLATE",
+            "BAT_PERSON_CHESTPLATE",
+            "BERSERKER_CHESTPLATE",
+            "BIOHAZARD_SUIT",
+            "BLAZE_CHESTPLATE",
+            "BOUNCY_CHESTPLATE",
+            "BRONZE_HUNTER_CHESTPLATE",
+            "BURNING_AURORA_CHESTPLATE",
+            "BURNING_CRIMSON_CHESTPLATE",
+            "BURNING_FERVOR_CHESTPLATE",
+            "BURNING_HOLLOW_CHESTPLATE",
+            "BURNING_TERROR_CHESTPLATE",
+            "CACTUS_CHESTPLATE",
+            "CASHMERE_JACKET",
+            "CELESTE_CHESTPLATE",
+            "CHEAP_TUXEDO_CHESTPLATE",
+            "CHESTPLATE_OF_THE_PACK",
+            "CRIMSON_CHESTPLATE",
+            "CROPIE_CHESTPLATE",
+            "CRYPT_WITHERLORD_CHESTPLATE",
+            "CRYSTAL_CHESTPLATE",
+            "ELEANOR_TUNIC",
+            "ELEGANT_TUXEDO_CHESTPLATE",
+            "EMERALD_ARMOR_CHESTPLATE",
+            "EMPEROR_ROBES",
+            "FAIRY_CHESTPLATE",
+            "FANCY_TUXEDO_CHESTPLATE",
+            "FARM_ARMOR_CHESTPLATE",
+            "FARM_SUIT_CHESTPLATE",
+            "FERMENTO_CHESTPLATE",
+            "FERVOR_CHESTPLATE",
+            "FIERY_AURORA_CHESTPLATE",
+            "FIERY_CRIMSON_CHESTPLATE",
+            "FIERY_FERVOR_CHESTPLATE",
+            "FIERY_HOLLOW_CHESTPLATE",
+            "FIERY_TERROR_CHESTPLATE",
+            "FINAL_DESTINATION_CHESTPLATE",
+            "FLAMING_CHESTPLATE",
+            "FROZEN_BLAZE_CHESTPLATE",
+            "GLACITE_CHESTPLATE",
+            "GLOSSY_MINERAL_CHESTPLATE",
+            "GOBLIN_CHESTPLATE",
+            "GREAT_SPOOK_CHESTPLATE",
+            "GROWTH_CHESTPLATE",
+            "GUARDIAN_CHESTPLATE",
+            "HEAT_CHESTPLATE",
+            "HEAVY_CHESTPLATE",
+            "HOLLOW_CHESTPLATE",
+            "HOLY_DRAGON_CHESTPLATE",
+            "HOT_AURORA_CHESTPLATE",
+            "HOT_CRIMSON_CHESTPLATE",
+            "HOT_FERVOR_CHESTPLATE",
+            "HOT_HOLLOW_CHESTPLATE",
+            "HOT_TERROR_CHESTPLATE",
+            "HYDRA1_CHESTPLATE",
+            "INFERNAL_AURORA_CHESTPLATE",
+            "INFERNAL_CRIMSON_CHESTPLATE",
+            "INFERNAL_FERVOR_CHESTPLATE",
+            "INFERNAL_HOLLOW_CHESTPLATE",
+            "INFERNAL_TERROR_CHESTPLATE",
+            "KUUDRA_FOLLOWER_CHESTPLATE",
+            "LAPIS_ARMOR_CHESTPLATE",
+            "LEAFLET_CHESTPLATE",
+            "MAGMA_LORD_CHESTPLATE",
+            "MELON_CHESTPLATE",
+            "METAL_CHESTPLATE",
+            "MINER_OUTFIT_CHESTPLATE",
+            "MINERAL_CHESTPLATE",
+            "MUSHROOM_CHESTPLATE",
+            "NECROMANCER_LORD_CHESTPLATE",
+            "NUTCRACKER_CHESTPLATE",
+            "OBSIDIAN_CHESTPLATE",
+            "OLD_DRAGON_CHESTPLATE",
+            "ORANGE_CHESTPLATE",
+            "POWER_WITHER_CHESTPLATE",
+            "PRIMAL_DRAGON_CHESTPLATE",
+            "PROTECTOR_DRAGON_CHESTPLATE",
+            "PUMPKIN_CHESTPLATE",
+            "RABBIT_CHESTPLATE",
+            "RAMPART_CHESTPLATE",
+            "REAPER_CHESTPLATE",
+            "ROTTEN_CHESTPLATE",
+            "S_LOGO_CHESTPLATE",
+            "SALMON_CHESTPLATE_NEW",
+            "SEA_WALKER_CHESTPLATE",
+            "SHADOW_ASSASSIN_CHESTPLATE",
+            "SHARK_SCALE_CHESTPLATE",
+            "SHIMMERING_LIGHT_TUNIC",
+            "SKELETON_GRUNT_CHESTPLATE",
+            "SKELETON_LORD_CHESTPLATE",
+            "SKELETON_MASTER_CHESTPLATE",
+            "SKELETON_SOLDIER_CHESTPLATE",
+            "SNOW_SUIT_CHESTPLATE",
+            "SPEED_WITHER_CHESTPLATE",
+            "SPEEDSTER_CHESTPLATE",
+            "SPONGE_CHESTPLATE",
+            "SPOOKY_CHESTPLATE",
+            "SQUASH_CHESTPLATE",
+            "STARLIGHT_CHESTPLATE",
+            "STARRED_ADAPTIVE_CHESTPLATE",
+            "STARRED_SHADOW_ASSASSIN_CHESTPLATE",
+            "STEEL_CHESTPLATE",
+            "STONE_CHESTPLATE",
+            "STRONG_DRAGON_CHESTPLATE",
+            "SUPER_HEAVY_CHESTPLATE",
+            "SUPERIOR_DRAGON_CHESTPLATE",
+            "TANK_WITHER_CHESTPLATE",
+            "TARANTULA_CHESTPLATE",
+            "TERROR_CHESTPLATE",
+            "THUNDER_CHESTPLATE",
+            "UNSTABLE_DRAGON_CHESTPLATE",
+            "VANGUARD_CHESTPLATE",
+            "WATCHER_CHESTPLATE",
+            "WEREWOLF_CHESTPLATE",
+            "WISE_DRAGON_CHESTPLATE",
+            "WISE_WITHER_CHESTPLATE",
+            "WITHER_CHESTPLATE",
+            "YOUNG_DRAGON_CHESTPLATE",
+            "ZOMBIE_COMMANDER_CHESTPLATE",
+            "ZOMBIE_LORD_CHESTPLATE",
+            "ZOMBIE_SOLDIER_CHESTPLATE",
+            "ARMOR_OF_THE_RESISTANCE_CHESTPLATE",
+            "DIAMOND_HUNTER_CHESTPLATE",
+            "DIVAN_CHESTPLATE",
+            "DIVER_CHESTPLATE",
+            "EMBER_CHESTPLATE",
+            "END_CHESTPLATE",
+            "FLAME_BREAKER_CHESTPLATE",
+            "FLAMEBREAKER_CHESTPLATE",
+            "GOLD_HUNTER_CHESTPLATE",
+            "GOLEM_ARMOR_CHESTPLATE",
+            "HARDENED_DIAMOND_CHESTPLATE",
+            "MASTIFF_CHESTPLATE",
+            "MERCENARY_CHESTPLATE",
+            "MITHRIL_COAT",
+            "PERFECT_CHESTPLATE_1",
+            "PERFECT_CHESTPLATE_10",
+            "PERFECT_CHESTPLATE_11",
+            "PERFECT_CHESTPLATE_12",
+            "PERFECT_CHESTPLATE_13",
+            "PERFECT_CHESTPLATE_2",
+            "PERFECT_CHESTPLATE_3",
+            "PERFECT_CHESTPLATE_4",
+            "PERFECT_CHESTPLATE_5",
+            "PERFECT_CHESTPLATE_6",
+            "PERFECT_CHESTPLATE_7",
+            "PERFECT_CHESTPLATE_8",
+            "PERFECT_CHESTPLATE_9",
+            "REKINDLED_EMBER_CHESTPLATE",
+            "REVENANT_CHESTPLATE",
+            "ROSETTA_CHESTPLATE",
+            "SHIMMERSPARKLE_CHESTPLATE",
+            "SILVER_HUNTER_CHESTPLATE",
+            "SKELETOR_CHESTPLATE",
+            "SORROW_CHESTPLATE",
+            "SQUIRE_CHESTPLATE",
+            "STAR_CHESTPLATE",
+            "TANK_MINER_CHESTPLATE",
+            "TITAN_CHESTPLATE",
+            "ZOMBIE_CHESTPLATE",
+            "ZOMBIE_KNIGHT_CHESTPLATE"
+        ]
+    },
+    "oak_trapdoor": {
+        "model": "minecraft:item/generated",
+        "skyblock_ids": [
+            "HAMSTER_WHEEL",
+            "BERBERIS_FUEL_INJECTOR"
+        ]
+    },
+    "purple_dye": {
+        "model": "minecraft:item/generated",
+        "skyblock_ids": [
+            "CAKE_SOUL",
+            "TWILIGHT_ARROW_POISON",
+            "PLASMA_NUCLEUS",
+            "MITE_GEL",
+            "GLOSSY_GEMSTONE"
+        ]
+    },
+    "large_fern": {
+        "model": "minecraft:item/generated",
+        "skyblock_ids": [
+            "ENCHANTED_LUSH_BERBERIS",
+            "LUSH_BERBERIS"
+        ]
+    },
+    "carrot": {
+        "model": "minecraft:item/generated",
+        "skyblock_ids": [
+            "NEARLY_WHOLE_CARROT",
+            "HALF_EATEN_CARROT",
+            "SIMPLE_CARROT_CANDY",
+            "GREAT_CARROT_CANDY",
+            "CARROT"
+        ]
+    },
+    "mutton": {
+        "model": "minecraft:item/generated",
+        "skyblock_ids": [
+            "AGARIMOO_TONGUE",
+            "EDIBLE_MACE"
+        ]
+    },
+    "brown_stained_glass_pane": {
+        "model": "minecraft:item/generated",
+        "skyblock_ids": []
+    },
+    "spider_spawn_egg": {
+        "model": "minecraft:item/generated",
+        "skyblock_ids": [
+            "AMALGAMATED_CRIMSONITE_NEW"
+        ]
+    },
+    "grass_block": {
+        "model": "minecraft:item/generated",
+        "skyblock_ids": []
+    },
+    "diamond_hoe": {
+        "model": "minecraft:item/handheld",
+        "skyblock_ids": [
+            "THEORETICAL_HOE_WHEAT_3",
+            "THEORETICAL_HOE_WARTS_3",
+            "THEORETICAL_HOE_POTATO_3",
+            "THEORETICAL_HOE_CARROT_3",
+            "THEORETICAL_HOE_CANE_3",
+            "HOE_OF_GREATEST_TILLING",
+            "HOE_OF_GREATER_TILLING",
+            "ADVANCED_GARDENING_HOE",
+            "REAPER_SCYTHE",
+            "STARRED_GLACIAL_SCYTHE",
+            "GLACIAL_SCYTHE",
+            "HORSEMAN_SCYTHE"
+        ]
+    },
+    "red_terracotta": {
+        "model": "minecraft:item/generated",
+        "skyblock_ids": [
+            "CANCEL_WIZARDMAN_RACE_ITEM",
+            "CANCEL_RACE_ITEM",
+            "CANCEL_PARKOUR_ITEM",
+            "LEAVE_GAME_BUTTON",
+            "LEAVE_CHALLENGE_BUTTON"
+        ]
+    },
+    "cooked_salmon": {
+        "model": "minecraft:item/generated",
+        "skyblock_ids": [
+            "SNOWFLAKE_THE_FISH",
+            "FOSSIL_THE_FISH",
+            "EGG_THE_FISH",
+            "DUST_THE_FISH",
+            "DIAMOND_THE_FISH"
+        ]
+    },
+    "fire_charge": {
+        "model": "minecraft:item/generated",
+        "skyblock_ids": [
+            "LUMP_OF_MAGMA"
+        ]
+    },
+    "name_tag": {
+        "model": "minecraft:item/generated",
+        "skyblock_ids": [
+            "SIRIUS_PERSONAL_PHONE_NUMBER",
+            "CARNIVAL_TICKET",
+            "JACOBS_TICKET",
+            "MINING_RAFFLE_TICKET"
+        ]
+    },
+    "pumpkin_seeds": {
+        "model": "minecraft:item/generated",
+        "skyblock_ids": [
+            "PUMPKIN_GUTS"
+        ]
+    },
+    "skeleton_skull": {
+        "model": "minecraft:item/generated",
+        "skyblock_ids": [
+            "SKELETON_TALISMAN"
+        ]
+    },
+    "tripwire_hook": {
+        "model": "minecraft:item/generated",
+        "skyblock_ids": [
+            "LARVA_HOOK",
+            "SKELETON_KEY",
+            "JUNGLE_KEY",
+            "MOODY_GRAPPLESHOT",
+            "DUNGEON_CHEST_KEY"
+        ]
+    },
+    "chiseled_quartz_block": {
+        "model": "minecraft:item/generated",
+        "skyblock_ids": [
+            "ENCHANTED_BONE_BLOCK"
+        ]
+    },
+    "iron_leggings": {
+        "model": "minecraft:item/generated",
+        "skyblock_ids": [
+            "SILVER_HUNTER_LEGGINGS",
+            "LEGGINGS_OF_THE_PACK",
+            "GOLEM_ARMOR_LEGGINGS"
+        ]
+    },
+    "cooked_porkchop": {
+        "model": "minecraft:item/generated",
+        "skyblock_ids": [
+            "BLAZETEKK_HAM",
+            "REVENANT_VISCERA"
+        ]
+    },
+    "oak_leaves": {
+        "model": "minecraft:item/generated",
+        "skyblock_ids": [
+            "LEAFLET_HELMET"
+        ]
+    },
+    "written_book": {
+        "model": "minecraft:item/generated",
+        "skyblock_ids": []
+    },
+    "iron_shovel": {
+        "model": "minecraft:item/handheld",
+        "skyblock_ids": [
+            "PLASTIC_SHOVEL",
+            "PROMISING_SPADE",
+            "FLINT_SHOVEL",
+            "CARNIVAL_SHOVEL"
+        ]
+    },
+    "diamond_boots": {
+        "model": "minecraft:item/generated",
+        "skyblock_ids": [
+            "ZOMBIE_BOOTS",
+            "TITAN_BOOTS",
+            "TANK_MINER_BOOTS",
+            "ROSETTA_BOOTS",
+            "REVENANT_BOOTS",
+            "PERFECT_BOOTS_9",
+            "PERFECT_BOOTS_8",
+            "PERFECT_BOOTS_7",
+            "PERFECT_BOOTS_6",
+            "PERFECT_BOOTS_5",
+            "PERFECT_BOOTS_4",
+            "PERFECT_BOOTS_3",
+            "PERFECT_BOOTS_2",
+            "PERFECT_BOOTS_13",
+            "PERFECT_BOOTS_12",
+            "PERFECT_BOOTS_11",
+            "PERFECT_BOOTS_10",
+            "PERFECT_BOOTS_1",
+            "MASTIFF_BOOTS",
+            "HARDENED_DIAMOND_BOOTS",
+            "DIAMOND_HUNTER_BOOTS"
+        ]
+    },
+    "dragon_egg": {
+        "model": "minecraft:item/generated",
+        "skyblock_ids": [
+            "PRIMAL_DRAGON_EGG"
+        ]
+    },
+    "red_mushroom": {
+        "model": "minecraft:item/generated",
+        "skyblock_ids": [
+            "BONZO_FRAGMENT"
+        ]
+    },
+    "furnace_minecart": {
+        "model": "minecraft:item/generated",
+        "skyblock_ids": [
+            "HORSEZOOKA",
+            "SKYMART_HYPER_VACUUM"
+        ]
+    },
+    "orange_stained_glass_pane": {
+        "model": "minecraft:item/generated",
+        "skyblock_ids": []
+    },
+    "wheat": {
+        "model": "minecraft:item/generated",
+        "skyblock_ids": [
+            "STAFF_OF_THE_VOLCANO"
+        ]
+    },
+    "milk_bucket": {
+        "model": "minecraft:item/generated",
+        "skyblock_ids": [
+            "MAGICAL_MILK_BUCKET"
+        ]
+    },
+    "bowl": {
+        "model": "minecraft:item/generated",
+        "skyblock_ids": [
+            "CADUCOUS_FEEDER"
+        ]
+    },
+    "lime_terracotta": {
+        "model": "minecraft:item/generated",
+        "skyblock_ids": []
+    },
+    "music_disc_ward": {
+        "model": "minecraft:item/generated",
+        "skyblock_ids": [
+            "VINYL_BUZZIN_BEATS"
+        ]
+    },
+    "golden_helmet": {
+        "model": "minecraft:item/generated",
+        "skyblock_ids": [
+            "ZOMBIE_LORD_HELMET",
+            "ZOMBIE_KNIGHT_HELMET",
+            "STARLIGHT_HELMET",
+            "STAR_HELMET",
+            "SKELETON_LORD_HELMET",
+            "POTATO_CROWN",
+            "GOLD_HUNTER_HELMET",
+            "CROWN_OF_GREED"
+        ]
+    },
+    "chainmail_chestplate": {
+        "model": "minecraft:item/generated",
+        "skyblock_ids": [
+            "WYLD_CHESTPLATE",
+            "SORROW_CHESTPLATE",
+            "SKELETOR_CHESTPLATE",
+            "REKINDLED_EMBER_CHESTPLATE",
+            "MITHRIL_COAT",
+            "LIVELY_SEPULTURE_CHESTPLATE",
+            "FLAMEBREAKER_CHESTPLATE",
+            "FLAME_BREAKER_CHESTPLATE",
+            "END_CHESTPLATE",
+            "EMBER_CHESTPLATE"
+        ]
+    },
+    "brown_carpet": {
+        "model": "minecraft:item/generated",
+        "skyblock_ids": [
+            "ANTI_BITE_SCARF_2"
+        ]
+    },
+    "cyan_stained_glass_pane": {
+        "model": "minecraft:item/generated",
+        "skyblock_ids": []
+    },
+    "map": {
+        "model": "minecraft:item/generated",
+        "skyblock_ids": [
+            "QUALITY_MAP",
+            "WASTELAND_TRAVEL_SCROLL",
+            "VOID_SEPULTURE_TRAVEL_SCROLL",
+            "TRAPPER_DEN_TRAVEL_SCROLL",
+            "SPIDERS_DEN_TOP_TRAVEL_SCROLL",
+            "SMOLDERING_CHAMBERS_TRAVEL_SCROLL",
+            "SCARLETON_TRAVEL_SCROLL",
+            "RIFT_WIZARD_TOWER_TRAVEL_SCROLL",
+            "PARK_JUNGLE_TRAVEL_SCROLL",
+            "PARK_CAVE_TRAVEL_SCROLL",
+            "NETHER_FORTRESS_BOSS_TRAVEL_SCROLL",
+            "MUSEUM_TRAVEL_SCROLL",
+            "MINING_3_TRAVEL_SCROLL",
+            "MINING_2_TRAVEL_SCROLL",
+            "MINING_1_TRAVEL_SCROLL",
+            "HUB_WIZARD_TOWER_TRAVEL_SCROLL",
+            "HUB_DA_TRAVEL_SCROLL",
+            "HUB_CRYPTS_TRAVEL_SCROLL",
+            "HUB_CASTLE_TRAVEL_SCROLL",
+            "FORGE_TRAVEL_SCROLL",
+            "FORAGING_1_TRAVEL_SCROLL",
+            "FARMING_2_TRAVEL_SCROLL",
+            "FARMING_1_TRAVEL_SCROLL",
+            "DRAGONTAIL_TRAVEL_SCROLL",
+            "DRAGON_NEST_TRAVEL_SCROLL",
+            "DANGER_3_TRAVEL_SCROLL",
+            "DANGER_2_TRAVEL_SCROLL",
+            "DANGER_1_TRAVEL_SCROLL",
+            "CRYSTAL_NUCLEUS_TRAVEL_SCROLL",
+            "CRYSTAL_HOLLOWS_TRAVEL_SCROLL",
+            "BLAZE_FARM_TRAVEL_SCROLL",
+            "BAYOU_TRAVEL_SCROLL",
+            "BASE_CAMP_TRAVEL_SCROLL",
+            "ARACHNE_SANCTUARY_TRAVEL_SCROLL"
+        ]
+    },
+    "iron_ingot": {
+        "model": "minecraft:item/generated",
+        "skyblock_ids": [
+            "POTATO_SILVER_MEDAL",
+            "PET_ITEM_IRON_CLAWS_LEGENDARY",
+            "PET_ITEM_IRON_CLAWS_EPIC",
+            "PET_ITEM_IRON_CLAWS_RARE",
+            "PET_ITEM_IRON_CLAWS_UNCOMMON",
+            "PET_ITEM_IRON_CLAWS_COMMON"
+        ]
+    },
+    "minecart": {
+        "model": "minecraft:item/generated",
+        "skyblock_ids": [
+            "SKYMART_VACUUM"
+        ]
+    },
+    "green_carpet": {
+        "model": "minecraft:item/generated",
+        "skyblock_ids": [
+            "ANTI_BITE_SCARF_2"
+        ]
+    },
+    "orange_carpet": {
+        "model": "minecraft:item/generated",
+        "skyblock_ids": [
+            "ANTI_BITE_SCARF_2"
+        ]
+    },
+    "furnace": {
+        "model": "minecraft:item/generated",
+        "skyblock_ids": [
+            "AUTO_SMELTER"
+        ]
+    },
+    "red_carpet": {
+        "model": "minecraft:item/generated",
+        "skyblock_ids": [
+            "ANTI_BITE_SCARF_2",
+            "ANTI_BITE_SCARF"
+        ]
+    },
+    "leather_boots": {
+        "model": "minecraft:item/generated",
+        "skyblock_ids": [
+            "ADAPTIVE_BOOTS",
+            "ANGLER_BOOTS",
+            "ARACHNE_BOOTS",
+            "ARMOR_OF_MAGMA_BOOTS",
+            "ARMOR_OF_THE_RESISTANCE_BOOTS",
+            "ARMOR_OF_YOG_BOOTS",
+            "AURORA_BOOTS",
+            "BACKWATER_BOOTS",
+            "BAT_PERSON_BOOTS",
+            "BERSERKER_BOOTS",
+            "BIOHAZARD_BOOTS",
+            "BLAZE_BOOTS",
+            "BOUNCY_BOOTS",
+            "BRONZE_HUNTER_BOOTS",
+            "BURNING_AURORA_BOOTS",
+            "BURNING_CRIMSON_BOOTS",
+            "BURNING_FERVOR_BOOTS",
+            "BURNING_HOLLOW_BOOTS",
+            "BURNING_TERROR_BOOTS",
+            "CACTUS_BOOTS",
+            "CELESTE_BOOTS",
+            "CHEAP_TUXEDO_BOOTS",
+            "CRIMSON_BOOTS",
+            "CROPIE_BOOTS",
+            "CRYPT_WITHERLORD_BOOTS",
+            "CRYSTAL_BOOTS",
+            "ELEANOR_SLIPPERS",
+            "ELEGANT_TUXEDO_BOOTS",
+            "EMERALD_ARMOR_BOOTS",
+            "EMPEROR_SHOES",
+            "EXCEEDINGLY_COMFY_SNEAKERS",
+            "FAIRY_BOOTS",
+            "FANCY_TUXEDO_BOOTS",
+            "FARM_ARMOR_BOOTS",
+            "FARM_SUIT_BOOTS",
+            "FARMER_BOOTS",
+            "FERMENTO_BOOTS",
+            "FERVOR_BOOTS",
+            "FIERY_AURORA_BOOTS",
+            "FIERY_CRIMSON_BOOTS",
+            "FIERY_FERVOR_BOOTS",
+            "FIERY_HOLLOW_BOOTS",
+            "FIERY_TERROR_BOOTS",
+            "FINAL_DESTINATION_BOOTS",
+            "FROZEN_BLAZE_BOOTS",
+            "GHOST_BOOTS",
+            "GLACITE_BOOTS",
+            "GLOSSY_MINERAL_BOOTS",
+            "GOBLIN_BOOTS",
+            "GREAT_SPOOK_BOOTS",
+            "GROWTH_BOOTS",
+            "GUNTHER_SNEAKERS",
+            "HEAT_BOOTS",
+            "HEAVY_BOOTS",
+            "HOLLOW_BOOTS",
+            "HOLY_DRAGON_BOOTS",
+            "HOT_AURORA_BOOTS",
+            "HOT_CRIMSON_BOOTS",
+            "HOT_FERVOR_BOOTS",
+            "HOT_HOLLOW_BOOTS",
+            "HOT_TERROR_BOOTS",
+            "HYDRA1_BOOTS",
+            "INFERNAL_AURORA_BOOTS",
+            "INFERNAL_CRIMSON_BOOTS",
+            "INFERNAL_FERVOR_BOOTS",
+            "INFERNAL_HOLLOW_BOOTS",
+            "INFERNAL_TERROR_BOOTS",
+            "KUUDRA_FOLLOWER_BOOTS",
+            "LAPIS_ARMOR_BOOTS",
+            "LEAFLET_BOOTS",
+            "MAGMA_LORD_BOOTS",
+            "MELON_BOOTS",
+            "MERCENARY_BOOTS",
+            "MINER_OUTFIT_BOOTS",
+            "MINERAL_BOOTS",
+            "MUSHROOM_BOOTS",
+            "NECROMANCER_LORD_BOOTS",
+            "NUTCRACKER_BOOTS",
+            "OLD_DRAGON_BOOTS",
+            "OXFORD_SHOES",
+            "POWER_WITHER_BOOTS",
+            "PROTECTOR_DRAGON_BOOTS",
+            "PUMPKIN_BOOTS",
+            "RABBIT_BOOTS",
+            "RAMPART_BOOTS",
+            "RANCHERS_BOOTS",
+            "REAPER_BOOTS",
+            "ROTTEN_BOOTS",
+            "SALMON_BOOTS_NEW",
+            "SEA_WALKER_BOOTS",
+            "SHADOW_ASSASSIN_BOOTS",
+            "SHARK_SCALE_BOOTS",
+            "SHIMMERING_LIGHT_SLIPPERS",
+            "SKELETON_GRUNT_BOOTS",
+            "SKELETON_LORD_BOOTS",
+            "SKELETON_MASTER_BOOTS",
+            "SKELETON_SOLDIER_BOOTS",
+            "SLUG_BOOTS",
+            "SNAKE_IN_A_BOOT",
+            "SNOW_SUIT_BOOTS",
+            "SPEED_WITHER_BOOTS",
+            "SPEEDSTER_BOOTS",
+            "SPONGE_BOOTS",
+            "SPOOKY_BOOTS",
+            "SQUASH_BOOTS",
+            "SQUID_BOOTS",
+            "SQUIRE_BOOTS",
+            "STARLIGHT_BOOTS",
+            "STARRED_ADAPTIVE_BOOTS",
+            "STARRED_SHADOW_ASSASSIN_BOOTS",
+            "STARRED_THORNS_BOOTS",
+            "STRONG_DRAGON_BOOTS",
+            "SUPER_HEAVY_BOOTS",
+            "SUPERIOR_DRAGON_BOOTS",
+            "TANK_WITHER_BOOTS",
+            "TARANTULA_BOOTS",
+            "TERROR_BOOTS",
+            "THORNS_BOOTS",
+            "THUNDER_BOOTS",
+            "UGLY_BOOTS",
+            "UNSTABLE_DRAGON_BOOTS",
+            "VANGUARD_BOOTS",
+            "WATCHER_BOOTS",
+            "WEREWOLF_BOOTS",
+            "WISE_DRAGON_BOOTS",
+            "WISE_WITHER_BOOTS",
+            "WITHER_BOOTS",
+            "WYLD_BOOTS",
+            "YOUNG_DRAGON_BOOTS",
+            "ZOMBIE_COMMANDER_BOOTS",
+            "ZOMBIE_LORD_BOOTS",
+            "ZOMBIE_SOLDIER_BOOTS",
+            "BIG_SPRING_BOOTS",
+            "BIGGER_SPRING_BOOTS",
+            "BOOTS_OF_THE_PACK",
+            "DIAMOND_HUNTER_BOOTS",
+            "DIVAN_BOOTS",
+            "DIVER_BOOTS",
+            "EMBER_BOOTS",
+            "END_BOOTS",
+            "FLAME_BREAKER_BOOTS",
+            "FLAMEBREAKER_BOOTS",
+            "GOLD_HUNTER_BOOTS",
+            "GOLEM_ARMOR_BOOTS",
+            "HARDENED_DIAMOND_BOOTS",
+            "MASTIFF_BOOTS",
+            "PERFECT_BOOTS_1",
+            "PERFECT_BOOTS_10",
+            "PERFECT_BOOTS_11",
+            "PERFECT_BOOTS_12",
+            "PERFECT_BOOTS_13",
+            "PERFECT_BOOTS_2",
+            "PERFECT_BOOTS_3",
+            "PERFECT_BOOTS_4",
+            "PERFECT_BOOTS_5",
+            "PERFECT_BOOTS_6",
+            "PERFECT_BOOTS_7",
+            "PERFECT_BOOTS_8",
+            "PERFECT_BOOTS_9",
+            "PRIMAL_DRAGON_BOOTS",
+            "REKINDLED_EMBER_BOOTS",
+            "REVENANT_BOOTS",
+            "ROSETTA_BOOTS",
+            "SILVER_HUNTER_BOOTS",
+            "SKELETOR_BOOTS",
+            "SORROW_BOOTS",
+            "SPIDER_BOOTS",
+            "SPRING_BOOTS",
+            "STAR_BOOTS",
+            "TANK_MINER_BOOTS",
+            "TITAN_BOOTS",
+            "ZOMBIE_BOOTS",
+            "ZOMBIE_KNIGHT_BOOTS"
+        ]
+    },
+    "birch_fence": {
+        "model": "minecraft:item/generated",
+        "skyblock_ids": [
+            "TUNING_FORK"
+        ]
+    },
+    "wheat_seeds": {
+        "model": "minecraft:item/generated",
+        "skyblock_ids": [
+            "COCOA"
+        ]
+    },
+    "jukebox": {
+        "model": "minecraft:item/generated",
+        "skyblock_ids": [
+            "RIFT_TROPHY_CITIZEN"
+        ]
+    },
+    "cake": {
+        "model": "minecraft:item/generated",
+        "skyblock_ids": [
+            "THE_CAKE",
+            "NEW_YEAR_CAKE",
+            "PET_CAKE"
+        ]
+    },
+    "baked_potato": {
+        "model": "minecraft:item/generated",
+        "skyblock_ids": [
+            "CHILLED_PRISTINE_POTATO"
+        ]
+    },
+    "diamond_helmet": {
+        "model": "minecraft:item/generated",
+        "skyblock_ids": [
+            "TANK_MINER_HELMET",
+            "ROSETTA_HELMET",
+            "PERFECT_HELMET_9",
+            "PERFECT_HELMET_8",
+            "PERFECT_HELMET_7",
+            "PERFECT_HELMET_6",
+            "PERFECT_HELMET_5",
+            "PERFECT_HELMET_4",
+            "PERFECT_HELMET_3",
+            "PERFECT_HELMET_2",
+            "PERFECT_HELMET_13",
+            "PERFECT_HELMET_12",
+            "PERFECT_HELMET_11",
+            "PERFECT_HELMET_10",
+            "PERFECT_HELMET_1",
+            "HARDENED_DIAMOND_HELMET",
+            "DIAMOND_HUNTER_HELMET",
+            "ANGLER_HELMET"
+        ]
+    },
+    "bow": {
+        "model": "minecraft:item/generated",
+        "skyblock_ids": [
+            "MIRRORED_BOW",
+            "WITHER_BOW",
+            "STARRED_VENOMS_TOUCH",
+            "VENOMS_TOUCH",
+            "UNDEAD_BOW",
+            "TERMINATOR",
+            "SUPER_UNDEAD_BOW",
+            "SULPHUR_BOW",
+            "ARCHER_DUNGEON_ABILITY_2",
+            "STINGER_BOW",
+            "STARRED_SPIDER_QUEENS_STINGER",
+            "SPIDER_QUEENS_STINGER",
+            "SOULS_REBOUND",
+            "SNIPER_BOW",
+            "SLIME_BOW",
+            "SKELETON_LORD_BOW",
+            "SCORPION_BOW",
+            "SAVANA_BOW",
+            "RUNAANS_BOW",
+            "PRISMARINE_BOW",
+            "MOSQUITO_BOW",
+            "MAGMA_BOW",
+            "MACHINE_GUN_BOW",
+            "STARRED_LAST_BREATH",
+            "LAST_BREATH",
+            "JUJU_SHORTBOW",
+            "STARRED_ITEM_SPIRIT_BOW",
+            "ITEM_SPIRIT_BOW",
+            "BOSS_SPIRIT_BOW",
+            "HURRICANE_BOW",
+            "ARCHER_DUNGEON_ABILITY_3",
+            "EXPLOSIVE_BOW",
+            "ENDER_BOW",
+            "END_STONE_BOW",
+            "DRAGON_SHORTBOW",
+            "DECENT_BOW",
+            "DEATH_BOW",
+            "CRYPT_BOW",
+            "ARTISANAL_SHORTBOW"
+        ]
+    },
+    "firework_star": {
+        "model": "minecraft:item/generated",
+        "skyblock_ids": [
+            "NULL_SPHERE",
+            "GIANT_FRAGMENT_BOULDER"
+        ]
+    },
+    "pufferfish": {
+        "model": "minecraft:item/generated",
+        "skyblock_ids": [
+            "GIFT_THE_FISH",
+            "EXPERIMENT_THE_FISH",
+            "VOODOO_DOLL_WILTED",
+            "VOODOO_DOLL"
+        ]
+    },
+    "iron_block": {
+        "model": "minecraft:item/generated",
+        "skyblock_ids": [
+            "PARKOUR_TIMES"
+        ]
+    },
+    "potion": {
+        "model": "minecraft:item/generated",
+        "skyblock_ids": [
+            "REFINED_BOTTLE_OF_JYRRE",
+            "NEW_BOTTLE_OF_JYRRE",
+            "BOTTLE_OF_JYRRE"
+        ]
+    },
+    "prismarine_shard": {
+        "model": "minecraft:item/generated",
+        "skyblock_ids": [
+            "SERRATED_CLAWS",
+            "PET_ITEM_SHARPENED_CLAWS_LEGENDARY",
+            "PET_ITEM_SHARPENED_CLAWS_EPIC",
+            "PET_ITEM_SHARPENED_CLAWS_RARE",
+            "PET_ITEM_SHARPENED_CLAWS_UNCOMMON",
+            "PET_ITEM_SHARPENED_CLAWS_COMMON",
+            "ATTRIBUTE_SHARD",
+            "ENCHANTED_SHARK_FIN",
+            "SHARK_FIN",
+            "PYROCLASTIC_SCALE",
+            "DIVAN_DRILL",
+            "GEMSTONE_DRILL_4",
+            "GEMSTONE_DRILL_3",
+            "GEMSTONE_DRILL_2",
+            "GEMSTONE_DRILL_1",
+            "TITANIUM_DRILL_4",
+            "TITANIUM_DRILL_3",
+            "TITANIUM_DRILL_2",
+            "TITANIUM_DRILL_1",
+            "MITHRIL_DRILL_2",
+            "MITHRIL_DRILL_1",
+            "PRISMARINE_BLADE"
+        ]
+    },
+    "music_disc_wait": {
+        "model": "minecraft:item/generated",
+        "skyblock_ids": [
+            "VINYL_WINGS_OF_HARMONY"
+        ]
+    },
+    "gray_stained_glass": {
+        "model": "minecraft:item/generated",
+        "skyblock_ids": [
+            "HARD_GLASS"
+        ]
+    },
+    "stone_shovel": {
+        "model": "minecraft:item/handheld",
+        "skyblock_ids": [
+            "ROOKIE_SPADE"
+        ]
+    },
+    "melon_slice": {
+        "model": "minecraft:item/generated",
+        "skyblock_ids": [
+            "LUSCIOUS_HEALING_MELON",
+            "JUICY_HEALING_MELON"
+        ]
+    },
+    "splash_potion": {
+        "model": "minecraft:item/generated",
+        "skyblock_ids": []
+    },
+    "red_tulip": {
+        "model": "minecraft:item/generated",
+        "skyblock_ids": [
+            "KAT_FLOWER"
+        ]
+    },
+    "yellow_dye": {
+        "model": "minecraft:item/generated",
+        "skyblock_ids": [
+            "CAKE_SOUL",
+            "PET_ITEM_EXP_SHARE_DROP"
+        ]
+    },
+    "black_carpet": {
+        "model": "minecraft:item/generated",
+        "skyblock_ids": [
+            "ANTI_BITE_SCARF_2"
+        ]
+    },
+    "birch_sapling": {
+        "model": "minecraft:item/generated",
+        "skyblock_ids": [
+            "SOUL_ESOWARD"
+        ]
+    },
+    "lime_carpet": {
+        "model": "minecraft:item/generated",
+        "skyblock_ids": [
+            "ANTI_BITE_SCARF_2"
+        ]
+    },
+    "bookshelf": {
+        "model": "minecraft:item/generated",
+        "skyblock_ids": [
+            "DIANAS_BOOKSHELF"
+        ]
+    },
+    "music_disc_mall": {
+        "model": "minecraft:item/generated",
+        "skyblock_ids": [
+            "VINYL_EARTHWORM_ENSEMBLE"
+        ]
+    },
+    "wooden_hoe": {
+        "model": "minecraft:item/handheld",
+        "skyblock_ids": [
+            "THEORETICAL_HOE",
+            "SAM_SCYTHE"
+        ]
+    },
+    "black_stained_glass_pane": {
+        "model": "minecraft:item/generated",
+        "skyblock_ids": []
+    },
+    "white_stained_glass_pane": {
+        "model": "minecraft:item/generated",
+        "skyblock_ids": []
+    },
+    "lapis_ore": {
+        "model": "minecraft:item/generated",
+        "skyblock_ids": [
+            "RIFT_TROPHY_LAZY_LIVING"
+        ]
+    },
+    "nether_star": {
+        "model": "minecraft:item/generated",
+        "skyblock_ids": [
+            "MAXOR_ENERGY_CRYSTAL",
+            "TIME_KNIFE",
+            "FAKE_SHURIKEN",
+            "SKYBLOCK_MENU",
+            "SAVING_GRACE",
+            "HYPER_CATALYST",
+            "CATALYST",
+            "POWER_CRYSTAL",
+            "STARFALL"
+        ]
+    },
+    "barrier": {
+        "model": "minecraft:item/generated",
+        "skyblock_ids": []
+    },
+    "carved_pumpkin": {
+        "model": "minecraft:item/generated",
+        "skyblock_ids": [
+            "PUMPKIN_LAUNCHER"
+        ]
+    },
+    "gray_carpet": {
+        "model": "minecraft:item/generated",
+        "skyblock_ids": [
+            "ANTI_BITE_SCARF_2"
+        ]
+    },
+    "glowstone_dust": {
+        "model": "minecraft:item/generated",
+        "skyblock_ids": [
+            "GOLDEN_POWDER",
+            "WIZARD_BREADCRUMBS",
+            "SPELL_POWDER",
+            "ENCHANTED_SULPHUR",
+            "SULPHUR_ORE"
+        ]
+    },
+    "purple_stained_glass_pane": {
+        "model": "minecraft:item/generated",
+        "skyblock_ids": []
+    },
+    "music_disc_cat": {
+        "model": "minecraft:item/generated",
+        "skyblock_ids": [
+            "REVENGE",
+            "SPOOKY_DISC"
+        ]
+    },
+    "rose_bush": {
+        "model": "minecraft:item/generated",
+        "skyblock_ids": [
+            "CADUCOUS_STEM",
+            "KAT_BOUQUET",
+            "ROSE_BOUQUET",
+            "BOUQUET_OF_LIES"
+        ]
+    },
+    "firework_rocket": {
+        "model": "minecraft:item/generated",
+        "skyblock_ids": [
+            "BAT_FIREWORK",
+            "SOS_FLARE",
+            "WARNING_FLARE",
+            "ALERT_FLARE"
+        ]
+    },
+    "blaze_rod": {
+        "model": "minecraft:item/generated",
+        "skyblock_ids": [
+            "WIZARD_WAND",
+            "EMMETT_POINTER",
+            "DRACONIC_BLADE",
+            "BUILDERS_WAND",
+            "BUILDERS_RULER",
+            "TACTICAL_INSERTION",
+            "RUNIC_STAFF",
+            "FIRE_FURY_STAFF",
+            "STARRED_BONZO_STAFF",
+            "BONZO_STAFF",
+            "GYROKINETIC_WAND",
+            "FIRE_VEIL_WAND",
+            "EMBER_ROD"
+        ]
+    },
+    "white_wool": {
+        "model": "minecraft:item/generated",
+        "skyblock_ids": []
+    },
+    "iron_horse_armor": {
+        "model": "minecraft:item/generated",
+        "skyblock_ids": [
+            "LUCKY_HOOF"
+        ]
+    },
+    "elder_guardian_spawn_egg": {
+        "model": "minecraft:item/generated",
+        "skyblock_ids": [
+            "GOBLIN_EGG"
+        ]
+    },
+    "melon": {
+        "model": "minecraft:item/generated",
+        "skyblock_ids": [
+            "MELON_HELMET",
+            "VAMPIRIC_MELON"
+        ]
+    },
+    "lime_stained_glass_pane": {
+        "model": "minecraft:item/generated",
+        "skyblock_ids": []
+    },
+    "music_disc_11": {
+        "model": "minecraft:item/generated",
+        "skyblock_ids": [
+            "DUNGEON_DISC_4"
+        ]
+    },
+    "wooden_pickaxe": {
+        "model": "minecraft:item/handheld",
+        "skyblock_ids": [
+            "ALPHA_PICK",
+            "ZOOM_PICKAXE",
+            "RUSTY_TITANIUM_PICKAXE",
+            "JUNGLE_PICKAXE",
+            "ANTI_SENTIENT_PICKAXE"
+        ]
+    },
+    "lava_bucket": {
+        "model": "minecraft:item/generated",
+        "skyblock_ids": [
+            "PLASMA_BUCKET",
+            "MAGMA_BUCKET",
+            "MAGICAL_LAVA_BUCKET"
+        ]
+    },
+    "gray_stained_glass_pane": {
+        "model": "minecraft:item/generated",
+        "skyblock_ids": []
+    },
+    "hay_block": {
+        "model": "minecraft:item/generated",
+        "skyblock_ids": [
+            "COLLECTION_DISPLAY"
+        ]
+    },
+    "cyan_carpet": {
+        "model": "minecraft:item/generated",
+        "skyblock_ids": [
+            "ANTI_BITE_SCARF_2"
+        ]
+    },
+    "ghast_tear": {
+        "model": "minecraft:item/generated",
+        "skyblock_ids": [
+            "WOLF_TOOTH",
+            "PET_ITEM_VAMPIRE_FANG",
+            "PET_ITEM_BIG_TEETH_LEGENDARY",
+            "PET_ITEM_BIG_TEETH_EPIC",
+            "PET_ITEM_BIG_TEETH_RARE",
+            "PET_ITEM_BIG_TEETH_UNCOMMON",
+            "PET_ITEM_BIG_TEETH_COMMON",
+            "BIGGER_TEETH",
+            "TIGER_SHARK_TOOTH",
+            "NURSE_SHARK_TOOTH",
+            "GREAT_WHITE_SHARK_TOOTH",
+            "BLUE_SHARK_TOOTH",
+            "SORROW",
+            "THORN_FRAGMENT",
+            "TRIBAL_SPEAR",
+            "STARRED_BONE_BOOMERANG",
+            "BONE_BOOMERANG",
+            "SILVER_FANG"
+        ]
+    },
+    "cod": {
+        "model": "minecraft:item/generated",
+        "skyblock_ids": [
+            "STEW_THE_FISH",
+            "SHRIMP_THE_FISH",
+            "ROCK_THE_FISH",
+            "EON_THE_FISH",
+            "CLUCK_THE_FISH",
+            "PRE_DIGESTION_FISH",
+            "PET_ITEM_FISHING_SKILL_BOOST_LEGENDARY",
+            "PET_ITEM_FISHING_SKILL_BOOST_EPIC",
+            "PET_ITEM_FISHING_SKILL_BOOST_RARE",
+            "PET_ITEM_FISHING_SKILL_BOOST_UNCOMMON",
+            "PET_ITEM_FISHING_SKILL_BOOST_COMMON",
+            "FISH_FOOD",
+            "SEWER_FISH"
+        ]
+    },
+    "stone_pickaxe": {
+        "model": "minecraft:item/handheld",
+        "skyblock_ids": [
+            "ROOKIE_PICKAXE",
+            "FRACTURED_MITHRIL_PICKAXE",
+            "BANDAGED_MITHRIL_PICKAXE"
         ]
     }
 }
