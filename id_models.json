@@ -2666,7 +2666,7 @@
         ]
     },
     "iron_pickaxe": {
-        "model": "minecraft:item/hadnheld",
+        "model": "minecraft:item/handheld",
         "skyblock_ids": [
             "PET_ITEM_MINING_SKILL_BOOST_LEGENDARY",
             "PET_ITEM_MINING_SKILL_BOOST_EPIC",
