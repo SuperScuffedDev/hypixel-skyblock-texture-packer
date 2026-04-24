@@ -1,0 +1,6 @@
+{
+    "parent": "minecraft:item/handheld",
+    "textures": {
+        "layer0": "packgen:item/crypt_dreadlord_sword"
+    }
+}

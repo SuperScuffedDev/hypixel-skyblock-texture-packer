@@ -1,0 +1,54 @@
+{
+    "model": {
+        "predicate": "custom_data",
+        "property": "component",
+        "type": "condition",
+        "value": {
+            "id": "PERFECT_CHISEL"
+        },
+        "on_true": {
+            "model": "packgen:skyblock/perfect_chisel",
+            "type": "model"
+        },
+        "on_false": {
+            "predicate": "custom_data",
+            "property": "component",
+            "type": "condition",
+            "value": {
+                "id": "GLACITE_CHISEL"
+            },
+            "on_true": {
+                "model": "packgen:skyblock/glacite_chisel",
+                "type": "model"
+            },
+            "on_false": {
+                "predicate": "custom_data",
+                "property": "component",
+                "type": "condition",
+                "value": {
+                    "id": "REINFORCED_CHISEL"
+                },
+                "on_true": {
+                    "model": "packgen:skyblock/reinforced_chisel",
+                    "type": "model"
+                },
+                "on_false": {
+                    "predicate": "custom_data",
+                    "property": "component",
+                    "type": "condition",
+                    "value": {
+                        "id": "CHISEL"
+                    },
+                    "on_true": {
+                        "model": "packgen:skyblock/chisel",
+                        "type": "model"
+                    },
+                    "on_false": {
+                        "model": "item/armor_stand",
+                        "type": "model"
+                    }
+                }
+            }
+        }
+    }
+}

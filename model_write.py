@@ -33,13 +33,45 @@ class MinecraftModelFile():
 
         print(f"{item_id} item model added to minecraft model object")
 
+    def add_held_model(self, item_id: str):
+        """adds a model to data object"""
+        self.last_model["predicate"] = "custom_data"
+        self.last_model["property"] = "component"
+        self.last_model["type"] = "condition"
+
+        self.last_model["value"] = {}
+        self.last_model["value"]["id"] = item_id.upper()
+
+        self.last_model["on_true"] = {
+            "cases": [
+                {
+                    "model": {
+                        "model": f"packgen:skyblock/{item_id.lower()}",
+                        "type": "model"
+                    },
+                    "when": "gui"
+                }
+            ],
+            "fallback": {
+                "model": f"packgen:skyblock/{item_id.lower()}_held",
+                "type": "model"
+            },
+            "property": "display_context",
+            "type": "select"
+        }
+
+        self.last_model["on_false"] = {}
+        self.last_model = self.last_model["on_false"]
+
+        print(f"{item_id} held item model added to minecraft model object")
+
     def write_to_file(self, directory: Path):
         """write to a json file at dir"""
 
         if self.data == {"model": {}}:
             return
 
-        self.last_model["model"] = "item/armor_stand"
+        self.last_model["model"] = f"item/{self.name}"
         self.last_model["type"] = "model"
 
         with open(directory/f"{self.name}.json", "w", encoding='utf-8') as model_json:

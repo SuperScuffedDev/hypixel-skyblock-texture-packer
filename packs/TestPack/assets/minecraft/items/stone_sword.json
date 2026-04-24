@@ -1,0 +1,18 @@
+{
+    "model": {
+        "predicate": "custom_data",
+        "property": "component",
+        "type": "condition",
+        "value": {
+            "id": "DARK_CLAYMORE"
+        },
+        "on_true": {
+            "model": "packgen:skyblock/dark_claymore",
+            "type": "model"
+        },
+        "on_false": {
+            "model": "item/stone_sword",
+            "type": "model"
+        }
+    }
+}

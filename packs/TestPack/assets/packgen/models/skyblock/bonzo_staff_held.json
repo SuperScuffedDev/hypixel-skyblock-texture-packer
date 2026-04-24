@@ -1,0 +1,6 @@
+{
+    "parent": "packgen:item/handheld_staff",
+    "textures": {
+        "layer0": "packgen:item/bonzo_staff_held"
+    }
+}
