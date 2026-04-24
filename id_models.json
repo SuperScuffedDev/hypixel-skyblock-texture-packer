@@ -1,0 +1,20 @@
+{
+    "allium": {
+        "model": "minecraft:item/handheld",
+        "skyblock_ids": [
+            "ALCHEMISTS_STAFF",
+            "BAT_WAND",
+            "STARRED_BAT_WAND",
+            "STAFF_OF_THE_RISING_MOON"
+        ]
+    },
+    "armor_stand": {
+        "model": "minecraft:item/handheld",
+        "skyblock_ids": [
+            "CHISEL",
+            "REINFORCED_CHISEL",
+            "GLACITE_CHISEL",
+            "PERFECT_CHISEL"
+        ]
+    }
+}
