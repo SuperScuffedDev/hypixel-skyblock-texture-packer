@@ -11,6 +11,8 @@ any unassigned textures will be output to the logs folder in the repo for you to
 
 if there's an issue such as a missing id for an item, open an issue on github so it can be fixed.
 
+its a bit fragile atm so make sure you have a pack.png and clean input folder to be safe.
+
 ## configs and animated textures
 #### if you only care about basic static textures then theres no need to read this.
 
