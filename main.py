@@ -1,4 +1,5 @@
 """main"""
+import time
 import sys
 import tkinter
 from tkinter import filedialog
@@ -7,6 +8,11 @@ import shutil
 import json
 
 import model_write
+import texture_locator
+
+start = time.perf_counter()
+
+sys.setrecursionlimit(2000)
 
 tkinter.Tk().withdraw()
 
@@ -69,18 +75,9 @@ output_directory = filedialog.askdirectory()
 if not input_directory or not output_directory:
     sys.exit("fuck you too")
 
+locator = texture_locator.TextureLocator(input_directory)
+
 input_path, assets, packgen = init(input_directory, output_directory)
-
-def locate_texture(skyblock_id: str):
-    """locates the texture for the id"""
-    for texture_file in input_path.iterdir():
-        if texture_file.stem.upper() == skyblock_id:
-            print(f"{skyblock_id} texture found")
-            return texture_file
-
-    print(f"{skyblock_id} texture not found")
-    return False
-
 
 with open("./id_models.json", "r", encoding='utf-8') as id_models_json:
     id_models = json.load(id_models_json)
@@ -91,7 +88,7 @@ for model_key, model_value in id_models.items():
     texture_copy_directory = packgen / "textures" / "item"
     item_model_directory = packgen / "models" / "skyblock"
     for item_id in model_value["skyblock_ids"]:
-        texture = locate_texture(item_id)
+        texture = locator.locate_texture(item_id)
 
         if texture:
             shutil.copy(texture, texture_copy_directory)
@@ -99,6 +96,14 @@ for model_key, model_value in id_models.items():
 
             model_write.item_model_write(item_id, model_value["model"], item_model_directory)
             new_model.add_item_model(item_id)
-        print("")
     minecraft_model_directory = assets / "minecraft" / "items"
     new_model.write_to_file(assets / "minecraft" / "items")
+
+end = time.perf_counter()
+
+locator.log_unassigned(input_path.stem)
+
+elapsed = end - start
+print("")
+print(f"loaded {locator.found} textures into pack.\n{locator.not_found} textures unassigned.")
+print("check log folder for full list of unassigned textures.")
