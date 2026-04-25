@@ -1,5 +1,6 @@
 """locating"""
 from pathlib import Path
+from logger import logger
 
 class TextureLocator():
     """locator of textures"""
@@ -9,21 +10,23 @@ class TextureLocator():
         self.unassigned = []
         self.input_path = Path(input_path)
 
-    def locate_texture(self, skyblock_id: str):
+    def locate_texture(self, skyblock_id: str) -> Path | None:
         """locates the texture for the id"""
         for texture_file in self.input_path.iterdir():
             if texture_file.stem.upper() == skyblock_id:
-                print("")
-                print(f"{skyblock_id} texture found")
+                logger.info(
+                    "%s texture found", skyblock_id
+                )
                 self.found += 1
                 return texture_file
 
-        print(f"{skyblock_id} texture not found")
+        logger.warning(
+            "%s texture not found", skyblock_id
+        )
         self.unassigned.append(skyblock_id)
         self.not_found += 1
-        return False
 
-    def log_unassigned(self, pack_name: str):
+    def log_unassigned(self, pack_name: str) -> None:
         """log unassigned textures"""
         self.unassigned.sort()
 

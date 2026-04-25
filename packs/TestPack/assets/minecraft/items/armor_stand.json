@@ -18,8 +18,71 @@
                 "id": "GLACITE_CHISEL"
             },
             "on_true": {
-                "model": "packgen:skyblock/glacite_chisel",
-                "type": "model"
+                "predicate": "custom_data",
+                "property": "component",
+                "type": "condition",
+                "value": {
+                    "modifier": "aote_stone"
+                },
+                "on_true": {
+                    "cases": [
+                        {
+                            "model": {
+                                "model": "packgen:skyblock/warped_glacite_chisel",
+                                "type": "model"
+                            },
+                            "when": "gui"
+                        }
+                    ],
+                    "fallback": {
+                        "model": "packgen:skyblock/warped_glacite_chisel_held",
+                        "type": "model"
+                    },
+                    "property": "display_context",
+                    "type": "select"
+                },
+                "on_false": {
+                    "predicate": "custom_data",
+                    "property": "component",
+                    "type": "condition",
+                    "value": {
+                        "modifier": "gilded_stone"
+                    },
+                    "on_true": {
+                        "cases": [
+                            {
+                                "model": {
+                                    "model": "packgen:skyblock/gilded_glacite_chisel",
+                                    "type": "model"
+                                },
+                                "when": "gui"
+                            }
+                        ],
+                        "fallback": {
+                            "model": "packgen:skyblock/gilded_glacite_chisel_held",
+                            "type": "model"
+                        },
+                        "property": "display_context",
+                        "type": "select"
+                    },
+                    "on_false": {
+                        "cases": [
+                            {
+                                "model": {
+                                    "model": "packgen:skyblock/glacite_chisel",
+                                    "type": "model"
+                                },
+                                "when": "gui"
+                            }
+                        ],
+                        "fallback": {
+                            "model": "packgen:skyblock/glacite_chisel_held",
+                            "type": "model"
+                        },
+                        "property": "display_context",
+                        "type": "select"
+                    }
+                }
             },
             "on_false": {
                 "predicate": "custom_data",

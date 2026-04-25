@@ -3416,6 +3416,7 @@
         "skyblock_ids": []
     },
     "light_gray_carpet": {
+        "model": "minecraft:item/generated",
         "skyblock_ids": [
             "ANTI_BITE_SCARF_2"
         ]

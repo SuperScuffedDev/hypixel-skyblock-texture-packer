@@ -4,26 +4,50 @@
         "property": "component",
         "type": "condition",
         "value": {
-            "id": "HYPERION"
+            "id": "SCYLLA"
         },
         "on_true": {
-            "model": "packgen:skyblock/hyperion",
-            "type": "model"
+            "predicate": "custom_data",
+            "property": "component",
+            "type": "condition",
+            "value": {
+                "modifier": "aote_stone"
+            },
+            "on_false": {
+                "model": "packgen:item/scylla",
+                "type": "model"
+            },
+            "on_true": {
+                "model": "packgen:item/warped_scylla",
+                "type": "model"
+            }
         },
         "on_false": {
             "predicate": "custom_data",
             "property": "component",
             "type": "condition",
             "value": {
-                "id": "CRYPT_DREADLORD_SWORD"
+                "id": "HYPERION"
             },
             "on_true": {
-                "model": "packgen:skyblock/crypt_dreadlord_sword",
+                "model": "packgen:skyblock/hyperion",
                 "type": "model"
             },
             "on_false": {
-                "model": "item/iron_sword",
-                "type": "model"
+                "predicate": "custom_data",
+                "property": "component",
+                "type": "condition",
+                "value": {
+                    "id": "CRYPT_DREADLORD_SWORD"
+                },
+                "on_true": {
+                    "model": "packgen:skyblock/crypt_dreadlord_sword",
+                    "type": "model"
+                },
+                "on_false": {
+                    "model": "item/iron_sword",
+                    "type": "model"
+                }
             }
         }
     }

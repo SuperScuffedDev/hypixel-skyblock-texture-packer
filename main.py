@@ -1,22 +1,19 @@
 """main"""
-import time
 import sys
+import shutil
+import json
 import tkinter
 from tkinter import filedialog
 from pathlib import Path
-import shutil
-import json
+from logger import logger
 
 import model_write
 import texture_locator
 
-start = time.perf_counter()
-
 sys.setrecursionlimit(2000)
-
 tkinter.Tk().withdraw()
 
-def init(data_input: str, data_output):
+def init(data_input: str, data_output) -> tuple[Path, Path, Path]:
     """initializes an empty texture pack folder"""
 
     data_path = Path(data_input)
@@ -47,9 +44,12 @@ def init(data_input: str, data_output):
 
     pack_minecraft_items = pack_minecraft / "items"
     pack_minecraft_items.mkdir(exist_ok=True)
-    
-    if (data_path / "pack.png").is_file():
-        shutil.copy(data_path / "pack.png", pack_directory)
+
+    pack_png = data_path / "pack.png"
+
+    if pack_png.is_file():
+        shutil.copy(pack_png, pack_directory)
+        # this still runs if no pack.png
 
     meta = {
         "pack": {
@@ -62,19 +62,33 @@ def init(data_input: str, data_output):
         json.dump(meta, pack_meta, indent = 4)
 
 
-    print(f"created pack folder at {pack_directory.resolve()}")
+    logger.info(
+        "created pack folder at %s", pack_directory.resolve()
+    )
     return data_path, pack_assets, packgen_directory
 
-print("select input directory")
+logger.info("select an input directory(your textures)")
 input_directory = filedialog.askdirectory()
-print("select output directory")
+logger.warning(
+    "selected %s as input directory", input_directory
+)
+
+logger.info("select output directory(folder to put generated texture pack in)")
 output_directory = filedialog.askdirectory()
+logger.warning(
+    "selected %s as output directory", output_directory
+)
+
 
 if not input_directory or not output_directory:
-    sys.exit("fuck you too")
+    sys.exit("goodbye")
 
 locator = texture_locator.TextureLocator(input_directory)
 input_path, assets, packgen = init(input_directory, output_directory)
+
+item_model_directory = packgen / "models" / "skyblock"
+texture_copy_directory = packgen / "textures" / "item"
+minecraft_model_directory = assets / "minecraft" / "items"
 
 custom_models_path = input_path / "models/"
 
@@ -85,92 +99,74 @@ with open("./id_models.json", "r", encoding='utf-8') as id_models_json:
     id_models = json.load(id_models_json)
 
 for model_key, model_value in id_models.items():
-    new_model = model_write.MinecraftModelFile(model_key)
+    model_object = model_write.MinecraftModelFile(
+        model_key,
+        model_value["model"],
+        item_model_directory
+    )
 
-    texture_copy_directory = packgen / "textures" / "item"
-    item_model_directory = packgen / "models" / "skyblock"
     for item_id in model_value["skyblock_ids"]:
         texture = locator.locate_texture(item_id)
 
-        if texture and texture.is_file():
+        if not texture:
+            continue
+
+        if texture.is_file():
             shutil.copy(texture, texture_copy_directory)
-            print(f"{item_id} texture file copied to {texture_copy_directory / texture.name}")
+            logger.info(
+                "%s texture file copied to %s", item_id, texture_copy_directory / texture.name
+            )
 
-            model_write.item_model_write(item_id, model_value["model"], item_model_directory)
-            new_model.add_item_model(item_id)
-        elif texture and texture.is_dir:
-            config_path = texture / "config.json"
+            model_object.add_item_model(texture.stem, None)
+            logger.info(
+                "%s added to minecraft model object", item_id
+            )
 
-            if config_path.exists():
-                with open(config_path, "r", encoding='utf-8') as configs_json:
-                    config_data = json.load(configs_json)
-                if "held" in config_data or "model" in config_data:
-                    if "held" in config_data:
-                        shutil.copy(texture / f"{texture.name}.png", texture_copy_directory)
-                        shutil.copy(texture / f"{texture.name}_held.png", texture_copy_directory)
-                        model_write.item_model_write(
-                            item_id, "minecraft:item/generated", item_model_directory
-                        )
-                        model_write.item_model_write(
-                            f"{item_id}_HELD",
-                            f"packgen:item/{config_data["held"]}",
-                            item_model_directory
-                        )
-                        new_model.add_held_model(item_id)
-                    elif "model" in config_data:
-                        shutil.copy(texture / f"{texture.name}.png",texture_copy_directory)
-                        model_write.item_model_write(
-                            f"{item_id}_HELD",
-                            f"packgen:item/{config_data["model"]}",
-                            item_model_directory
-                        )
-                        new_model.add_item_model(item_id)
-                else:
-                    texture_file = texture / f"{texture.name}.png"
-                    mc_meta_file = texture /  f"{texture.name}.png.mcmeta"
-                    if texture_file.exists():
-                        shutil.copy(texture_file, texture_copy_directory)
-                        print(
-                            f"{item_id} texture file copied to {texture_copy_directory / texture.name}"
-                        )
-                    model_write.item_model_write(
-                        item_id,
-                        model_value["model"],
-                        item_model_directory)
+        elif texture.is_dir():
+            for mc_meta_file in texture.glob("*.png.mcmeta"):
+                shutil.copy(mc_meta_file, texture_copy_directory)
 
-                    if mc_meta_file.exists():
-                        shutil.copy(mc_meta_file, texture_copy_directory)
-                        print(
-                            f"{item_id} texture file copied to {texture_copy_directory / texture.name}"
-                        )
+                logger.info(
+                    "%s mcmeta file copied to %s",
+                    mc_meta_file.stem,
+                    texture_copy_directory / mc_meta_file.name
+                )
 
-                    new_model.add_item_model(item_id)
+            for png_file in texture.glob("*.png"):
+                shutil.copy(
+                    png_file,
+                    texture_copy_directory
+                )
+
+                logger.info(
+                    "%s texture file copied to %s",
+                    png_file.stem,
+                    texture_copy_directory / png_file.name
+                )
+
+            configs = texture / "configs.json"
+            if configs.is_file():
+                model_object.add_item_model(texture.stem, configs)
             else:
-                texture_file = texture / f"{texture.name}.png"
-                mc_meta_file = texture /  f"{texture.name}.png.mcmeta"
-                if texture_file.exists():
-                    shutil.copy(texture_file, texture_copy_directory)
-                    print(
-                        f"{item_id} texture file copied to {texture_copy_directory / texture.name}"
-                    )
-                model_write.item_model_write(item_id, model_value["model"], item_model_directory)
+                model_object.add_item_model(texture.stem, None)
 
-                if mc_meta_file.exists():
-                    shutil.copy(mc_meta_file, texture_copy_directory)
-                    print(
-                        f"{item_id} texture file copied to {texture_copy_directory / texture.name}"
-                    )
+        else:
+            logger.error(
+                "%s input is not valid", texture
+            )
 
-                new_model.add_item_model(item_id)
-
-    minecraft_model_directory = assets / "minecraft" / "items"
-    new_model.write_to_file(assets / "minecraft" / "items")
+    model_object.write_to_file(assets / "minecraft" / "items")
 
 
 sys.setrecursionlimit(1000)
-end = time.perf_counter()
 locator.log_unassigned(input_path.stem)
-elapsed = end - start
 print("")
-print(f"loaded {locator.found} textures into pack.\n{locator.not_found} textures unassigned.")
-print("check log folder for full list of unassigned textures.")
+logger.info(
+    "loaded %d textures into pack", locator.found
+)
+logger.info(
+    "%d textures unassigned.", locator.not_found
+)
+logger.info(
+    "check log folder for full list of unassigned textures."
+)
