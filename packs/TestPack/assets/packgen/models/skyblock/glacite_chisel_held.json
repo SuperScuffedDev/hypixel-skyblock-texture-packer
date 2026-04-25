@@ -1,6 +1,0 @@
-{
-    "parent": "packgen:item/handheld_staff",
-    "textures": {
-        "layer0": "packgen:item/glacite_chisel_held"
-    }
-}

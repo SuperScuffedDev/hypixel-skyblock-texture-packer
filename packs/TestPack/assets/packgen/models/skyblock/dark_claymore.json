@@ -1,6 +1,0 @@
-{
-    "parent": "packgen:item/big_sword",
-    "textures": {
-        "layer0": "packgen:item/dark_claymore"
-    }
-}
