@@ -2,7 +2,7 @@
 
 this converts png files into a useable hypixel skyblock texture pack
 
-run `main.js`, select the input and output directories when prompted and it will map all the textures to their respective models as listed in `id_models.json`.
+run `main.py`, select the input and output directories when prompted and it will map all the textures to their respective models as listed in `id_models.json`.
 
 the pack name will be the same as the input directory name. each texture image should be named to the skyblock id of the item, except for configs(see configs section)
 
